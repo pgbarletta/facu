@@ -1,0 +1,14 @@
+357 c2vprA_ Probab=28.25   E-value=43  Score=17.16  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||...|++...|..+|.|+
+T Consensus        26 ~~~IA~~aGvs~~tly~~F~sK   47 (197)
+T c2vprA_          26 TRKLAQKIGVEQPTLYWHVKNK   47 (197)
+T ss_dssp             HHHHHHHHTCCHHHHTTTCCSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999589988998623387
+
+

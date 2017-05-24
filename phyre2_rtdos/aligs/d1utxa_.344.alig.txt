@@ -1,0 +1,14 @@
+344 d1utxa_ Probab=29.19   E-value=51  Score=16.74  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688
+Q fac______        28 LQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ..||..+|++...|..|-..++
+T Consensus        18 ~~la~~~gi~~~~i~~~e~g~~   39 (66)
+T d1utxa_          18 SELAALLEVSRQTINGIEKNKY   39 (66)
+T ss_dssp             HHHHHHHTSCHHHHHHHHTTSC
+T ss_pred             HHHHHHHCCCHHHHHHHHCCCC
+T ss_conf             9999995897578999876987
+
+

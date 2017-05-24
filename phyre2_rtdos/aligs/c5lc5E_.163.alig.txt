@@ -1,0 +1,14 @@
+163 c5lc5E_ Probab=49.22   E-value=36  Score=17.54  Aligned_columns=34  Identities=18%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHH
+Q ss_conf             9999999988689888999999998268988988
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVA   42 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~   42 (65)
+                      +.+|...=+..-|.+.+....||..+||++..|.
+T Consensus        41 i~~L~~iQ~~~Gyip~~~~~~iA~~l~i~~~~v~   74 (186)
+T c5lc5E_          41 LPVLDLAQRQNGWLPISAMNKVAEILQVPPMRVY   74 (186)
+T ss_dssp             HHHHHHHHHHSSSCCHHHHHHHHHHHTCCHHHHH
+T ss_pred             HHHHHHHHHHHCCCCHHHHHHHHHHHCCCHHHHH
+T ss_conf             9999999998279799999999998289999987
+
+

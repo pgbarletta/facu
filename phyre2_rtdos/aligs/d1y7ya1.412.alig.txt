@@ -1,0 +1,14 @@
+412 d1y7ya1 Probab=24.02   E-value=71  Score=15.95  Aligned_columns=22  Identities=27%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688
+Q fac______        28 LQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ..+|..+|+++..|..|...+.
+T Consensus        26 ~~lA~~~gis~~~i~~~E~g~~   47 (69)
+T d1y7ya1          26 ETLAFLSGLDRSYVGGVERGQR   47 (69)
+T ss_dssp             HHHHHHHTCCHHHHHHHHTTCS
+T ss_pred             HHHHHHHCCCHHHHHHHHCCCC
+T ss_conf             9999972159899999977899
+
+

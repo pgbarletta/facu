@@ -1,0 +1,14 @@
+186 c2vz4A_ Probab=45.06   E-value=28  Score=18.11  Aligned_columns=18  Identities=22%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHH
+Q ss_conf             999999826898898887
+Q fac______        27 KLQLARELGLQPRQVAVW   44 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~W   44 (65)
+                      ..++|..+|+|+.+|+.|
+T Consensus         4 I~eva~~~gvs~~tlR~y   21 (100)
+T c2vz4A_           4 VGQVAGFAGVTVRTLHHY   21 (100)
+T ss_dssp             HHHHHHHHTCCHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHH
+T ss_conf             999999968999999999
+
+

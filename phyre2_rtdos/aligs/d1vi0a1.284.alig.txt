@@ -1,0 +1,14 @@
+284 d1vi0a1 Probab=33.37   E-value=47  Score=16.94  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||..+|++...+...|.|+
+T Consensus        24 ~~~Ia~~agvs~~t~y~~F~sK   45 (72)
+T d1vi0a1          24 VSKIAKQAGVADGTIYLYFKNK   45 (72)
+T ss_dssp             HHHHHHHHTSCHHHHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999489998974007999
+
+

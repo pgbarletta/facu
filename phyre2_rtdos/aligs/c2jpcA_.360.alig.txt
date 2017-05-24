@@ -1,0 +1,14 @@
+360 c2jpcA_ Probab=28.12   E-value=82  Score=15.63  Aligned_columns=25  Identities=12%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688999
+Q fac______        28 LQLARELGLQPRQVAVWFQNRRARW   52 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR~r~   52 (65)
+                      .++|..+|+|+..|..-.++-..|.
+T Consensus        17 ~eIA~~l~is~~TV~~~~~~i~~Kl   41 (61)
+T c2jpcA_          17 HGISEKLHISIKTVETHRMNMMRKL   41 (61)
+T ss_dssp             HHHHHHTCSCHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHH
+T ss_conf             9999996899899999999999992
+
+

@@ -1,0 +1,14 @@
+228 c5lnk2_ Probab=38.37   E-value=54  Score=16.59  Aligned_columns=34  Identities=18%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHH
+Q ss_conf             9999999988689888999999998268988988
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVA   42 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~   42 (65)
+                      +.+|..+=+..-|.+.+-...+|..+||++..|.
+T Consensus        46 ip~L~~iQ~~~Gyip~ea~~~iA~~l~i~~~~V~   79 (214)
+T c5lnk2_          46 LPVLDLAQRQNGWLPISAMNKVAEILQVPPMRVY   79 (214)
+T ss_dssp             HHHHHHHHHHSSSCCHHHHHHHHHHHTCCHHHHH
+T ss_pred             HHHHHHHHHHHCCCCHHHHHHHHHHHCCCHHHHH
+T ss_conf             9999999998279899999999998189998975
+
+

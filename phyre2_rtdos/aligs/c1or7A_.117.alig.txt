@@ -1,0 +1,14 @@
+117 c1or7A_ Probab=72.82   E-value=9.2  Score=20.73  Aligned_columns=28  Identities=14%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688999999
+Q fac______        28 LQLARELGLQPRQVAVWFQNRRARWKTK   55 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR~r~k~~   55 (65)
+                      .+||..+|+|+..|.++....|.+.++.
+T Consensus       151 ~eIA~~lgis~~~v~~~~~ra~~~Lr~~  178 (181)
+T c1or7A_         151 EEIAAIMDCPVGTVRSRIFRAREAIDNK  178 (181)
+T ss_dssp             HHHHHHTTSCHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHHHHH
+T ss_conf             9999995899899999999999999995
+
+

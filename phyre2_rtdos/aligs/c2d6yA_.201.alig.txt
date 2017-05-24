@@ -1,0 +1,14 @@
+201 c2d6yA_ Probab=42.41   E-value=47  Score=16.94  Aligned_columns=41  Identities=12%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHH
+Q ss_conf             999999998868988899999999826898898887666889
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRA   50 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~   50 (65)
+                      +..-...|....|=. -....||+..|+|...|..+|.|+..
+T Consensus         8 l~aA~~l~~e~G~~~-~si~~IA~~Agvs~~~~Y~~F~sK~~   48 (186)
+T c2d6yA_           8 FEAAVAEFARHGIAG-ARIDRIAAEARANKQLIYAYYGNKGE   48 (186)
+T ss_dssp             HHHHHHHHHHHTTTS-CCHHHHHHHHTCCHHHHHHHHSSHHH
+T ss_pred             HHHHHHHHHHHCCCC-CCHHHHHHHHCCCHHHHHHHCCCHHH
+T ss_conf             999999999629131-75999999958998998622699899
+
+

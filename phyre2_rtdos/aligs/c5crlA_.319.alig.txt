@@ -1,0 +1,14 @@
+319 c5crlA_ Probab=30.87   E-value=66  Score=16.15  Aligned_columns=18  Identities=11%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHH
+Q ss_conf             999999826898898887
+Q fac______        27 KLQLARELGLQPRQVAVW   44 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~W   44 (65)
+                      ..++|+.+|+|+..|+.|
+T Consensus         5 Ige~a~~~gvs~~tlR~Y   22 (114)
+T c5crlA_           5 IGVFAKAAGVNVETIRFY   22 (114)
+T ss_dssp             HHHHHHHHTSCHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHH
+T ss_conf             999999957999999999
+
+

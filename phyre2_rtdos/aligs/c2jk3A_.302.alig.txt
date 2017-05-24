@@ -1,0 +1,14 @@
+302 c2jk3A_ Probab=31.95   E-value=63  Score=16.24  Aligned_columns=22  Identities=14%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|...|.|+
+T Consensus        27 i~~IA~~agvs~~tiY~yF~~K   48 (182)
+T c2jk3A_          27 IQEIAKEAKVNVAMASYYFNGK   48 (182)
+T ss_dssp             HHHHHHHHTSCHHHHHHHHTSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999899499988998554998
+
+

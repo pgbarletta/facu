@@ -1,0 +1,14 @@
+320 c1rktA_ Probab=30.80   E-value=42  Score=17.17  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||...|+|...|...|.|+
+T Consensus        34 i~~Ia~~agvs~~tiY~~F~sK   55 (204)
+T c1rktA_          34 XKDVVEESGFSRGGVYLYFSST   55 (204)
+T ss_dssp             HHHHHHHHTSCHHHHHTTCSCH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999589999973007997
+
+

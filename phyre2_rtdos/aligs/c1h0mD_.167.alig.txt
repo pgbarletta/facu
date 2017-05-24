@@ -1,0 +1,14 @@
+167 c1h0mD_ Probab=48.50   E-value=37  Score=17.50  Aligned_columns=25  Identities=20%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688999
+Q fac______        28 LQLARELGLQPRQVAVWFQNRRARW   52 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR~r~   52 (65)
+                      .+||..+|||+..|..-+.|-+.|.
+T Consensus       187 ~eIA~~L~iS~~TV~~h~~~i~~KL  211 (229)
+T c1h0mD_         187 EEIADVEGVKYNSVRVKLREAXKRF  211 (229)
+T ss_dssp             HHHHHHTTCCHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHC
+T ss_conf             9999983778889999999999870
+
+

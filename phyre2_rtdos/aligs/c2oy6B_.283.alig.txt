@@ -1,0 +1,14 @@
+283 c2oy6B_ Probab=33.38   E-value=66  Score=16.14  Aligned_columns=38  Identities=21%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHCCCH
+Q ss_conf             988898999999999988-----68988899999999826898
+Q fac______         1 KRRLTTDQVKSLEKNFEL-----ENKLEPERKLQLARELGLQP   38 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~ls~   38 (65)
+                      |..+|++|+..|...|..     +-+.+..+...+...+|..+
+T Consensus         1 ~~~ls~~~i~~lk~~F~~~D~~~~G~I~~~e~~~~l~~~~~~~   43 (145)
+T c2oy6B_           1 RVKLSQRQMQELKEAFTMIDQDRDGFIGMEDLKDMFSSLGRVP   43 (145)
+T ss_dssp             CCSCCHHHHHHHHHHHHHHHSSCTTTCCHHHHHHHHHTTTCCC
+T ss_pred             CCCCCHHHHHHHHHHHHHHCCCCCCEECHHHHHHHHHHCCCCC
+T ss_conf             9878889999999999997879788095999999997215675
+
+

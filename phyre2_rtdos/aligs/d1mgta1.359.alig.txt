@@ -1,0 +1,14 @@
+359 d1mgta1 Probab=28.13   E-value=82  Score=15.63  Aligned_columns=41  Identities=22%
+
+Q ss_pred             CCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHH
+Q ss_conf             89899999999998868988899999999826898898887
+Q fac______         4 LTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVW   44 (65)
+Q Consensus         4 ~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~W   44 (65)
+                      .|+-|..+++.....=||=....-.+||..+|.+.+.|-.+
+T Consensus         1 ~t~F~~~V~~~l~~~IP~G~~~TYg~iA~~~g~~~RaVg~a   41 (81)
+T d1mgta1           1 VTPFEKKVYEWLTKNVKRGSVITYGDLAKALNTSPRAVGGA   41 (81)
+T ss_dssp             CCHHHHHHHHHHHHHSCTTCCEEHHHHHHHTTSCHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHCCCCCCCCHHHHHHHCCCCHHHHHHH
+T ss_conf             96799999999998288995710999999739807999999
+
+

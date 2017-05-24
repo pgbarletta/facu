@@ -1,0 +1,14 @@
+409 c5dxzA_ Probab=24.51   E-value=82  Score=15.64  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||...|+|...+..+|.++
+T Consensus        24 i~~Ia~~Agvs~~tlY~~F~sK   45 (199)
+T c5dxzA_          24 THQIADAVGIRQASLYYHFPSK   45 (199)
+T ss_dssp             HHHHHHHHTCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999489988974126998
+
+

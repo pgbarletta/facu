@@ -1,0 +1,14 @@
+124 c2q24A_ Probab=69.18   E-value=6.5  Score=21.54  Aligned_columns=38  Identities=24%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +..-...|....| + .....||+..|+|...|..+|.|+
+T Consensus         6 l~aa~~l~~~~G~-~-~ti~~Ia~~agvs~~tiY~~F~sK   43 (173)
+T c2q24A_           6 LAAAVRVFSEEGL-D-AHLERIAREAGVGSGTLYRNFPTR   43 (173)
+T ss_dssp             HHHHHHHHHHHCT-T-CCHHHHHHHTTCCHHHHHHHCCSH
+T ss_pred             HHHHHHHHHHHCH-H-HHHHHHHHHHCCCHHHHHHCCCCH
+T ss_conf             9999999998271-0-169999999389975722016998
+
+

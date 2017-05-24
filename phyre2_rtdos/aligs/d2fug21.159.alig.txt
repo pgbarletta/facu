@@ -1,0 +1,14 @@
+159 d2fug21 Probab=51.83   E-value=33  Score=17.77  Aligned_columns=34  Identities=29%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHH
+Q ss_conf             9999999988689888999999998268988988
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVA   42 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~   42 (65)
+                      +.+|...=+..-|.+.+-...+|..+||++..|.
+T Consensus        26 i~~L~~iQ~~~G~ip~~~~~~iA~~l~i~~~~v~   59 (178)
+T d2fug21          26 MPLLRRVQQEEGWIRPERIEEIARLVGTTPTEVM   59 (178)
+T ss_dssp             HHHHHHHHHHHSSCCHHHHHHHHHHHTSCHHHHH
+T ss_pred             HHHHHHHHHHHCCCCHHHHHHHHHHHCCCHHHHH
+T ss_conf             9999999998279899999999998189999997
+
+

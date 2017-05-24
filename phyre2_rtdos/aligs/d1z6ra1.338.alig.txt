@@ -1,0 +1,14 @@
+338 d1z6ra1 Probab=29.57   E-value=66  Score=16.13  Aligned_columns=17  Identities=24%
+
+Q ss_pred             HHHHHHHHCCCHHHHHH
+Q ss_conf             99999982689889888
+Q fac______        27 KLQLARELGLQPRQVAV   43 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~   43 (65)
+                      |.+||+.+|||...|..
+T Consensus        22 R~eia~~tgLs~~TVt~   38 (57)
+T d1z6ra1          22 RIDLSRLAQLAPASITK   38 (57)
+T ss_dssp             HHHHHHHTTCCHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHH
+T ss_conf             99999994899899999
+
+

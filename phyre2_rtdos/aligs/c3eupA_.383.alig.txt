@@ -1,0 +1,14 @@
+383 c3eupA_ Probab=26.54   E-value=49  Score=16.83  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|...|.|+
+T Consensus        34 i~~Ia~~agvs~~tiY~~F~~K   55 (203)
+T c3eupA_          34 LTDLTEATNLTKGSIYGNFENK   55 (203)
+T ss_dssp             HHHHHHHHTCCHHHHTTTSSSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999589998975037998
+
+

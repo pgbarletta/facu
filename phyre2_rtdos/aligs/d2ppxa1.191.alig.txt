@@ -1,0 +1,14 @@
+191 d2ppxa1 Probab=44.41   E-value=21  Score=18.80  Aligned_columns=22  Identities=14%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688
+Q fac______        28 LQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      .+||..+|++...|..|-.+.+
+T Consensus        16 ~elA~~~gvs~~tis~~E~G~~   37 (62)
+T d2ppxa1          16 EEFSARYHIPLGTLRDWEQGRS   37 (62)
+T ss_dssp             HHHHHHHTCCHHHHHHHHTTSS
+T ss_pred             HHHHHHHCCCHHHHHHHHCCCC
+T ss_conf             9999995899999999866888
+
+

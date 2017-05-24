@@ -1,0 +1,14 @@
+219 c2jmlA_ Probab=40.21   E-value=32  Score=17.81  Aligned_columns=18  Identities=22%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHH
+Q ss_conf             999999826898898887
+Q fac______        27 KLQLARELGLQPRQVAVW   44 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~W   44 (65)
+                      ..++|+.+|++..+|+.|
+T Consensus         8 i~eva~~~gis~~tLR~y   25 (81)
+T c2jmlA_           8 IRTIARMTGIREATLRAW   25 (81)
+T ss_dssp             HHHHHHTTSTTHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHH
+T ss_conf             999999967999999899
+
+

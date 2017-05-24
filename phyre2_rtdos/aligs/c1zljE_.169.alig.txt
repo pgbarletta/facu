@@ -1,0 +1,14 @@
+169 c1zljE_ Probab=47.87   E-value=38  Score=17.42  Aligned_columns=44  Identities=25%
+
+Q ss_pred             CCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHH
+Q ss_conf             88989999999999886898889999999982689889888766688999
+Q fac______         3 RLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARW   52 (65)
+Q Consensus         3 r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~   52 (65)
+                      .+|+.+.++|.-.-+      .....+||..+|+|+..|..-.++-..|.
+T Consensus         5 ~Lt~rE~~vl~~~a~------G~s~~eIA~~l~iS~~TV~~~~~~i~~Kl   48 (69)
+T c1zljE_           5 GLTDQERTLLGLLSE------GLTNKQIADRXFLAEKTVKNYVSRLLAKL   48 (69)
+T ss_dssp             SCCHHHHHHHHHHTT------TCCHHHHHHHHTCCHHHHHHHHHHHHHHH
+T ss_pred             HCCHHHHHHHHHHHC------CCCHHHHHHHHCCCHHHHHHHHHHHHHHH
+T ss_conf             249999999999995------99989999995659899999999999991
+
+

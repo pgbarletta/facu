@@ -1,0 +1,14 @@
+173 c3vepA_ Probab=47.31   E-value=39  Score=17.37  Aligned_columns=32  Identities=19%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             99999826898898887666889999999986
+Q fac______        28 LQLARELGLQPRQVAVWFQNRRARWKTKQLER   59 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR~r~k~~~~~~   59 (65)
+                      .++|..+|+|+..|.+.....+.+.+..-...
+T Consensus        37 ~eIA~~lg~s~~tV~~~l~Ra~~~Lr~~L~~~   68 (70)
+T c3vepA_          37 EETAAAVGSTTGAVRVAQHRALQRLKDEIVAA   68 (70)
+T ss_dssp             HHHHHHHTSCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHC
+T ss_conf             99999948999999999999999999999625
+
+

@@ -1,0 +1,14 @@
+236 c2kpjA_ Probab=37.98   E-value=42  Score=17.17  Aligned_columns=18  Identities=28%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHH
+Q ss_conf             999999826898898887
+Q fac______        27 KLQLARELGLQPRQVAVW   44 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~W   44 (65)
+                      ...||+.+|++...|..|
+T Consensus        25 q~~lA~~~gis~~tis~~   42 (94)
+T c2kpjA_          25 QLEIAKSIGVSPQTFNTW   42 (94)
+T ss_dssp             HHHHHHHHTCCHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHH
+T ss_conf             999999840108999999
+
+

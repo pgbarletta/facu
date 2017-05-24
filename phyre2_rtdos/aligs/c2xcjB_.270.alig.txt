@@ -1,0 +1,14 @@
+270 c2xcjB_ Probab=34.11   E-value=45  Score=17.04  Aligned_columns=23  Identities=22%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             99999982689889888766688
+Q fac______        27 KLQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ..+||+.+|++...|..|-.+++
+T Consensus        19 q~ela~~~gis~~~is~~e~G~~   41 (84)
+T c2xcjB_          19 RQQLADLTGVPYGTLSYYESGRS   41 (84)
+T ss_dssp             HHHHHHHHCCCHHHHHHHHHTSS
+T ss_pred             HHHHHHHHCCCHHHHHHHHCCCC
+T ss_conf             77877650778999999977899
+
+

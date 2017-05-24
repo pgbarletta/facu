@@ -1,0 +1,14 @@
+289 c4j2nB_ Probab=32.91   E-value=36  Score=17.53  Aligned_columns=26  Identities=19%
+
+Q ss_pred             CCHHHHHHHHHHHCCCHHHHHHHHHH
+Q ss_conf             88899999999826898898887666
+Q fac______        22 LEPERKLQLARELGLQPRQVAVWFQN   47 (65)
+Q Consensus        22 P~~~er~~LA~~~~ls~~qV~~WFqN   47 (65)
+                      |.--...+.|+.+|+|...|..|-.+
+T Consensus         2 p~~lt~~E~A~~L~vs~~Ti~r~~~~   27 (54)
+T c4j2nB_           2 PPRASIQQTADYLGVSTKTVRNYIAA   27 (54)
+T ss_dssp             CSSCCHHHHHHHHTSCHHHHHHHHHT
+T ss_pred             CCCCCHHHHHHHHCCCHHHHHHHHHC
+T ss_conf             77528999999949999999999975
+
+

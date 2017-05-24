@@ -1,0 +1,14 @@
+372 d2cg4a1 Probab=27.26   E-value=72  Score=15.93  Aligned_columns=16  Identities=31%
+
+Q ss_pred             HHHHHHHCCCHHHHHH
+Q ss_conf             9999982689889888
+Q fac______        28 LQLARELGLQPRQVAV   43 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~   43 (65)
+                      .+||+.+|+|+..|..
+T Consensus        23 ~elA~~lgis~~tv~~   38 (63)
+T d2cg4a1          23 AELAKQFGVSPETIHV   38 (63)
+T ss_dssp             HHHHHHHTSCHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHH
+T ss_conf             9999994899899999
+
+

@@ -1,0 +1,14 @@
+366 d1tuza_ Probab=27.56   E-value=43  Score=17.12  Aligned_columns=28  Identities=14%
+
+Q ss_pred             CCCCCHHHHHHHHHHHCCCHHHHHHHHH
+Q ss_conf             6898889999999982689889888766
+Q fac______        19 ENKLEPERKLQLARELGLQPRQVAVWFQ   46 (65)
+Q Consensus        19 ~~~P~~~er~~LA~~~~ls~~qV~~WFq   46 (65)
+                      +...++++.+.|...+..|+++|+.|+.
+T Consensus         5 ~s~Lspedl~qLq~~T~Fs~~Eik~~y~   32 (118)
+T d1tuza_           5 RGLISPSDFAQLQKYMEYSTKKVSDVLK   32 (118)
+T ss_dssp             CSCSCHHHHHHHHHHHHHCCCCHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHCCCCHHHHHHHHH
+T ss_conf             6785889999999970289999999999
+
+

@@ -1,0 +1,14 @@
+116 c3mzyA_ Probab=73.01   E-value=10  Score=20.54  Aligned_columns=34  Identities=15%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688999999998678
+Q fac______        28 LQLARELGLQPRQVAVWFQNRRARWKTKQLERDY   61 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR~r~k~~~~~~~~   61 (65)
+                      .+||..+|+|+..|++...-.|.+.+..-.+.+.
+T Consensus        87 ~eIA~~l~is~~tVk~~l~Rar~~Lr~~l~~~~~  120 (123)
+T c3mzyA_          87 REIATILSKNLKSIDNTIQRIRKKSEEWIKEEEN  120 (123)
+T ss_dssp             HHHHHHHTCCHHHHHHHHHHHHHHHHHHHHHHTS
+T ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_conf             9999994899889999999999999999986430
+
+

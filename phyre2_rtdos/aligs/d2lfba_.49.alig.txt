@@ -1,0 +1,26 @@
+49 d2lfba_ Probab=99.73   E-value=1.2e-17  Score=116.74  Aligned_columns=57  Identities=21%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHH---------------------CCCHH
+Q ss_conf             9888989999999999886898889999999982---------------------68988
+Q fac______         1 KRRLTTDQVKSLEKNFELENKLEPERKLQLAREL---------------------GLQPR   39 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~---------------------~ls~~   39 (65)
+                      |++||+.|+.+||.+|+.|+|||..+++.||..|                     ||++.
+T Consensus        14 Rt~ft~~Ql~~Le~~F~~n~yPs~~~R~~LA~~lN~~~~~~~~~~~~~~~~~~~~~lse~   73 (100)
+T d2lfba_          14 RFKWGPASQQILFQAYERQKNPSKEERETLVEECNRAECIQRGVSPSQAQGLGSNLVTEV   73 (100)
+T ss_dssp             SCCCCHHHHHHHHHHHTTCSSCCSHHHHHHHHHHHHHHHHHHTCCGGGGGGGGGGCCCHH
+T ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCHHHCCCCCCCCCCCCCCCCCCCHH
+T ss_conf             777899999999999977689888999999998440210002333111144555788735
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH
+Q ss_conf             988876668899999999
+Q fac______        40 QVAVWFQNRRARWKTKQL   57 (65)
+Q Consensus        40 qV~~WFqNrR~r~k~~~~   57 (65)
+                      +|++||||||+++|++..
+T Consensus        74 ~V~~WFqNRR~k~k~~~~   91 (100)
+T d2lfba_          74 RVYNWFANRRKEEAFRHK   91 (100)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHCCHHHHHHHHHH
+T ss_conf             668985173499999999
+
+

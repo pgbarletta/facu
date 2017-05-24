@@ -1,0 +1,14 @@
+251 c2mezA_ Probab=35.70   E-value=30  Score=18.01  Aligned_columns=22  Identities=23%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688
+Q fac______        28 LQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ..||..+|+|...|..|...++
+T Consensus        27 ~~LA~~~gvs~s~is~~E~G~~   48 (102)
+T c2mezA_          27 QQLAQKLKVSENIVKRFESGKL   48 (102)
+T ss_dssp             HHHHHTTTSCHHHHHHHHTTSC
+T ss_pred             HHHHHHHCCCHHHHHHHHCCCC
+T ss_conf             9999997159889999741588
+
+

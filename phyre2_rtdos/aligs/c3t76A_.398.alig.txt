@@ -1,0 +1,14 @@
+398 c3t76A_ Probab=25.30   E-value=88  Score=15.45  Aligned_columns=20  Identities=20%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHH
+Q ss_conf             99999826898898887666
+Q fac______        28 LQLARELGLQPRQVAVWFQN   47 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqN   47 (65)
+                      ..||..+|+|...|..|-.+
+T Consensus        28 ~~la~~~gis~~ti~~ie~g   47 (75)
+T c3t76A_          28 GELREAVGVSKSTFAKLGKN   47 (75)
+T ss_dssp             HHHHHHHTCCHHHHHHHHTT
+T ss_pred             HHHHHHHHCCHHHHHHHHCC
+T ss_conf             99999971398889999679
+
+

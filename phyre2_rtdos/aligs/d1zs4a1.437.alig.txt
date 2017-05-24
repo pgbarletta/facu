@@ -1,0 +1,14 @@
+437 d1zs4a1 Probab=22.06   E-value=1.1e+02  Score=14.99  Aligned_columns=17  Identities=24%
+
+Q ss_pred             HHHHHHHCCCHHHHHHH
+Q ss_conf             99999826898898887
+Q fac______        28 LQLARELGLQPRQVAVW   44 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~W   44 (65)
+                      ...|..+|+++.||.-|
+T Consensus        24 ~k~A~a~Gv~esqiSRw   40 (78)
+T d1zs4a1          24 EKTAEAVGVDKSQISRW   40 (78)
+T ss_dssp             HHHHHHHTSCHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHH
+T ss_conf             78898848889999997
+
+

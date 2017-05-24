@@ -1,0 +1,14 @@
+425 c4ybaA_ Probab=23.01   E-value=84  Score=15.58  Aligned_columns=23  Identities=22%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             99999982689889888766688
+Q fac______        27 KLQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      .+.||..+|++...|..|-.+++
+T Consensus        21 q~~lA~~~gvs~~~is~~E~G~~   43 (77)
+T c4ybaA_          21 QKELALMAGIATPTIADFERGAR   43 (77)
+T ss_dssp             HHHHHHHHTSCHHHHHHHHTTSC
+T ss_pred             HHHHHHHHHHHHHHHHHHHCCCC
+T ss_conf             99999987666899999748998
+
+

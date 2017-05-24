@@ -1,0 +1,14 @@
+252 c4ichA_ Probab=35.67   E-value=42  Score=17.19  Aligned_columns=39  Identities=15%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +..-...|....| ..-....||+..|+|...|...|.|+
+T Consensus        10 l~Aa~~l~~~~G~-~~~ti~~Ia~~agvs~~t~Y~~F~~K   48 (193)
+T c4ichA_          10 LETAWRLIARRGY-HNVRIHDIASELGTSNATIHYHFPSK   48 (193)
+T ss_dssp             HHHHHHHHHHHCG-GGCCHHHHHHHHTCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHHHHCC-CCCCHHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999996192-41759999999489999974657998
+
+

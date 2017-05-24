@@ -1,0 +1,14 @@
+168 d2pq3a1 Probab=47.98   E-value=38  Score=17.43  Aligned_columns=44  Identities=18%
+
+Q ss_pred             CCCHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHC--CCHHHHHHHHH
+Q ss_conf             8898999999999988-----68988899999999826--89889888766
+Q fac______         3 RLTTDQVKSLEKNFEL-----ENKLEPERKLQLARELG--LQPRQVAVWFQ   46 (65)
+Q Consensus         3 r~t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~--ls~~qV~~WFq   46 (65)
+                      ++|+.++..|...|..     +-+.+.++...+...+|  ++...|...|.
+T Consensus         1 ~ls~~e~~~l~~~F~~~D~d~~G~is~~e~~~~l~~~~~~~~~~~~~~l~~   51 (73)
+T d2pq3a1           1 QLTEEQIAEFKEAFSLFDKDGDGTITTKELGTVMRSLGQNPTEAELQDMIN   51 (73)
+T ss_dssp             CCCHHHHHHHHHHHHHTCTTSSSEEEGGGHHHHHHHTTCCCCHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHHCCCCCHHHHHHHHH
+T ss_conf             957899999999999988796980979999999996189989899999999
+
+

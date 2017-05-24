@@ -1,0 +1,14 @@
+62 d1ocpa_ Probab=99.71   E-value=6e-18  Score=118.33  Aligned_columns=54  Identities=31%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHH
+Q ss_conf             988898999999999988689888999999998268988988876668899999
+Q fac______         1 KRRLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWKT   54 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k~   54 (65)
+                      |++||++|+.+|+.+|+.||||+.++++.||..+||++.+|++||+|+|+++|+
+T Consensus        12 R~~~t~~q~~~Le~~F~~n~~P~~~~~~~La~~~~l~~~qV~~WF~NrR~k~Kr   65 (67)
+T d1ocpa_          12 RTSIENRVRWSLETMFLKCPKPSLQQITHIANQLGLEKDVVRVWFCNRRQKGKR   65 (67)
+T ss_dssp             CSSCCHHHHHHHHHHHSSCSCCCHHHHHHHHHHHTCCHHHHHHHHHHHHSSSSS
+T ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHC
+T ss_conf             877899999999999976279989999999998379999999999988876522
+
+

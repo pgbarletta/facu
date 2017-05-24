@@ -1,0 +1,14 @@
+153 c4epzA_ Probab=54.20   E-value=16  Score=19.39  Aligned_columns=21  Identities=33%
+
+Q ss_pred             CCCCHHHHHHHHHH--HHHCCCC
+Q ss_conf             88898999999999--9886898
+Q fac______         2 RRLTTDQVKSLEKN--FELENKL   22 (65)
+Q Consensus         2 ~r~t~~q~~~Le~~--F~~~~~P   22 (65)
+                      +++|.+|.++++..  |+.||||
+T Consensus       126 ~~lt~eq~ei~e~l~~~een~yp  148 (154)
+T c4epzA_         126 SDLTDEQKEIIEELRNFEENQYP  148 (154)
+T ss_dssp             GGCCHHHHHHHHHHHHHHHTSCG
+T ss_pred             HHHCHHHHHHHHHHHHHHCCCCC
+T ss_conf             01069999999999730017898
+
+

@@ -1,0 +1,14 @@
+172 c4me9B_ Probab=47.35   E-value=25  Score=18.40  Aligned_columns=39  Identities=10%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +..-...|....| +......||+.+|+|...|...|.|+
+T Consensus         8 l~aa~~l~~~~G~-~~~t~~~Ia~~agvs~~tlY~~F~sK   46 (186)
+T c4me9B_           8 FDAAXQLFAERGY-DGTTIPXIAEKAKVGAGTIYRYFENK   46 (186)
+T ss_dssp             HHHHHHHHHHHCT-TTCCHHHHHHHHTSCHHHHHHHCSSH
+T ss_pred             HHHHHHHHHHHCC-CCCCHHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999996280-11679999999489999998314998
+
+

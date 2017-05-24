@@ -1,0 +1,14 @@
+401 c3mlfC_ Probab=25.08   E-value=71  Score=15.97  Aligned_columns=22  Identities=9%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688
+Q fac______        28 LQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      .+||..+|++...|..|=.+.+
+T Consensus        24 ~elA~~~gis~~~is~~E~g~~   45 (92)
+T c3mlfC_          24 KELGDLFKVSSRTIQNXEKDST   45 (92)
+T ss_dssp             HHHHHHTTSCHHHHHHHHHCCT
+T ss_pred             HHHHHHHCCCHHHHHHHHCCCC
+T ss_conf             7999982998789976204888
+
+

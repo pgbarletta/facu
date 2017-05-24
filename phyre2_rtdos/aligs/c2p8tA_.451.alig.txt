@@ -1,0 +1,14 @@
+451 c2p8tA_ Probab=20.68   E-value=1.2e+02  Score=14.83  Aligned_columns=17  Identities=24%
+
+Q ss_pred             HHHHHHHHCCCHHHHHH
+Q ss_conf             99999982689889888
+Q fac______        27 KLQLARELGLQPRQVAV   43 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~   43 (65)
+                      |..||+.++|+++.|++
+T Consensus        20 Rr~La~~L~lgEr~vRt   36 (184)
+T c2p8tA_          20 RKQISERLELGEGSVRT   36 (184)
+T ss_dssp             HHHHHHHHTCCHHHHHH
+T ss_pred             HHHHHHHCCCCHHHHHH
+T ss_conf             68899680975899999
+
+

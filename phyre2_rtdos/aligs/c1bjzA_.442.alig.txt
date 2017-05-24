@@ -1,0 +1,14 @@
+442 c1bjzA_ Probab=21.35   E-value=1e+02  Score=15.14  Aligned_columns=22  Identities=23%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|++...|...|.|+
+T Consensus        26 i~~IA~~aGvs~~tiY~~F~sK   47 (194)
+T c1bjzA_          26 TRKLAQKLGIEQPTLYWHVKNK   47 (194)
+T ss_dssp             HHHHHHHHTSCHHHHHHHCCCH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999489988988747997
+
+

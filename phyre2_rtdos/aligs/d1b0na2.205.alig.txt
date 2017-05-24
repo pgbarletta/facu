@@ -1,0 +1,14 @@
+205 d1b0na2 Probab=41.74   E-value=25  Score=18.39  Aligned_columns=23  Identities=17%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             99999982689889888766688
+Q fac______        27 KLQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ..+||..+|+++..|..|..+.+
+T Consensus        17 q~~la~~~gis~~~i~~~e~g~~   39 (68)
+T d1b0na2          17 LSELAEKAGVAKSYLSSIERNLQ   39 (68)
+T ss_dssp             HHHHHHHHTCCHHHHHHHHTTCC
+T ss_pred             HHHHHHHHCCCHHHHHHHHCCCC
+T ss_conf             99999860999999999756988
+
+

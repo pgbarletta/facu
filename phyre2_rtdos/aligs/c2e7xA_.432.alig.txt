@@ -1,0 +1,14 @@
+432 c2e7xA_ Probab=22.42   E-value=1.1e+02  Score=15.03  Aligned_columns=19  Identities=16%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHH
+Q ss_conf             9999982689889888766
+Q fac______        28 LQLARELGLQPRQVAVWFQ   46 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFq   46 (65)
+                      .+||+.+|+|+..|....+
+T Consensus        21 ~eiA~~lgis~~tv~~Ri~   39 (152)
+T c2e7xA_          21 DEIAREIRIPKSTLSYRIK   39 (152)
+T ss_dssp             HHHHHHHTCCHHHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHHHH
+T ss_conf             8999882999899999999
+
+

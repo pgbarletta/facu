@@ -1,0 +1,14 @@
+113 d2jn6a1 Probab=75.71   E-value=11  Score=20.37  Aligned_columns=42  Identities=14%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHCC-CCCHHHHHHHHHHHCCCHHHHHHHHH
+Q ss_conf             98889899999999998868-98889999999982689889888766
+Q fac______         1 KRRLTTDQVKSLEKNFELEN-KLEPERKLQLARELGLQPRQVAVWFQ   46 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~~~-~P~~~er~~LA~~~~ls~~qV~~WFq   46 (65)
+                      |+.||++-...--..+..++ .+    ...+|..+|+++.+|..|..
+T Consensus         3 rr~Ys~efK~~aV~~~~~~~G~s----v~evA~~lGIs~~tl~~Wvk   45 (89)
+T d2jn6a1           3 TKTYSEEFKRDAVALYENSDGAS----LQQIANDLGINRVTLKNWII   45 (89)
+T ss_dssp             CCCCCHHHHHHHHHHHTTGGGSC----HHHHHHHHTSCHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHHHCCCCC----HHHHHHHHCCCHHHHHHHHH
+T ss_conf             78879899999999999579881----99999983999999999999
+
+

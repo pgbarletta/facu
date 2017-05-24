@@ -1,0 +1,14 @@
+132 c3jsjC_ Probab=62.72   E-value=10  Score=20.46  Aligned_columns=38  Identities=11%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +..-...|..+.| . .....||...|+|...+...|.|+
+T Consensus         8 l~aA~~l~~~~G~-~-~s~~~IA~~agvs~~s~y~~F~sK   45 (183)
+T c3jsjC_           8 LEAAAALTYRDGV-G-IGVEALCKAAGVSKRSXYQLFESK   45 (183)
+T ss_dssp             HHHHHHHHHHHCT-T-CCHHHHHHHHTCCHHHHHHHCSCH
+T ss_pred             HHHHHHHHHHHCC-C-CHHHHHHHHHCCCHHHHCCCCCCH
+T ss_conf             9999999998293-5-509999899389977710318998
+
+

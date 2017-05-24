@@ -1,0 +1,14 @@
+272 d1j5ya1 Probab=33.97   E-value=65  Score=16.19  Aligned_columns=39  Identities=13%
+
+Q ss_pred             CHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHH
+Q ss_conf             989999999999886898889999999982689889888766
+Q fac______         5 TTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQ   46 (65)
+Q Consensus         5 t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFq   46 (65)
+                      +.-+..+|+-..+.+.+.+   ..+||..+|+|.+.|..-++
+T Consensus         6 ~eR~~~Il~~L~~~~~~it---~~eLA~~l~VS~rTi~rdi~   44 (65)
+T d1j5ya1           6 QERLKSIVRILERSKEPVS---GAQLAEELSVSRQVIVQDIA   44 (65)
+T ss_dssp             HHHHHHHHHHHHHCSSCBC---HHHHHHHHTSCHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHCCCCCC---HHHHHHHHCCCHHHHHHHHH
+T ss_conf             9999999999997699731---99999984899899999999
+
+

@@ -1,0 +1,14 @@
+232 d1t56a1 Probab=38.12   E-value=35  Score=17.63  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||..+|+|...+...|.|+
+T Consensus        26 i~~Ia~~agvs~~t~y~~F~~K   47 (73)
+T d1t56a1          26 VDDLAKGAGISRPTFYFYFPSK   47 (73)
+T ss_dssp             HHHHHHHHTCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999489988964117999
+
+

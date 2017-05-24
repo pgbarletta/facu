@@ -1,0 +1,14 @@
+162 d2gena1 Probab=49.37   E-value=20  Score=18.96  Aligned_columns=22  Identities=14%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+.+|++...|..+|.|+
+T Consensus        23 ~~~Ia~~agvs~~~~y~~F~sK   44 (70)
+T d2gena1          23 IEXIRDRSGASIGSLYHHFGNK   44 (70)
+T ss_dssp             HHHHHHHHCCCHHHHHHHTCSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999997189813555106999
+
+

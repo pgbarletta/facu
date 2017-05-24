@@ -1,0 +1,14 @@
+343 c2hytA_ Probab=29.29   E-value=52  Score=16.70  Aligned_columns=22  Identities=14%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||...|+|...|...|.|+
+T Consensus        31 i~~IA~~agvs~~t~Y~~F~sK   52 (193)
+T c2hytA_          31 XDDLTAQASLTRGALYHHFGDK   52 (193)
+T ss_dssp             HHHHHHHHTCCTTHHHHHHSSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999559987887017998
+
+

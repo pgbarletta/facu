@@ -1,0 +1,14 @@
+82 d1akha_ Probab=99.66   E-value=2.9e-16  Score=109.29  Aligned_columns=48  Identities=33%
+
+Q ss_pred             CCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHH
+Q ss_conf             898999999999988689888999999998268988988876668899
+Q fac______         4 LTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRAR   51 (65)
+Q Consensus         4 ~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r   51 (65)
+                      +|++|+.+||.+|..|||||..++..||..+||++++|++||+|+|+|
+T Consensus         1 ls~eq~~~Le~~F~~~~~P~~~~~~~La~~~~l~~~~V~~WF~NrRar   48 (49)
+T d1akha_           1 ISPQARAFLEEVFRRKQSLNSKEKEEVAKKCGITPLQVRVWFINKRMR   48 (49)
+T ss_dssp             CCHHHHHHHHHHHHHCSSCCHHHHHHHHHHHTSCHHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHCHHHC
+T ss_conf             958999999999998789788999999999389986878886332202
+
+

@@ -1,0 +1,14 @@
+177 d2opoa1 Probab=46.27   E-value=40  Score=17.28  Aligned_columns=42  Identities=19%
+
+Q ss_pred             CHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHC-CCHHHHHHHHH
+Q ss_conf             98999999999988-----68988899999999826-89889888766
+Q fac______         5 TTDQVKSLEKNFEL-----ENKLEPERKLQLARELG-LQPRQVAVWFQ   46 (65)
+Q Consensus         5 t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~-ls~~qV~~WFq   46 (65)
+                      |++++..++..|..     +-+.+..+...+-..+| ++...+...|.
+T Consensus         1 T~ee~~~~~~~F~~~D~d~~G~i~~~el~~~l~~~g~~~~~~~~~~~~   48 (81)
+T d2opoa1           1 TPQDIADRERIFKRFDTNGDGKISSSELGDALKTLGSVTPDEVRRMMA   48 (81)
+T ss_dssp             CHHHHHHHHHHHHHHCTTCSSSCCHHHHHHHHHTTTTCCHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHHCCCCHHHHHHHHH
+T ss_conf             988999999999998878778498999999999818999789999999
+
+

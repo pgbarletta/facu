@@ -1,0 +1,14 @@
+140 d1g8ia_ Probab=59.47   E-value=18  Score=19.12  Aligned_columns=28  Identities=29%
+
+Q ss_pred             CCCCCHHHHHHHHHHHCCCHHHHHHHHH
+Q ss_conf             6898889999999982689889888766
+Q fac______        19 ENKLEPERKLQLARELGLQPRQVAVWFQ   46 (65)
+Q Consensus        19 ~~~P~~~er~~LA~~~~ls~~qV~~WFq   46 (65)
+                      |...++++.+.|+..+++|+.+|..+|.
+T Consensus         2 ~~~l~~~~l~~l~~~t~~s~~ei~~l~~   29 (182)
+T d1g8ia_           2 NSKLKPEVVEELTRKTYFTEKEVQQWYK   29 (182)
+T ss_dssp             CCSCCHHHHHHHHHTSSSCHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHCCCHHHHHHHHH
+T ss_conf             8768789999999970899999999999
+
+

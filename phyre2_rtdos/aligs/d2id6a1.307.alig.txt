@@ -1,0 +1,14 @@
+307 d2id6a1 Probab=31.53   E-value=52  Score=16.69  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||..+|+|...+...|.|+
+T Consensus        26 i~~Ia~~~gis~~~lY~~F~~k   47 (75)
+T d2id6a1          26 TDEIAEKAGVAKGLIFHYFKNK   47 (75)
+T ss_dssp             HHHHHHHHTCCTHHHHHHHSSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999489998974007999
+
+

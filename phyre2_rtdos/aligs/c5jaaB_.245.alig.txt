@@ -1,0 +1,14 @@
+245 c5jaaB_ Probab=35.99   E-value=45  Score=17.05  Aligned_columns=17  Identities=29%
+
+Q ss_pred             HHHHHHHCCCHHHHHHH
+Q ss_conf             99999826898898887
+Q fac______        28 LQLARELGLQPRQVAVW   44 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~W   44 (65)
+                      .++|..+|+|...|..|
+T Consensus        54 ~~~A~~lgvs~~tv~~w   70 (101)
+T c5jaaB_          54 GVFARLLHTSSRTLENW   70 (101)
+T ss_dssp             HHHHHHTTSCHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHH
+T ss_conf             99999967999999897
+
+

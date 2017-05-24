@@ -1,0 +1,14 @@
+229 d2croa_ Probab=38.32   E-value=36  Score=17.52  Aligned_columns=22  Identities=14%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      .++||..+|++...|..|..++
+T Consensus        19 ~~~la~~~gis~~~is~~e~g~   40 (65)
+T d2croa_          19 QTELATKAGVKQQSIQLIEAGV   40 (65)
+T ss_dssp             HHHHHHHHTSCHHHHHHHHTTC
+T ss_pred             HHHHHHHHCCCHHHHHHHHCCC
+T ss_conf             9999998399999999987899
+
+

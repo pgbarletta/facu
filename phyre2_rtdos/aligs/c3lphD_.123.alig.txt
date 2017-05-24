@@ -1,0 +1,14 @@
+123 c3lphD_ Probab=69.19   E-value=6.2  Score=21.64  Aligned_columns=36  Identities=33%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             99999999886898889999999982689889888766688999999998
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWKTKQLE   58 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k~~~~~   58 (65)
+                      +.+..-.|..||||+++-...--.              |+|.+|+..+.+
+T Consensus         9 vriIk~LYqSnPyP~~~Gt~~aRR--------------nrRrrWr~rq~Q   44 (57)
+T c3lphD_           9 VRLIKFLYQSNPPPNPEGTRQARR--------------NRRRRWRERQRQ   44 (57)
+T ss_dssp             HHHHHHHHHTSCCCCCCSCHHHHH--------------HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHCCCCCCCCCCHHHHH--------------HHHHHHHHHHHH
+T ss_conf             999999984788778964478999--------------999999999999
+
+

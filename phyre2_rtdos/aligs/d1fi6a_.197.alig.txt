@@ -1,0 +1,14 @@
+197 d1fi6a_ Probab=42.93   E-value=46  Score=16.99  Aligned_columns=43  Identities=12%
+
+Q ss_pred             CCHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHCCCHHHHHHHHH
+Q ss_conf             898999999999988-----6898889999999982689889888766
+Q fac______         4 LTTDQVKSLEKNFEL-----ENKLEPERKLQLARELGLQPRQVAVWFQ   46 (65)
+Q Consensus         4 ~t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~ls~~qV~~WFq   46 (65)
+                      .|+++...+.+.|..     +.+.+.++...+-..+||+...+..++.
+T Consensus         3 lt~ee~~~~~~~F~~~D~d~~G~i~~~e~~~~l~~~~l~~~~l~~i~~   50 (92)
+T d1fi6a_           3 ITDEQRQYYVNQFKTIQPDLNGFIPGSAAKEFFTKSKLPILELSHIWE   50 (92)
+T ss_dssp             CCHHHHHHHHHHHTTTCCSTTCEEEHHHHHHHHHHHSSCHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHCCCCHHHHHHHHH
+T ss_conf             878999999999999653467843067899999871999999999999
+
+

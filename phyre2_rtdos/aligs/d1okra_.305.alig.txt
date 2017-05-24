@@ -1,0 +1,14 @@
+305 d1okra_ Probab=31.91   E-value=70  Score=16.00  Aligned_columns=40  Identities=3%
+
+Q ss_pred             CCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHH
+Q ss_conf             8989999999999886898889999999982689889888
+Q fac______         4 LTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAV   43 (65)
+Q Consensus         4 ~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~   43 (65)
+                      +|+.|..+|+..+...|-...+-.+.|....|++...|..
+T Consensus         5 Lt~~E~~Vl~~lw~~~~~t~~ei~~~l~~~~~~~~sTv~~   44 (120)
+T d1okra_           5 ISSAEWEVMNIIWMKKYASANNIIEEIQMQKDWSPKTIRT   44 (120)
+T ss_dssp             CCHHHHHHHHHHHHHSSEEHHHHHHHHHHHCCCCHHHHHH
+T ss_pred             CCHHHHHHHHHHHHCCCCCHHHHHHHHHCCCCCCHHHHHH
+T ss_conf             9889999999999779999899999731034667223899
+
+

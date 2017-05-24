@@ -1,0 +1,14 @@
+108 d1hlva1 Probab=87.99   E-value=3.3  Score=23.11  Aligned_columns=45  Identities=24%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             988898999999999988689888999999998268988988876668
+Q fac______         1 KRRLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      |+.+|-.+...+-..++.++..+   ...||..+|++..+|..|-.|+
+T Consensus         5 Rk~Ltl~eK~~ii~~~e~g~~~~---q~~iAr~fGi~~STv~~IlKnk   49 (66)
+T d1hlva1           5 RRQLTFREKSRIIQEVEENPDLR---KGEIARRFNIPPSTLSTILKNK   49 (66)
+T ss_dssp             SCCCCHHHHHHHHHHHHHCTTSC---HHHHHHHHTCCHHHHHHHHHTH
+T ss_pred             CEEEEHHHHHHHHHHHHHCCCCH---HHHHHHHHCCCHHHHHHHHHHH
+T ss_conf             00210999999999998287620---8999998288834599999879
+
+

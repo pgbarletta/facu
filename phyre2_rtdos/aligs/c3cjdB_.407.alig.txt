@@ -1,0 +1,14 @@
+407 c3cjdB_ Probab=24.66   E-value=83  Score=15.60  Aligned_columns=22  Identities=23%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|...|.|+
+T Consensus        25 i~~Ia~~agvs~~tiY~~F~sK   46 (182)
+T c3cjdB_          25 ARELARQADCAVGAIYTHFQDL   46 (182)
+T ss_dssp             HHHHHHHHTSCHHHHHHHSSSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999899389998999625898
+
+

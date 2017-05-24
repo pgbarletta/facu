@@ -1,0 +1,14 @@
+182 d2g7la1 Probab=45.27   E-value=25  Score=18.41  Aligned_columns=48  Identities=23%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             988898999999999988689888999999998268988988876668
+Q fac______         1 KRRLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      |.++|.+++-.==-..-...-++.-....||..+|++...|...|.|+
+T Consensus         1 rp~~tr~~I~~aa~~l~~~~G~~~~t~~~Ia~~agvs~~~iy~~F~~K   48 (68)
+T d2g7la1           1 KPALSRRWIVDTAVALXRAEGLEKVTXRRLAQELDTGPASLYVYVANT   48 (68)
+T ss_dssp             CCCCCHHHHHHHHHHHHHHHCSSSCCHHHHHHHTTSCHHHHTTTCCSH
+T ss_pred             CCCCCHHHHHHHHHHHHHHHCHHCCCHHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             963049999999999999418520699999998137988843016998
+
+

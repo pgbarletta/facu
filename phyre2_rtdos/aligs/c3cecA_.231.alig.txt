@@ -1,0 +1,14 @@
+231 c3cecA_ Probab=38.18   E-value=33  Score=17.76  Aligned_columns=23  Identities=17%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             99999982689889888766688
+Q fac______        27 KLQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ...||+.+|++...|..|..++|
+T Consensus        21 q~~lA~~~gis~~~is~~e~g~~   43 (91)
+T c3cecA_          21 TANFAEILGVSNQTIQEVINGQR   43 (91)
+T ss_dssp             HHHHHHHHTSCHHHHHHHHTTSS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHCCC
+T ss_conf             99999998450999999960888
+
+

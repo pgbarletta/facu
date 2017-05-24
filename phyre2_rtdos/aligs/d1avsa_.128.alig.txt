@@ -1,0 +1,14 @@
+128 d1avsa_ Probab=66.69   E-value=14  Score=19.70  Aligned_columns=46  Identities=11%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHC--CCHHHHHHHHH
+Q ss_conf             988898999999999988-----68988899999999826--89889888766
+Q fac______         1 KRRLTTDQVKSLEKNFEL-----ENKLEPERKLQLARELG--LQPRQVAVWFQ   46 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~--ls~~qV~~WFq   46 (65)
+                      |+.+|++++..|...|..     +-+.|.++...+...+|  +++..|..||.
+T Consensus         5 ~~~lt~~~~~~l~~~F~~~D~~~~G~is~~e~~~~l~~~~~~~~~~~~~~~~~   57 (81)
+T d1avsa_           5 RAFLSEEMIAEFKAAFDMFDADGGGDISTKELGTVMRMLGQNPTKEELDAIIE   57 (81)
+T ss_dssp             HHHSCHHHHHHHHHHHHHHCTTCSSEECHHHHHHHHHHTTCCCCHHHHHHHHH
+T ss_pred             HHCCCHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHHCCCCCHHHHHHHHH
+T ss_conf             85099999999999999988796882979999999995178999899999998
+
+

@@ -1,0 +1,14 @@
+240 c5d1wD_ Probab=37.63   E-value=38  Score=17.41  Aligned_columns=22  Identities=23%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...+..+|.|+
+T Consensus        33 ~~~IA~~aGvs~~t~Y~~F~sK   54 (196)
+T c5d1wD_          33 LSDVARAAGISRQTIYNEFGSR   54 (196)
+T ss_dssp             HHHHHHHHTCCHHHHHHHTCSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999489987975327998
+
+

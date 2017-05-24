@@ -1,0 +1,14 @@
+340 d1lmb3_ Probab=29.43   E-value=52  Score=16.71  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688
+Q fac______        28 LQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ..||..+|++..+|..|..+++
+T Consensus        29 ~elA~~~gis~~~is~~e~G~~   50 (87)
+T d1lmb3_          29 ESVADKMGMGQSGVGALFNGIN   50 (87)
+T ss_dssp             HHHHHHHTSCHHHHHHHHTTSS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHCC
+T ss_conf             9999974000899999984147
+
+

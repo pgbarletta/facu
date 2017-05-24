@@ -1,0 +1,14 @@
+295 c3t0yA_ Probab=32.51   E-value=68  Score=16.06  Aligned_columns=26  Identities=15%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHHH
+Q ss_conf             99999826898898887666889999
+Q fac______        28 LQLARELGLQPRQVAVWFQNRRARWK   53 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR~r~k   53 (65)
+                      .++|+.+|+|+..|++...-.|.+.+
+T Consensus        99 ~eiA~~Lgis~~tv~~~l~RAr~~L~  124 (126)
+T c3t0yA_          99 TEAAQILDCDFGEVERLIGDAQAEID  124 (126)
+T ss_dssp             HHHHHHHTSCHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHHH
+T ss_conf             99999948998999999999999984
+
+

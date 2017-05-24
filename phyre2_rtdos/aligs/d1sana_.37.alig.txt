@@ -1,0 +1,14 @@
+37 d1sana_ Probab=99.75   E-value=1.6e-18  Score=121.35  Aligned_columns=52  Identities=40%
+
+Q ss_pred             CCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHH
+Q ss_conf             8898999999999988689888999999998268988988876668899999
+Q fac______         3 RLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWKT   54 (65)
+Q Consensus         3 r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k~   54 (65)
+                      .||++|+.+||.+|+.|+|||.++++.||..+||++++|+|||||+|+++|+
+T Consensus         2 ~FT~~Ql~~Le~~F~~~~~P~~~~r~~LA~~lgl~~~~V~~WFqNrR~k~kk   53 (62)
+T d1sana_           2 TYTRYQTLELEKEFHFNRYLTRRRRIEIAHALSLTERQIKIWFQNRRMKWKK   53 (62)
+T ss_dssp             CCCHHHHHHHHHHHHHCSSCCHHHHHHHHHHHTCCSHHHHHHHHHHHHTTTT
+T ss_pred             CCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHH
+T ss_conf             8899999999999988789888999999999458999999999999999999
+
+

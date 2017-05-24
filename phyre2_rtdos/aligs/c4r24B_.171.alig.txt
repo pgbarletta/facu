@@ -1,0 +1,14 @@
+171 c4r24B_ Probab=47.76   E-value=24  Score=18.46  Aligned_columns=18  Identities=22%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHH
+Q ss_conf             999999826898898887
+Q fac______        27 KLQLARELGLQPRQVAVW   44 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~W   44 (65)
+                      +.++|+.+|+|..+|+.|
+T Consensus        11 i~e~a~~~gvt~~tlRyy   28 (85)
+T c4r24B_          11 IGIVKELTGLSERQIRYY   28 (85)
+T ss_dssp             HHHHHHHHCCCHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHH
+T ss_conf             999999966889998999
+
+

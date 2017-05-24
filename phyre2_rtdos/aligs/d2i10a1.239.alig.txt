@@ -1,0 +1,14 @@
+239 d2i10a1 Probab=37.71   E-value=41  Score=17.25  Aligned_columns=22  Identities=23%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||..+|+|...|...|.|+
+T Consensus        23 ~~~Ia~~agvs~~~~y~~F~~K   44 (69)
+T d2i10a1          23 ITDLTKALGINPPSLYAAFGSK   44 (69)
+T ss_dssp             HHHHHHHHTCCHHHHHHHHCSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999389898999306998
+
+

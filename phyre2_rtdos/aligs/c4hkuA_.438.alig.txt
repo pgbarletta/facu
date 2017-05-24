@@ -1,0 +1,14 @@
+438 c4hkuA_ Probab=22.02   E-value=53  Score=16.63  Aligned_columns=22  Identities=14%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|...|.|+
+T Consensus        26 i~~IA~~agvs~~tiY~hF~sK   47 (174)
+T c4hkuA_          26 LYDIASNLNVTHAALYKHYRNK   47 (174)
+T ss_dssp             HHHHHHHTTSCGGGGGGTCSSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999539988864568998
+
+

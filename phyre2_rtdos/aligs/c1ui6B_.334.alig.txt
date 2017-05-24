@@ -1,0 +1,14 @@
+334 c1ui6B_ Probab=29.77   E-value=58  Score=16.45  Aligned_columns=22  Identities=9%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|..+|.|+
+T Consensus        27 i~~Ia~~agvs~~tiY~~F~sK   48 (194)
+T c1ui6B_          27 LSEIVAHAGVTKGALYFHFAAK   48 (194)
+T ss_dssp             HHHHHHHHTCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999489854632128998
+
+

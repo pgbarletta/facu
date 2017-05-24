@@ -1,0 +1,14 @@
+285 d1r8da_ Probab=33.34   E-value=56  Score=16.50  Aligned_columns=18  Identities=22%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHH
+Q ss_conf             999999826898898887
+Q fac______        27 KLQLARELGLQPRQVAVW   44 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~W   44 (65)
+                      ..++|+.+|+|+..|+.|
+T Consensus         5 I~eva~~~gvs~~tLR~y   22 (109)
+T d1r8da_           5 VKQVAEISGVSIRTLHHY   22 (109)
+T ss_dssp             HHHHHHHHSCCHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHH
+T ss_conf             999999968999999999
+
+

@@ -1,0 +1,14 @@
+99 d2p81a1 Probab=99.43   E-value=1.7e-14  Score=99.79  Aligned_columns=42  Identities=40%
+
+Q ss_pred             HHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHH
+Q ss_conf             999988689888999999998268988988876668899999
+Q fac______        13 EKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWKT   54 (65)
+Q Consensus        13 e~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k~   54 (65)
+                      |..|..|+|||..++..||..+||+++||++||||+|++.|+
+T Consensus         1 E~~F~~n~yp~~~~r~~LA~~l~l~~~qV~vWFqNrR~k~kr   42 (43)
+T d2p81a1           1 KREFNENRYLTERRRQQLSSELGLNEAQIKIWFQNKRAKIKK   42 (43)
+T ss_dssp             CCCCCTTCTTHHHHHHHHHHHHTCCHHHHHHHHHHHHHHCCC
+T ss_pred             CHHHHHCCCCCHHHHHHHHHHHCCCHHHEEHHHHHHHHHHHC
+T ss_conf             910444889778999999999466865800332224655313
+
+

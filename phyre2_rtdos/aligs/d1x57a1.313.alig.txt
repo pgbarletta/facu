@@ -1,0 +1,14 @@
+313 d1x57a1 Probab=31.33   E-value=52  Score=16.70  Aligned_columns=23  Identities=22%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             99999982689889888766688
+Q fac______        27 KLQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ...||..+|+|...|..|-.+++
+T Consensus        22 q~~lA~~~gvs~~~is~~E~g~~   44 (78)
+T d1x57a1          22 QKDLATKINEKPQVIADYESGRA   44 (78)
+T ss_dssp             HHHHHHHHTSCHHHHHHHHHTCS
+T ss_pred             HHHHHHHHCCCHHHHHHHHCCCC
+T ss_conf             79999983887555999721123
+
+

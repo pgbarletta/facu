@@ -1,0 +1,14 @@
+196 d2fq4a1 Probab=43.27   E-value=26  Score=18.31  Aligned_columns=22  Identities=14%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||...|+|...+...|.|+
+T Consensus        27 ~~~Ia~~agvs~~t~Y~~f~sK   48 (69)
+T d2fq4a1          27 VDKIAERAKVSKATIYKWWPNK   48 (69)
+T ss_dssp             HHHHHHHHTCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHHHHCCCCH
+T ss_conf             9999999489988974007999
+
+

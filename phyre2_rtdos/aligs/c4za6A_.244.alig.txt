@@ -1,0 +1,14 @@
+244 c4za6A_ Probab=36.63   E-value=44  Score=17.10  Aligned_columns=22  Identities=32%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|..+|.|+
+T Consensus        25 i~~IA~~aGvs~gtlY~~F~sK   46 (188)
+T c4za6A_          25 MSLLAERLGVGRATLYRWVGNR   46 (188)
+T ss_dssp             HHHHHHHHTCCHHHHHHHHCSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999589846742027998
+
+

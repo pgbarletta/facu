@@ -1,0 +1,14 @@
+354 c2wgbB_ Probab=28.79   E-value=80  Score=15.70  Aligned_columns=37  Identities=11%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ++.=...|....+   .....||+..|+|...|...|.|+
+T Consensus         4 l~aA~~lf~~~G~---~Si~~IA~~aGvs~~tiY~~F~sK   40 (150)
+T c2wgbB_           4 LDAAMLVLADHPT---AALGDIAAAAGVGRSTVHRYYPER   40 (150)
+T ss_dssp             HHHHHHHHHHCTT---CCHHHHHHHHTCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHHHCCC---CCHHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999986198---749999899489977710458998
+
+

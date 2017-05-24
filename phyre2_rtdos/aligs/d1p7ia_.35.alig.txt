@@ -1,0 +1,14 @@
+35 d1p7ia_ Probab=99.75   E-value=2.9e-18  Score=120.00  Aligned_columns=51  Identities=35%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHH
+Q ss_conf             988898999999999988689888999999998268988988876668899
+Q fac______         1 KRRLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRAR   51 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r   51 (65)
+                      |++||++|+.+||.+|+.|||||.++++.||..+||++.+|++||||+|+|
+T Consensus         3 R~~ft~~Ql~~Le~~F~~n~~p~~~~~~~LA~~~~ls~~qI~~WFqNrR~k   53 (53)
+T d1p7ia_           3 RTAFSSEQLARLKREFNENRYLTERRRQQLSSELGLNEAQIKIWFQNARAK   53 (53)
+T ss_dssp             CCCCCHHHHHHHHHHHHHCSSCCHHHHHHHHHHHTCCHHHHHHHHHHHHHC
+T ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHCCCCC
+T ss_conf             765799999999999988789888999999999478875846863013689
+
+

@@ -1,0 +1,14 @@
+190 c5wurB_ Probab=44.68   E-value=43  Score=17.14  Aligned_columns=48  Identities=13%
+
+Q ss_pred             CCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHH
+Q ss_conf             88989999999999886898889999999982689889888766688999999
+Q fac______         3 RLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWKTK   55 (65)
+Q Consensus         3 r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k~~   55 (65)
+                      .+++.+..++.-.|-.+-     ..+++|..+|+|+..|.++-.-.+.+.++.
+T Consensus       104 ~L~~~~r~i~~l~~~~g~-----s~~eIA~~lg~s~~~v~~~l~ra~~~Lr~~  151 (155)
+T c5wurB_         104 KLPDKYRTVIVLKYIDEL-----SLIEIGEILNIPVGTVKTRIHRGREALRKQ  151 (155)
+T ss_dssp             TSCHHHHHHHHHHHTSCC-----CHHHHHHHHTSCHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHCCC-----CHHHHHHHHCCCHHHHHHHHHHHHHHHHHH
+T ss_conf             986999999999996399-----989999995899899999999999999999
+
+

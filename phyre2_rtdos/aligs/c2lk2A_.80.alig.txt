@@ -1,0 +1,26 @@
+80 c2lk2A_ Probab=99.67   E-value=4.4e-16  Score=108.30  Aligned_columns=60  Identities=27%
+
+Q ss_pred             CCCCCHHHHHHHHHHHH---HCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             98889899999999998---8689888999999998268988988876668899999999
+Q fac______         1 KRRLTTDQVKSLEKNFE---LENKLEPERKLQLARELGLQPRQVAVWFQNRRARWKTKQL   57 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~---~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k~~~~   57 (65)
+                      +.+|+++++.+|+.||.   .||||+.++++.||..+||+..||.+||+|+|++.++...
+T Consensus         9 ~~~~~k~~~~iL~~w~~~~~~npYPs~~ek~~La~~~gLs~~qV~~WF~N~R~R~~~~~~   68 (89)
+T c2lk2A_           9 SHMLPKESVQILRDWLYEHRYNAYPSEQEKALLSQQTHLSTLQVCNWFINARRRLLPDML   68 (89)
+T ss_dssp             CCCCCHHHHHHHHHHHHHTSGGGSCCHHHHHHHHHHSSSCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHCHHHH
+T ss_conf             878899999999999999520889899999999999489999999999999997098989
+
+
+Q ss_pred             HHH
+Q ss_conf             867
+Q fac______        58 ERD   60 (65)
+Q Consensus        58 ~~~   60 (65)
+                      ..+
+T Consensus        69 ~~~   71 (89)
+T c2lk2A_          69 RKD   71 (89)
+T ss_dssp             HHH
+T ss_pred             HHH
+T ss_conf             840
+
+

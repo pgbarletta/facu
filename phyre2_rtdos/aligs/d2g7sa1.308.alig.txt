@@ -1,0 +1,14 @@
+308 d2g7sa1 Probab=31.48   E-value=52  Score=16.69  Aligned_columns=22  Identities=9%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||..+|+|...+...|.|+
+T Consensus        27 ~~~Ia~~~g~s~~~iy~~F~~K   48 (74)
+T d2g7sa1          27 YADISQVVGIRNASIHHHFPSK   48 (74)
+T ss_dssp             HHHHHHHHCCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999588753655106998
+
+

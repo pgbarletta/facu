@@ -1,0 +1,14 @@
+394 c5c8eC_ Probab=25.41   E-value=64  Score=16.21  Aligned_columns=18  Identities=17%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHH
+Q ss_conf             999999826898898887
+Q fac______        27 KLQLARELGLQPRQVAVW   44 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~W   44 (65)
+                      ..++|+.+|+++.+|+.|
+T Consensus        10 i~eva~~~gv~~~tlR~w   27 (279)
+T c5c8eC_          10 IAEVEAMTGLSAEVLRQW   27 (279)
+T ss_dssp             HHHHHTTTCCCHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHH
+T ss_conf             899999957888897899
+
+

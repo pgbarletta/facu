@@ -1,0 +1,14 @@
+176 d2id3a1 Probab=46.53   E-value=32  Score=17.86  Aligned_columns=41  Identities=10%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHH
+Q ss_conf             999999998868988899999999826898898887666889
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRA   50 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~   50 (65)
+                      +.+-...|.... .+.-....||+.+|+|...+...|.|+..
+T Consensus        12 l~aa~~l~~~~G-~~~~t~~~Ia~~agvs~~t~Y~~F~~K~~   52 (68)
+T d2id3a1          12 LLAAGDALAADG-FDALDLGEIARRAGVGKTTVYRRWGTPGG   52 (68)
+T ss_dssp             HHHHHHHHHHHC-GGGCCHHHHHHHHTCCHHHHHHHHCSHHH
+T ss_pred             HHHHHHHHHHHC-CCCCCHHHHHHHHCCCHHHHHCCCCCHHH
+T ss_conf             999999999718-77476999999938999896400799999
+
+

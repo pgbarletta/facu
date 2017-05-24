@@ -1,0 +1,14 @@
+355 c3kkcB_ Probab=28.29   E-value=59  Score=16.42  Aligned_columns=39  Identities=0%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +.+....|...+ .+.-....||...|+|...+...|.|+
+T Consensus        18 ~~aa~~l~~~~G-~~~~ti~~Ia~~agvs~~t~Y~~F~sK   56 (177)
+T c3kkcB_          18 YNAFISLLQEND-YSKITVQDVIGLANVGRSTFYSHYESK   56 (177)
+T ss_dssp             HHHHHHHHTSSC-GGGCCHHHHHHHHTCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHHHCC-CCCCCHHHHHHHHHCCHHHHHHHCCCH
+T ss_conf             999999999719-041659999998312965423022987
+
+

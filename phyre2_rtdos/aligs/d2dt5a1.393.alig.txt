@@ -1,0 +1,14 @@
+393 d2dt5a1 Probab=25.44   E-value=76  Score=15.81  Aligned_columns=15  Identities=27%
+
+Q ss_pred             HHHHHHHCCCHHHHH
+Q ss_conf             999998268988988
+Q fac______        28 LQLARELGLQPRQVA   42 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~   42 (65)
+                      .+||+.+|+++.||+
+T Consensus        29 ~eLa~~~gi~~~qiR   43 (74)
+T d2dt5a1          29 EQLGGLAQVTAFQVR   43 (74)
+T ss_dssp             HHHHHHHTSCHHHHH
+T ss_pred             HHHHHHHCCCHHHHH
+T ss_conf             999999478999999
+
+

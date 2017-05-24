@@ -1,0 +1,14 @@
+268 c2zcxA_ Probab=34.22   E-value=44  Score=17.06  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||...|+|...|..+|.|+
+T Consensus        28 ~~~IA~~aGvs~~tiY~~F~~K   49 (205)
+T c2zcxA_          28 LTDIAATVGMHKSALLRYFETR   49 (205)
+T ss_dssp             HHHHHHHHTSCHHHHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHCCCCCCCH
+T ss_conf             9999999388832300448998
+
+

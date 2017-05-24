@@ -1,0 +1,14 @@
+427 c2ao9H_ Probab=22.87   E-value=57  Score=16.46  Aligned_columns=46  Identities=28%
+
+Q ss_pred             CCCHHHHHH--HHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHH-HHH
+Q ss_conf             889899999--9999988689888999999998268988988876-668
+Q fac______         3 RLTTDQVKS--LEKNFELENKLEPERKLQLARELGLQPRQVAVWF-QNR   48 (65)
+Q Consensus         3 r~t~~q~~~--Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WF-qNr   48 (65)
+                      ++|..|..+  |-..-+.+-+-.....++||..+|++-..+..|= ||+
+T Consensus         9 ~Ln~kQr~AA~ll~~NEl~e~~~kkT~~eiAeelGv~r~tL~~Wktqnk   57 (114)
+T c2ao9H_           9 KLTAKQIQAAYLLVENELMESEEKRTQDEMANELGINRTTLWEWRTKNQ   57 (114)
+T ss_dssp             TSCHHHHHHHHHHHHHHHSCCCCCCCSGGGTTTTTCCHHHHHHHHHHCH
+T ss_pred             HHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHCCHHHHHHHHHHCHH
+T ss_conf             6139999999998654530111555799999995602555555320314
+
+

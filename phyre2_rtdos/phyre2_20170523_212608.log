@@ -1,0 +1,73 @@
+23/05/2017 21:26:08 : INFO  : Run start: Tue May 23 21:26:08 BST 2017
+23/05/2017 21:26:08 : INFO  : Initialised job
+23/05/2017 21:26:08 : INFO  : Initialised job:
+Sequence
+>fac______
+KRRLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWKTKQLERD
+YDVLK
+
+23/05/2017 21:26:08 : INFO  : Checked sequence
+23/05/2017 21:26:08 : INFO  : Finding homologues with PSI-BLAST
+23/05/2017 21:26:08 : INFO  : PSI-BLAST 3 iterations
+23/05/2017 21:27:10 : INFO  : PSI-BLAST 5 iterations
+23/05/2017 21:28:28 : INFO  : Finished PSI-BLAST
+23/05/2017 21:28:28 : INFO  : Running Buildali to generate a3m file
+23/05/2017 21:34:13 : INFO  : Converting to HMM
+23/05/2017 21:34:13 : INFO  : Calibrating HMM
+23/05/2017 21:34:15 : INFO  : Searching HMM database
+23/05/2017 21:37:04 : INFO  : Finished buildali
+23/05/2017 21:37:04 : INFO  : Predicting secondary structure
+23/05/2017 21:37:05 : INFO  : Predicted secondary structure (PSI-Pred)
+23/05/2017 21:37:05 : INFO  : Predicting Disordered regions
+23/05/2017 21:37:05 : INFO  : Predicted Disorder (Disopred)
+23/05/2017 21:37:05 : INFO  : Running memsat_svm check
+23/05/2017 21:37:05 : INFO  : Exitval for mkdir: 
+23/05/2017 21:37:39 : INFO  : Globular protein
+23/05/2017 21:37:39 : INFO  : Predicted Transmembrane (memsat_svm) ID 'bea6d51c2d26db4b'
+23/05/2017 21:37:39 : INFO  : Initialising fold library search
+23/05/2017 21:37:39 : INFO  : Initialised search input
+23/05/2017 21:37:39 : INFO  : Building Ensemble models
+23/05/2017 21:37:39 : INFO  : Building d1pufa_.1.pdb
+23/05/2017 21:37:39 : INFO  : Building d1nk3p_.2.pdb
+23/05/2017 21:37:39 : INFO  : Building c3a01A_.3.pdb
+23/05/2017 21:37:40 : INFO  : Building c2m34A_.4.pdb
+23/05/2017 21:37:40 : INFO  : Building c5luxK_.5.pdb
+23/05/2017 21:37:40 : INFO  : Building d1zq3p1.6.pdb
+23/05/2017 21:37:41 : INFO  : Building d2cuea1.7.pdb
+23/05/2017 21:37:41 : INFO  : Building d1jgga_.8.pdb
+23/05/2017 21:37:41 : INFO  : Building d1fjla_.9.pdb
+23/05/2017 21:37:42 : INFO  : Building d1b72a_.10.pdb
+23/05/2017 21:37:42 : INFO  : Building d1ahdp_.11.pdb
+23/05/2017 21:37:42 : INFO  : Building d2e1oa1.12.pdb
+23/05/2017 21:37:43 : INFO  : Building c2dmtA_.13.pdb
+23/05/2017 21:37:43 : INFO  : Building d9anta_.14.pdb
+23/05/2017 21:37:43 : INFO  : Building d1ig7a_.15.pdb
+23/05/2017 21:37:43 : INFO  : Building c2mgqA_.16.pdb
+23/05/2017 21:37:44 : INFO  : Building c4uutA_.17.pdb
+23/05/2017 21:37:44 : INFO  : Building d1b8ia_.18.pdb
+23/05/2017 21:37:44 : INFO  : Building d1le8a_.19.pdb
+23/05/2017 21:37:45 : INFO  : Building d2craa1.20.pdb
+23/05/2017 21:37:45 : INFO  : 
+23/05/2017 21:37:45 : WARN  : Set python to /bmm/www/servers/phyre2/bin//python2.7/2.7.2/bin/python2.7
+23/05/2017 21:37:52 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:52 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:52 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:53 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:53 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:53 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:53 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:53 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:54 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:54 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:54 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:54 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:54 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:55 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:55 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:55 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:55 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:55 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:55 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:56 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:56 : WARN  : Failed to run assembler on model
+23/05/2017 21:37:56 : INFO  : Run end  : Tue May 23 21:37:56 BST 2017

@@ -1,0 +1,14 @@
+149 d1llib_ Probab=55.75   E-value=8.4  Score=20.95  Aligned_columns=49  Identities=22%
+
+Q ss_pred             CCCCCHHHHHH---HHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             98889899999---99999886898889999999982689889888766688
+Q fac______         1 KRRLTTDQVKS---LEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus         1 R~r~t~~q~~~---Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      |+.+|+++...   |...+..-..-..-....||..+|++...|..|..+.+
+T Consensus         4 ~~~lt~~~~~~~~~l~~~l~~~Rk~~glTq~elA~~~gis~~~is~~E~G~~   55 (92)
+T d1llib_           4 KKPLTQEQLEDARRLKAIYEKKKNELGLSQESLADKLGMGQSGIGALFNGIN   55 (92)
+T ss_dssp             CCCCCHHHHHHHHHHHHHHHHHHHHHTCCHHHHHHHTTSCHHHHHHHHTTSS
+T ss_pred             CCCCCHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHCHHHHHHHHHHHCCC
+T ss_conf             8889889999999999999999998699899999730111899999973068
+
+

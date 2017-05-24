@@ -1,0 +1,14 @@
+267 d2fd5a1 Probab=34.22   E-value=32  Score=17.80  Aligned_columns=39  Identities=13%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +.+....|...+|-. -....||..+|+|...+...|.|+
+T Consensus        13 ~~aa~~l~~~~G~~~-~ti~~Ia~~agis~~t~Y~~F~~K   51 (76)
+T d2fd5a1          13 LGAATQALLERGAVE-PSVGEVMGAAGLTVGGFYAHFQSK   51 (76)
+T ss_dssp             HHHHHHHHHHHTTTS-CCHHHHHHHTTCCGGGGGGTCSCH
+T ss_pred             HHHHHHHHHHHCCCC-CCHHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             999999999718350-339999999199998975007999
+
+

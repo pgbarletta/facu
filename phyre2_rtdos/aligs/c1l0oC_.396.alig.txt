@@ -1,0 +1,14 @@
+396 c1l0oC_ Probab=25.34   E-value=76  Score=15.80  Aligned_columns=15  Identities=33%
+
+Q ss_pred             HHHHHHHCCCHHHHH
+Q ss_conf             999998268988988
+Q fac______        28 LQLARELGLQPRQVA   42 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~   42 (65)
+                      ++||+.+||++..|.
+T Consensus        35 eEiA~~l~i~~eeV~   49 (57)
+T c1l0oC_          35 TEIADHLGISPEDVV   49 (57)
+T ss_dssp             HHHHHHHTSCHHHHH
+T ss_pred             HHHHHHHCCCHHHHH
+T ss_conf             999998099999999
+
+

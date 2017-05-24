@@ -1,0 +1,14 @@
+237 d2vkea1 Probab=37.79   E-value=48  Score=16.87  Aligned_columns=47  Identities=19%
+
+Q ss_pred             CCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             88898999999999988689888999999998268988988876668
+Q fac______         2 RRLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         2 ~r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      .++|.+++-.-=...-...-++.-....||..+|+|...+..-|.|+
+T Consensus         1 a~~tr~~il~aa~~l~~~~G~~~~t~~~Ia~~agvs~~~~y~~F~~k   47 (66)
+T d2vkea1           1 SRLNRESVIDAALELLNETGIDGLTTRKLAQKLGIEQPTLYWHVKNK   47 (66)
+T ss_dssp             CCCSHHHHHHHHHHHHHHHCGGGCCHHHHHHHHTCCHHHHHHHCCCH
+T ss_pred             CCCCHHHHHHHHHHHHHHHCCCCCCHHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             90699999999999999719240759999999489998975006999
+
+

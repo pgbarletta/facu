@@ -1,0 +1,14 @@
+248 c3fiwB_ Probab=35.80   E-value=40  Score=17.28  Aligned_columns=22  Identities=23%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|...|.|+
+T Consensus        24 i~~IA~~agvs~~tiY~hF~sK   45 (167)
+T c3fiwB_          24 TRRLAKRLGVEQPSLYWYFRTK   45 (167)
+T ss_dssp             HHHHHHHHTSCHHHHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999489865732117998
+
+

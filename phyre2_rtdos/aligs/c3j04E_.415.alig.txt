@@ -1,0 +1,14 @@
+415 c3j04E_ Probab=23.91   E-value=99  Score=15.20  Aligned_columns=40  Identities=13%
+
+Q ss_pred             CCHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHCCCHHHHHH
+Q ss_conf             898999999999988-----6898889999999982689889888
+Q fac______         4 LTTDQVKSLEKNFEL-----ENKLEPERKLQLARELGLQPRQVAV   43 (65)
+Q Consensus         4 ~t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~ls~~qV~~   43 (65)
+                      ||++|+..|+..|..     +-+.+..+-..+...+|..+....+
+T Consensus         1 ~s~~qi~~l~~~F~~~D~d~dG~I~~~El~~~l~~~~~~~~~~~~   45 (143)
+T c3j04E_           1 FDQSQIQEFKEAFNMIDQNRDGFIDKEDLHDMLASMGKNPTDEYL   45 (143)
+T ss_dssp             CCHHHHHHHHHHHHHHCSSCTTCCCHHHHHHHHHHTSCCCCHHHH
+T ss_pred             CCHHHHHHHHHHHHHHCCCCCCEECHHHHHHHHHHHCCCCHHHHH
+T ss_conf             988999999999999787978818699999999971112105788
+
+

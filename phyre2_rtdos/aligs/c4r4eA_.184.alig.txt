@@ -1,0 +1,14 @@
+184 c4r4eA_ Probab=45.13   E-value=28  Score=18.12  Aligned_columns=18  Identities=17%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHH
+Q ss_conf             999999826898898887
+Q fac______        27 KLQLARELGLQPRQVAVW   44 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~W   44 (65)
+                      ..++|+.+|+|+.+|+.|
+T Consensus        14 i~eva~~~gvs~~tlR~y   31 (83)
+T c4r4eA_          14 IGIVMQLTELSARQIRYY   31 (83)
+T ss_dssp             HHHHHHHHTCCHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHH
+T ss_conf             999999966889998999
+
+

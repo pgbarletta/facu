@@ -1,0 +1,14 @@
+189 d1jt6a1 Probab=44.72   E-value=33  Score=17.72  Aligned_columns=39  Identities=5%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +......|....+- .-....||..+|+|...+...|.|+
+T Consensus         7 l~aa~~l~~~~G~~-~~t~~~Ia~~agis~~t~Y~yF~~k   45 (71)
+T d1jt6a1           7 LGVAKELFIKNGYN-ATTTGEIVKLSESSKGNLYYHFKTK   45 (71)
+T ss_dssp             HHHHHHHHHHHCTT-TCCHHHHHHHTTCCHHHHHHHHSSH
+T ss_pred             HHHHHHHHHHHCCC-CCCHHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             99999999971924-1649999999489998974007999
+
+

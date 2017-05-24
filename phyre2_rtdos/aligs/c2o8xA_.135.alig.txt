@@ -1,0 +1,14 @@
+135 c2o8xA_ Probab=60.99   E-value=19  Score=19.04  Aligned_columns=26  Identities=12%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHHH
+Q ss_conf             99999826898898887666889999
+Q fac______        28 LQLARELGLQPRQVAVWFQNRRARWK   53 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR~r~k   53 (65)
+                      .++|..+|+|+..|+.+-...|.+.+
+T Consensus        35 ~eIa~~~g~s~~tV~~~l~Rar~~Lr   60 (61)
+T c2o8xA_          35 ADAAAVCGCPVGTIRSRVARARDALL   60 (61)
+T ss_dssp             HHHHHHHTSCHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHHHHHHHHHHC
+T ss_conf             99999948998999999999999743
+
+

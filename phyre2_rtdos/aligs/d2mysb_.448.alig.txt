@@ -1,0 +1,14 @@
+448 d2mysb_ Probab=20.76   E-value=1.2e+02  Score=14.84  Aligned_columns=35  Identities=6%
+
+Q ss_pred             CCHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHCCCH
+Q ss_conf             898999999999988-----68988899999999826898
+Q fac______         4 LTTDQVKSLEKNFEL-----ENKLEPERKLQLARELGLQP   38 (65)
+Q Consensus         4 ~t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~ls~   38 (65)
+                      ||+.|+..|+..|..     +.+.+..+-..+...+|..+
+T Consensus         1 ~s~~q~~el~~~F~~~D~d~dG~Is~~El~~~l~~lg~~~   40 (138)
+T d2mysb_           1 FDETEIEDFKEAFTVIDQNADGIIDKDDLRETFAAMGRLN   40 (138)
+T ss_dssp             CCHHHHHHHHHHHHHHCTTCSSSCCHHHHHHHHHHTTCCC
+T ss_pred             CCHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHHCCCC
+T ss_conf             9889999999999997879788096999999999708851
+
+

@@ -1,0 +1,14 @@
+375 c2hxiA_ Probab=27.00   E-value=75  Score=15.83  Aligned_columns=22  Identities=27%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||...|+|...|...|.|+
+T Consensus        25 ~~~IA~~agvs~~~iy~~F~sK   46 (197)
+T c2hxiA_          25 VRKLAASLGTDSSSLYRHFRNK   46 (197)
+T ss_dssp             HHHHHHHTTSCHHHHHHHTSSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999489998986446998
+
+

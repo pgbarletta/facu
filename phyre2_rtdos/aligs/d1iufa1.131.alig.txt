@@ -1,0 +1,14 @@
+131 d1iufa1 Probab=64.98   E-value=12  Score=20.17  Aligned_columns=32  Identities=28%
+
+Q ss_pred             CCCCCHHHHHHHHHHH-HHCCCCCHHHHHHHHHHHCCCHHHHHHHHH
+Q ss_conf             9888989999999999-886898889999999982689889888766
+Q fac______         1 KRRLTTDQVKSLEKNF-ELENKLEPERKLQLARELGLQPRQVAVWFQ   46 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F-~~~~~P~~~er~~LA~~~~ls~~qV~~WFq   46 (65)
+                      |+..|..|...|..+| ..+|.|              +-..+..||+
+T Consensus         9 R~aIs~~qK~ALR~~~~~~~~r~--------------tqk~l~~WFe   41 (78)
+T d1iufa1           9 RRAITEHEKRALRHYFFQLQNRS--------------GQQDLIEWFR   41 (78)
+T ss_dssp             SSCCCSHHHHHHHHHHHSSSSCC--------------CHHHHHHHHH
+T ss_pred             HCCCCHHHHHHHHHHHHHCCCCC--------------CHHHHHHHHH
+T ss_conf             04389799999999997338887--------------8899999999
+
+

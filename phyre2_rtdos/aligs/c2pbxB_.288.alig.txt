@@ -1,0 +1,14 @@
+288 c2pbxB_ Probab=32.98   E-value=48  Score=16.89  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|..+|.|+
+T Consensus        36 i~~Ia~~agis~~tiY~~F~sK   57 (197)
+T c2pbxB_          36 HADIAEIAQVSVATVFNYFPTR   57 (197)
+T ss_dssp             HHHHHHHHTSCHHHHHHHCSSH
+T ss_pred             HHHHHHHHHCCCCHHHCCCCCH
+T ss_conf             9999998413801111137998
+
+

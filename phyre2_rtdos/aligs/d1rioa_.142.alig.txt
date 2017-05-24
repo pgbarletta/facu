@@ -1,0 +1,14 @@
+142 d1rioa_ Probab=59.35   E-value=7.1  Score=21.35  Aligned_columns=49  Identities=20%
+
+Q ss_pred             CCCCCHHHHHH---HHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             98889899999---99999886898889999999982689889888766688
+Q fac______         1 KRRLTTDQVKS---LEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus         1 R~r~t~~q~~~---Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ++.+|+++...   |...+..-..--.-...+||..+|++...|..|-.+++
+T Consensus         4 ~~~~~~~~~~~~~~l~~~lk~~R~~~glTq~elA~~~gis~~~is~~E~G~~   55 (97)
+T d1rioa_           4 KKPLTQEQLEDARRLKAIYEKKKNELGLSQESVADKXGXGQSGVGALFNGIN   55 (97)
+T ss_dssp             SCCCCHHHHHHHHHHHHHHHHHHHHHTCCHHHHHHHHTSCHHHHHHHHHTSS
+T ss_pred             CCCCCHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHCCCHHHHHHHHHHCC
+T ss_conf             8898889999999999999999998599599999951883577999998427
+
+

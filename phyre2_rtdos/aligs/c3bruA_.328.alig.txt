@@ -1,0 +1,14 @@
+328 c3bruA_ Probab=30.38   E-value=56  Score=16.54  Aligned_columns=22  Identities=9%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|...|.|+
+T Consensus        27 ~~~Ia~~agvs~~tiy~~F~~K   48 (191)
+T c3bruA_          27 VDEILKAARVPKGSFYHYFRNK   48 (191)
+T ss_dssp             HHHHHHHHTCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999389865610447998
+
+

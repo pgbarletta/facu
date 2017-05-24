@@ -1,0 +1,14 @@
+19 d1le8a_ Probab=99.77   E-value=6e-19  Score=123.70  Aligned_columns=53  Identities=34%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHH
+Q ss_conf             98889899999999998868988899999999826898898887666889999
+Q fac______         1 KRRLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWK   53 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k   53 (65)
+                      |++||++|+.+||.+|..|||||.++++.||..+||++.+|++||||+|+++|
+T Consensus         1 Rt~ft~~q~~~Le~~F~~~~~P~~~~~~~LA~~~gl~~~qV~~WFqNrR~k~K   53 (53)
+T d1le8a_           1 KSSISPQARAFLEQVFRRKQSLNSKEKEEVAKKCGITPLQVRVWFINKRMRSK   53 (53)
+T ss_dssp             CCCCCHHHHHHHHHHHHHCSCCCHHHHHHHHHHTTSCHHHHHHHHHHHHHTTC
+T ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHCC
+T ss_conf             98789899999999998878998899999999837998784477654443169
+
+

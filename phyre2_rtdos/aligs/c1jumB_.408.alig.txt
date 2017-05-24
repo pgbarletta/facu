@@ -1,0 +1,14 @@
+408 c1jumB_ Probab=24.64   E-value=96  Score=15.27  Aligned_columns=39  Identities=5%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +..-...|....|-. -....||+..|+|...+...|.|+
+T Consensus         7 l~aa~~lf~~~G~~~-~ti~~Ia~~agvs~~t~Y~~F~sK   45 (186)
+T c1jumB_           7 LGVAKELFIKNGYNA-TTTGEIVKLSESSKGNLYYHFKTK   45 (186)
+T ss_dssp             HHHHHHHHHHTCTTT-SCHHHHHHHTTCCHHHHHHHSCSH
+T ss_pred             HHHHHHHHHHHCCCC-CCHHHHHHHHCCCHHHHHHCCCCH
+T ss_conf             999999999729141-749999999589989997402447
+
+

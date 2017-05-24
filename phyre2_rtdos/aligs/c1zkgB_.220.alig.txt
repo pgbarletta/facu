@@ -1,0 +1,14 @@
+220 c1zkgB_ Probab=39.85   E-value=32  Score=17.80  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||..+|+|...|..+|.|+
+T Consensus        25 i~~Ia~~agvs~~tiY~yF~~K   46 (199)
+T c1zkgB_          25 TDEIAEKAGVAKGLIFHYFKNK   46 (199)
+T ss_dssp             HHHHHHHHTSCHHHHHHHSSSH
+T ss_pred             HHHHHHHHCCCHHHHHHCCCCH
+T ss_conf             9999999489899987005998
+
+

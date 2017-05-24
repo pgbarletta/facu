@@ -1,0 +1,14 @@
+127 d1j9ia_ Probab=67.01   E-value=7.2  Score=21.30  Aligned_columns=18  Identities=39%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHH
+Q ss_conf             999999826898898887
+Q fac______        27 KLQLARELGLQPRQVAVW   44 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~W   44 (65)
+                      +.+||..+|+|++.|..|
+T Consensus         5 k~qlA~~~gVse~Tit~W   22 (68)
+T d1j9ia_           5 KKQLADIFGASIRTIQNW   22 (68)
+T ss_dssp             HHHHHHHTTCCHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHH
+T ss_conf             999999958998899999
+
+

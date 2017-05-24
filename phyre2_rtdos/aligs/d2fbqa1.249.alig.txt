@@ -1,0 +1,14 @@
+249 d2fbqa1 Probab=35.74   E-value=43  Score=17.12  Aligned_columns=22  Identities=14%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||...|+|...|...|.|+
+T Consensus        27 ~~~Ia~~agvs~~tiy~~F~~K   48 (79)
+T d2fbqa1          27 LRLITSKAGVNLAAVNYHFGSK   48 (79)
+T ss_dssp             HHHHHHHHTSCHHHHHHHTCSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999489998974007999
+
+

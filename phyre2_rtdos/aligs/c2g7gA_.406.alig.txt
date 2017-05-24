@@ -1,0 +1,14 @@
+406 c2g7gA_ Probab=24.72   E-value=73  Score=15.89  Aligned_columns=22  Identities=27%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||...|+|...|...|.|+
+T Consensus        22 ~~~IA~~aGvs~~tlY~hF~sK   43 (197)
+T c2g7gA_          22 XPDLARHLNVQVSSIYHHAKGR   43 (197)
+T ss_dssp             HHHHHHHTTSCHHHHHTTSCHH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             8999899489988975236998
+
+

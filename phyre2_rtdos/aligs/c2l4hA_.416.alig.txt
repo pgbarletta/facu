@@ -1,0 +1,14 @@
+416 c2l4hA_ Probab=23.73   E-value=89  Score=15.43  Aligned_columns=25  Identities=12%
+
+Q ss_pred             CCHHHHHHHHHHHCCCHHHHHHHHH
+Q ss_conf             8889999999982689889888766
+Q fac______        22 LEPERKLQLARELGLQPRQVAVWFQ   46 (65)
+Q Consensus        22 P~~~er~~LA~~~~ls~~qV~~WFq   46 (65)
+                      .++++...|+..+++|+.+|..|+.
+T Consensus         1 l~~e~~~~l~~~t~ft~~ei~~l~~   25 (184)
+T c2l4hA_           1 LSKELLAEYQDLTFLTKQEILLAHR   25 (184)
+T ss_dssp             CCHHHHHHHHSCCSCCHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHCCCCHHHHHHHHH
+T ss_conf             9779999999961999999999999
+
+

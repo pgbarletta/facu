@@ -1,0 +1,14 @@
+259 d2r1jl1 Probab=35.10   E-value=39  Score=17.34  Aligned_columns=23  Identities=13%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             99999982689889888766688
+Q fac______        27 KLQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ...||..+|+++..|..|..+++
+T Consensus        19 q~~la~~~gis~~~i~~~E~g~~   41 (66)
+T d2r1jl1          19 QAALGKMVGVSNVAISQWERSET   41 (66)
+T ss_dssp             HHHHHHHHTSCHHHHHHHHTTSS
+T ss_pred             HHHHHHHHCCCHHHHHHHHCCCC
+T ss_conf             99999984886999999988899
+
+

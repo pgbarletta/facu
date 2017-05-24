@@ -1,0 +1,14 @@
+119 c2pmyB_ Probab=71.94   E-value=13  Score=19.89  Aligned_columns=42  Identities=26%
+
+Q ss_pred             CHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHCCCHHHHHHHHH
+Q ss_conf             98999999999988-----6898889999999982689889888766
+Q fac______         5 TTDQVKSLEKNFEL-----ENKLEPERKLQLARELGLQPRQVAVWFQ   46 (65)
+Q Consensus         5 t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~ls~~qV~~WFq   46 (65)
+                      +.++...|...|..     +-+.+..+...+...+|++..+|..+|.
+T Consensus         3 ~e~~~~~l~~~F~~~D~d~~G~I~~~el~~~l~~~~~~~~~~~~~~~   49 (72)
+T c2pmyB_           3 DGEELARLRSVFAACDANRSGRLEREEFRALCTELRVRPADAEAVFQ   49 (72)
+T ss_dssp             HHHHHHHHHHHHHHHCTTCSSSEEHHHHHHHHHHTTCCHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHCCCCHHHHHHHHH
+T ss_conf             88999999999999788958819799999999840246589999998
+
+

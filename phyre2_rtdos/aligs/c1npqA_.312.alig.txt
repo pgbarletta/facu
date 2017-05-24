@@ -1,0 +1,14 @@
+312 c1npqA_ Probab=31.38   E-value=70  Score=15.99  Aligned_columns=46  Identities=11%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHCCC--HHHHHHHHH
+Q ss_conf             988898999999999988-----6898889999999982689--889888766
+Q fac______         1 KRRLTTDQVKSLEKNFEL-----ENKLEPERKLQLARELGLQ--PRQVAVWFQ   46 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~ls--~~qV~~WFq   46 (65)
+                      |+.+|++++..|...|..     +-+.+.++...+...+|+.  ...|..+|.
+T Consensus        11 ~~~ls~~~~~~l~~~F~~~D~d~~G~I~~~e~~~~l~~~~~~~~~~~~~~l~~   63 (90)
+T c1npqA_          11 RAFLSEEMIAEFKAAFDMFDADGGGDISTKELGTVMRMLGQNPTKCELDAIIC   63 (90)
+T ss_dssp             HHHSCHHHHHHHTSTHHHHCSSSSSCBCHHHHHHHHHTTSCCCCHHHHHHHHH
+T ss_pred             HHCCCHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHCCCCCHHHHHHHHHH
+T ss_conf             51699999999999999988887797379999999984266601677788876
+
+

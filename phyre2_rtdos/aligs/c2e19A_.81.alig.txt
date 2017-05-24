@@ -1,0 +1,14 @@
+81 c2e19A_ Probab=99.66   E-value=1.1e-16  Score=111.59  Aligned_columns=53  Identities=17%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHH
+Q ss_conf             98889899999999998868988899999999826898898887666889999
+Q fac______         1 KRRLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWK   53 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k   53 (65)
+                      +.++|++|+.+||.+|..|+||+.+++..||..+||++++|++||+|+|++.+
+T Consensus         7 ~~~~~k~ql~vLe~~F~~~~~P~~~e~~~La~~~~L~~~~I~~WFqnrRa~~~   59 (64)
+T c2e19A_           7 GQPPLKNLLSLLKAYYALNAQPSAEELSKIADSVNLPLDVVKKWFEKMQAGQI   59 (64)
+T ss_dssp             CCCCCHHHHHHHHHHHTTCSSCCHHHHHHHHHHHTCCHHHHHHHHHHHHHTCS
+T ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHH
+T ss_conf             89999899999999998858979999999999857998799999877588664
+
+

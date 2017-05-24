@@ -1,0 +1,14 @@
+402 c4yzeD_ Probab=25.02   E-value=43  Score=17.13  Aligned_columns=22  Identities=9%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|..+|.|+
+T Consensus        25 ~~~IA~~agvs~~tiY~~F~sK   46 (188)
+T c4yzeD_          25 LSELLKTAEVPKGSFYHYFRSK   46 (188)
+T ss_dssp             HHHHHHHTTCCTTSHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHHHHCCCCH
+T ss_conf             9999999589998965017998
+
+

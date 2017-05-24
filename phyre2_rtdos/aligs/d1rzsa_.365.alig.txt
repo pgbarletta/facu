@@ -1,0 +1,14 @@
+365 d1rzsa_ Probab=27.72   E-value=66  Score=16.12  Aligned_columns=18  Identities=28%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHH
+Q ss_conf             999999826898898887
+Q fac______        27 KLQLARELGLQPRQVAVW   44 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~W   44 (65)
+                      ...||..+|+|+..|.-|
+T Consensus        13 ~~~lA~~LgIs~~AV~qW   30 (61)
+T d1rzsa_          13 QRAVAKALGISDAAVSQW   30 (61)
+T ss_dssp             HHHHHHHHTCCHHHHHHC
+T ss_pred             HHHHHHHHCCCHHHHHHH
+T ss_conf             999999929998999831
+
+

@@ -1,0 +1,14 @@
+214 c3op9A_ Probab=40.61   E-value=28  Score=18.10  Aligned_columns=22  Identities=32%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688
+Q fac______        28 LQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      .+||..+|+|..+|..|..+.+
+T Consensus        21 ~~la~~~gis~stis~~e~g~~   42 (107)
+T c3op9A_          21 HQIAELLNVQTRTVAYYXSGET   42 (107)
+T ss_dssp             HHHHHHHTSCHHHHHHHHHTSS
+T ss_pred             HHHHHHHCCCHHHHHHHHCCCC
+T ss_conf             9999985678989999971888
+
+

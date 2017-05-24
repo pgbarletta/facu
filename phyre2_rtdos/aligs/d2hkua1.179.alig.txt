@@ -1,0 +1,14 @@
+179 d2hkua1 Probab=45.92   E-value=31  Score=17.93  Aligned_columns=38  Identities=18%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +..-...|....+  ......||...|++...|..+|.|+
+T Consensus         7 l~aA~~~f~~~g~--~~s~~~Ia~~agvs~~~ly~~F~sK   44 (70)
+T d2hkua1           7 FTAATELFLEHGE--GVPITQICAAAGAHPNQVTYYYGSK   44 (70)
+T ss_dssp             HHHHHHHHHHHCT--TSCHHHHHHHHTCCHHHHHHHHSSH
+T ss_pred             HHHHHHHHHHCCC--CCHHHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999842146--8729999999389999997106999
+
+

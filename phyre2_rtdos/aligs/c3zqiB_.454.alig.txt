@@ -1,0 +1,14 @@
+454 c3zqiB_ Probab=20.40   E-value=1e+02  Score=15.12  Aligned_columns=24  Identities=29%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHHHH
+Q ss_conf             999999826898898887666889
+Q fac______        27 KLQLARELGLQPRQVAVWFQNRRA   50 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNrR~   50 (65)
+                      ...||...|++...|...|.|+..
+T Consensus        24 i~~IA~~aGvs~~t~Y~~F~sK~~   47 (201)
+T c3zqiB_          24 TRKLAQKLGVEQPTLYWHVKNKRA   47 (201)
+T ss_dssp             HHHHHHHHTSCHHHHHTTCSSHHH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCHHH
+T ss_conf             999999948999999966499689
+
+

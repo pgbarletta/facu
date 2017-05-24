@@ -1,0 +1,14 @@
+429 c3fgxA_ Probab=22.73   E-value=1e+02  Score=15.06  Aligned_columns=32  Identities=19%
+
+Q ss_pred             HHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCC
+Q ss_conf             89999999999886898889999999982689
+Q fac______         6 TDQVKSLEKNFELENKLEPERKLQLARELGLQ   37 (65)
+Q Consensus         6 ~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls   37 (65)
+                      ++|-+.|.+-|+.+|-.....-..|-+.+|||
+T Consensus        59 pd~~~~L~~d~EEyPgla~s~~s~L~~~vGls   90 (96)
+T c3fgxA_          59 PEQEEELRQAAEEFPGLTFNTASRLMEIVGAS   90 (96)
+T ss_dssp             GGGHHHHHHHHHHSTTHHHHHHHHHHHHHTCC
+T ss_pred             CCCHHHHHHHHHHCCCHHHHHHHHHHHHHCCC
+T ss_conf             87579999998738651575999999984664
+
+

@@ -1,0 +1,14 @@
+217 d2vkva1 Probab=40.41   E-value=30  Score=17.94  Aligned_columns=22  Identities=23%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||..+|+|...|...|.|+
+T Consensus        22 ~~~Ia~~agvs~~~~y~~F~~k   43 (62)
+T d2vkva1          22 TRKLAQKLGVEQPTLYWHVKNK   43 (62)
+T ss_dssp             HHHHHHHHTSCHHHHHHHSCCH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999489988875006999
+
+

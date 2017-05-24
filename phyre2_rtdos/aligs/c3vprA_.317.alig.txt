@@ -1,0 +1,14 @@
+317 c3vprA_ Probab=30.97   E-value=62  Score=16.27  Aligned_columns=22  Identities=27%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|...|.|+
+T Consensus        26 i~~Ia~~agvs~~t~Y~~F~~K   47 (189)
+T c3vprA_          26 VQDLAQALGLSKAALYHHFGSK   47 (189)
+T ss_dssp             HHHHHHHHTCCHHHHHHHHSSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999899399976866421999
+
+

@@ -1,0 +1,14 @@
+194 c3sztB_ Probab=43.80   E-value=44  Score=17.06  Aligned_columns=24  Identities=17%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHHHH
+Q ss_conf             999998268988988876668899
+Q fac______        28 LQLARELGLQPRQVAVWFQNRRAR   51 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR~r   51 (65)
+                      .+||..+|+|+..|+.-..|-+.|
+T Consensus       180 ~eIA~~L~IS~~TV~~h~~~i~~K  203 (223)
+T c3sztB_         180 GEIGLILSIDQRTVKFHIVNAMRK  203 (223)
+T ss_dssp             HHHHHHHTCCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHHHHHHHHH
+T ss_conf             899999499989999999999998
+
+

@@ -1,0 +1,14 @@
+326 c5af3A_ Probab=30.54   E-value=66  Score=16.13  Aligned_columns=18  Identities=22%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHH
+Q ss_conf             999999826898898887
+Q fac______        27 KLQLARELGLQPRQVAVW   44 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~W   44 (65)
+                      ..++|..+|+|.++|..|
+T Consensus        10 i~e~a~~~gv~~~tlr~w   27 (214)
+T c5af3A_          10 LAEASRYLVVPRATLATW   27 (214)
+T ss_dssp             HHHHHHHHTCCHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHH
+T ss_conf             999999958999894458
+
+

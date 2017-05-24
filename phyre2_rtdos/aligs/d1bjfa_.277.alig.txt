@@ -1,0 +1,14 @@
+277 d1bjfa_ Probab=33.81   E-value=65  Score=16.18  Aligned_columns=28  Identities=21%
+
+Q ss_pred             CCCCCHHHHHHHHHHHCCCHHHHHHHHH
+Q ss_conf             6898889999999982689889888766
+Q fac______        19 ENKLEPERKLQLARELGLQPRQVAVWFQ   46 (65)
+Q Consensus        19 ~~~P~~~er~~LA~~~~ls~~qV~~WFq   46 (65)
+                      |...++.+...|...+++|..+|..||.
+T Consensus         1 ~s~l~~~~l~~l~~~t~fs~~ei~~l~~   28 (181)
+T d1bjfa_           1 NSKLRPEVMQDLLESTDFTEHEIQEWYK   28 (181)
+T ss_dssp             CCCCCHHHHHHHHHHSSCCHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHCCCHHHHHHHHH
+T ss_conf             9878889999999970999999999999
+
+

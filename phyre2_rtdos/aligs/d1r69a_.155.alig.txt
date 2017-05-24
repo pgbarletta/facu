@@ -1,0 +1,14 @@
+155 d1r69a_ Probab=52.96   E-value=16  Score=19.42  Aligned_columns=22  Identities=14%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ..+||..+|++...|..|+.++
+T Consensus        17 ~~~la~~~gis~~~i~~~e~g~   38 (63)
+T d1r69a_          17 QAELAQKVGTTQQSIEQLENGK   38 (63)
+T ss_dssp             HHHHHHHHTSCHHHHHHHHTTS
+T ss_pred             HHHHHHHHCCCHHHHHHHHCCC
+T ss_conf             9999999589999999997799
+
+

@@ -1,0 +1,14 @@
+136 c2rekA_ Probab=60.47   E-value=9  Score=20.79  Aligned_columns=38  Identities=13%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +..-...|....| + .....||...|+|...|..+|.|+
+T Consensus        11 l~aA~~l~~~~G~-~-~ti~~IA~~agvs~~t~y~~F~sK   48 (172)
+T c2rekA_          11 IEAAAAEVARHGA-D-ASLEEIARRAGVGSATLHRHFPSR   48 (172)
+T ss_dssp             HHHHHHHHHHHGG-G-CCHHHHHHHHTCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHHHHCC-C-CHHHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999998090-2-369999999489976767435998
+
+

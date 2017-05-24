@@ -1,0 +1,14 @@
+388 c1i1gA_ Probab=26.13   E-value=89  Score=15.43  Aligned_columns=20  Identities=20%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHH
+Q ss_conf             99999826898898887666
+Q fac______        28 LQLARELGLQPRQVAVWFQN   47 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqN   47 (65)
+                      .+||+.+|+|+..|....+.
+T Consensus        21 ~~ia~~lgis~~tv~~Ri~~   40 (140)
+T c1i1gA_          21 TEIAKKLGISETAVRKRVKA   40 (140)
+T ss_dssp             HHHHHHHTSCHHHHHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHHHHHH
+T ss_conf             89998709997899999999
+
+

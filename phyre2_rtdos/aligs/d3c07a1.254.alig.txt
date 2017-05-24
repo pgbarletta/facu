@@ -1,0 +1,14 @@
+254 d3c07a1 Probab=35.57   E-value=59  Score=16.41  Aligned_columns=39  Identities=13%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +..-...|.... +..-....||..+|++...+...|.|+
+T Consensus        11 i~aa~~~~~~~G-~~~~si~~Ia~~agis~~~~y~~F~sK   49 (75)
+T d3c07a1          11 LETAXRLFQERG-YDRTTXRAIAQEAGVSVGNAYYYFAGK   49 (75)
+T ss_dssp             HHHHHHHHHHTC-STTCCHHHHHHHHTSCHHHHHHHCSSH
+T ss_pred             HHHHHHHHHHHC-HHHCCHHHHHHHHCCCHHHHHHHHCCH
+T ss_conf             999999999727-210699999998388778899740899
+
+

@@ -1,0 +1,14 @@
+385 d2isya1 Probab=26.40   E-value=88  Score=15.46  Aligned_columns=44  Identities=16%
+
+Q ss_pred             CCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHH
+Q ss_conf             89899999999998868988899999999826898898887666
+Q fac______         4 LTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQN   47 (65)
+Q Consensus         4 ~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqN   47 (65)
+                      +|...-.-|+.+|....--.......||..+|+++..|....+.
+T Consensus         3 L~~s~EdYL~~I~~L~~~~~~v~~~~IA~~L~vs~~SVs~mikk   46 (63)
+T d2isya1           3 LVDTTEMYLRTIYDLEEEGVTPLRARIAERLDQSGPTVSQTVSR   46 (63)
+T ss_dssp             TSSHHHHHHHHHHHHHHTTCCCCHHHHHHHHTCCHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHHCCCCCHHHHHHHHCCCCHHHHHHHHH
+T ss_conf             37789999999999986248880999999838996569999999
+
+

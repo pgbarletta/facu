@@ -1,0 +1,14 @@
+431 c2kz3A_ Probab=22.63   E-value=71  Score=15.98  Aligned_columns=16  Identities=19%
+
+Q ss_pred             HHHHHHHHHCCCHHHH
+Q ss_conf             9999999826898898
+Q fac______        26 RKLQLARELGLQPRQV   41 (65)
+Q Consensus        26 er~~LA~~~~ls~~qV   41 (65)
+                      +.+++|..+|||++.+
+T Consensus        35 d~Ee~a~kcgl~YK~~   50 (83)
+T c2kz3A_          35 DLEEVAQKCGLSYKAL   50 (83)
+T ss_dssp             CHHHHHHHHTCCHHHH
+T ss_pred             CHHHHHHHCCCCHHHH
+T ss_conf             9999997609889999
+
+

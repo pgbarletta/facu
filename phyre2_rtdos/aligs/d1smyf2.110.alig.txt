@@ -1,0 +1,14 @@
+110 d1smyf2 Probab=81.98   E-value=2.2  Score=24.08  Aligned_columns=52  Identities=10%
+
+Q ss_pred             CCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             8989999999999886898889999999982689889888766688999999998678
+Q fac______         4 LTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWKTKQLERDY   61 (65)
+Q Consensus         4 ~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k~~~~~~~~   61 (65)
+                      +++.+..++.-.|....+      .++|..+|+|...|...-.+.+.+.|......+.
+T Consensus        43 L~~~er~ii~l~~~~~t~------~eIa~~lgis~~~V~~~~~ral~kLR~~~~~~~~   94 (100)
+T d1smyf2          43 LSEREAMVLKLRKGLIDG------EEVGAFFGVTRERIRQIENKALRKLKYHESRTRK   94 (100)
+T ss_dssp             SCHHHHHHHHHHHHTTCC------CCTTTSSSSCHHHHHHHHHHHHHHHHHHHHHTTS
+T ss_pred             CCHHHHHHHHHHCCCCCH------HHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_conf             062379999973069998------9999996799999999999999999986999898
+
+

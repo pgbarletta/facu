@@ -1,0 +1,14 @@
+104 c2nzzA_ Probab=96.07   E-value=0.00057  Score=43.30  Aligned_columns=27  Identities=41%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHC
+Q ss_conf             898887666889999999986787519
+Q fac______        39 RQVAVWFQNRRARWKTKQLERDYDVLK   65 (65)
+Q Consensus        39 ~qV~~WFqNrR~r~k~~~~~~~~~~Lk   65 (65)
+                      +||++||||+|.++|++-...--+.++
+T Consensus         1 rqikiwfqnrrmkwk~rvfnd~rdiiq   27 (37)
+T c2nzzA_           1 RQIKIWFQNRRMKWKKRVFNDARDIIQ   27 (37)
+T ss_dssp             CCTTTTTTCSHHHHTSSHHHHTTTSSS
+T ss_pred             CCEEEEEECCHHHHHHHHHHHHHHHHH
+T ss_conf             913767640024899998789999999
+
+

@@ -1,0 +1,14 @@
+202 d1sq8a_ Probab=42.23   E-value=31  Score=17.88  Aligned_columns=22  Identities=14%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ..+||+.+|++...|..|..++
+T Consensus        18 q~~la~~~gis~~~~~~~e~g~   39 (64)
+T d1sq8a_          18 QAELAQKVGVDQQAIEQLENGK   39 (64)
+T ss_dssp             HHHHHHHHTSCHHHHHHHHHTC
+T ss_pred             HHHHHHHHCCCHHHHHHHHCCC
+T ss_conf             9999999689999999986799
+
+

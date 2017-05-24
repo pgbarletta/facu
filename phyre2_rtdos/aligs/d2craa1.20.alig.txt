@@ -1,0 +1,14 @@
+20 d2craa1 Probab=99.77   E-value=6.5e-19  Score=123.50  Aligned_columns=54  Identities=24%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHH
+Q ss_conf             988898999999999988689888999999998268988988876668899999
+Q fac______         1 KRRLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWKT   54 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k~   54 (65)
+                      |++||++|+.+||.+|+.|+|||.+++..||..+||++.+|++||||+|+++|+
+T Consensus         5 Rt~ft~~Q~~~Le~~F~~n~~P~~~~r~~LA~~l~l~~~~V~~WFqNrR~k~Kk   58 (58)
+T d2craa1           5 RIPYSKGQLRELEREYAANKFITKDKRRKISAATSLSERQITIWFQNRRVKEKK   58 (58)
+T ss_dssp             CCCSCHHHHHHHHHHHHHCSSCCHHHHHHHHHHTCCCHHHHHHHHHHHHHTTTC
+T ss_pred             CCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHCCC
+T ss_conf             775899999999999988489988999999999549966810451322311069
+
+

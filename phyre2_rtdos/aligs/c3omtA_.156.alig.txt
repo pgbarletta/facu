@@ -1,0 +1,14 @@
+156 c3omtA_ Probab=52.93   E-value=14  Score=19.77  Aligned_columns=23  Identities=26%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             99999982689889888766688
+Q fac______        27 KLQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ..+||..+|+++..|..|..+++
+T Consensus        20 q~~lA~~lgvs~~~is~~e~g~~   42 (68)
+T c3omtA_          20 NLWLTETLDKNKTTVSKWCTNDV   42 (68)
+T ss_dssp             HHHHHHHTTCCHHHHHHHHTTSS
+T ss_pred             HHHHHHHHCCHHHHHHHHHCCCC
+T ss_conf             99999765213889999755873
+
+

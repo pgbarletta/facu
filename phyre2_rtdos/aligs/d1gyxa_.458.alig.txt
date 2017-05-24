@@ -1,0 +1,15 @@
+458 d1gyxa_ Probab=20.07   E-value=61  Score=16.34  Aligned_columns=34  Identities=24%
+
+Q ss_pred             CCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHH
+Q ss_conf             88989999999999886898889999999982689889888766
+Q fac______         3 RLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQ   46 (65)
+Q Consensus         3 r~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFq   46 (65)
+                      ++|.+|+..|          -.+-.+.+++.+|.++..|.+.|.
+T Consensus        11 ~lt~EQK~~L----------v~~iT~av~~~lg~~~e~V~V~i~   44 (76)
+T d1gyxa_          11 ELDEQQKAAL----------AADITDVIIRHLNSKDSSISIALQ   44 (76)
+T ss_dssp             CCCHHHHHHH----------HHHHHHHHHHHHTCCGGGCEEEEE
+T ss_pred             CCCHHHHHHH----------HHHHHHHHHHHHCCCCCEEEEEEE
+T ss_conf             9998999999----------999999999995789103999998
+
+
+Done!

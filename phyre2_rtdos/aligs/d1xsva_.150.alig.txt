@@ -1,0 +1,14 @@
+150 d1xsva_ Probab=55.39   E-value=29  Score=18.09  Aligned_columns=46  Identities=15%
+
+Q ss_pred             CCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHH
+Q ss_conf             898999999999988689888999999998268988988876668899999
+Q fac______         4 LTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWKT   54 (65)
+Q Consensus         4 ~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k~   54 (65)
+                      +++.|..++.-+|-..-     ...+||..+|+|+..|.+.....|.+.+.
+T Consensus        19 Lp~~qr~ii~L~y~~~l-----s~~EIA~~lgis~~tV~~~l~Ra~~~Lk~   64 (106)
+T d1xsva_          19 LTNKQRNYLELFYLEDY-----SLSEIADTFNVSRQAVYDNIRRTGDLVED   64 (106)
+T ss_dssp             SCHHHHHHHHHHHTSCC-----CHHHHHHHTTCCHHHHHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHCCC-----CHHHHHHHHCCCHHHHHHHHHHHHHHHHH
+T ss_conf             89999988978743387-----89999998389989999999999999999
+
+

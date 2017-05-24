@@ -1,0 +1,14 @@
+435 d2cyya1 Probab=22.21   E-value=1e+02  Score=15.10  Aligned_columns=16  Identities=13%
+
+Q ss_pred             HHHHHHHCCCHHHHHH
+Q ss_conf             9999982689889888
+Q fac______        28 LQLARELGLQPRQVAV   43 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~   43 (65)
+                      .+||+.+|+|+..|..
+T Consensus        21 ~elA~~lgls~~tV~~   36 (60)
+T d2cyya1          21 REISKITGLAESTIHE   36 (60)
+T ss_dssp             HHHHHHHCSCHHHHHH
+T ss_pred             HHHHHHHCCCHHHHHH
+T ss_conf             9999994899899999
+
+

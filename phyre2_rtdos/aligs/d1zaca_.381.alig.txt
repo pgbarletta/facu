@@ -1,0 +1,14 @@
+381 d1zaca_ Probab=26.63   E-value=79  Score=15.72  Aligned_columns=46  Identities=11%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHCCC--HHHHHHHHH
+Q ss_conf             988898999999999988-----6898889999999982689--889888766
+Q fac______         1 KRRLTTDQVKSLEKNFEL-----ENKLEPERKLQLARELGLQ--PRQVAVWFQ   46 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~ls--~~qV~~WFq   46 (65)
+                      |+.+|++|+..|...|..     +-+.+..+-..+...+|+.  ...+..+|.
+T Consensus        11 ~~~ls~~~~~~l~~~F~~~D~d~~G~I~~~e~~~~l~~~~~~~~~~~~~~~~~   63 (90)
+T d1zaca_          11 RAFLSEEMIAEFKAAFDMFDADGGGDISTKELGTVMRMLGQNPTKEELDAIIE   63 (90)
+T ss_dssp             HHHSCHHHHHHHHHHHGGGCSSCSSEEEGGGHHHHHHHHTCCCCHHHHHHHHH
+T ss_pred             HCCCCHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHCCCCCCHHHHHHHHH
+T ss_conf             40699999999999999987787883649999999962257865799998853
+
+

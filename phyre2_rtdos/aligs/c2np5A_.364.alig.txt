@@ -1,0 +1,14 @@
+364 c2np5A_ Probab=27.85   E-value=65  Score=16.16  Aligned_columns=22  Identities=18%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|++...|...|.|+
+T Consensus        24 ~~~IA~~agvs~~~iY~hF~sK   45 (187)
+T c2np5A_          24 VREVAKRAGVSIGAVQHHFSTK   45 (187)
+T ss_dssp             HHHHHHHHTCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999999489999973307997
+
+

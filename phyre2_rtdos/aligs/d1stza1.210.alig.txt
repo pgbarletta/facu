@@ -1,0 +1,14 @@
+210 d1stza1 Probab=40.95   E-value=49  Score=16.81  Aligned_columns=42  Identities=12%
+
+Q ss_pred             CCCHHHHHHHHHH---HHHCCCCCHHHHHHHHHHH--CCCHHHHHHHHH
+Q ss_conf             8898999999999---9886898889999999982--689889888766
+Q fac______         3 RLTTDQVKSLEKN---FELENKLEPERKLQLAREL--GLQPRQVAVWFQ   46 (65)
+Q Consensus         3 r~t~~q~~~Le~~---F~~~~~P~~~er~~LA~~~--~ls~~qV~~WFq   46 (65)
+                      .+|+.|..+|+..   |..+.+|-.  ..+||+.+  ++|+..|+..++
+T Consensus         1 ~Lt~Rq~~IL~~I~~~~~~~g~pvs--~~elae~~~~~vS~~TIR~~L~   47 (87)
+T d1stza1           1 KLNDRQRKVLYCIVREYIENKKPVS--SQRVLEVSNIEFSSATIRNDMK   47 (87)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHHCSCBC--HHHHHHHSCCCSCHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHHHHHHHCCCCCC--HHHHHHHHCCCCCHHHHHHHHH
+T ss_conf             9988999999999999997099986--9999997357889679999999
+
+

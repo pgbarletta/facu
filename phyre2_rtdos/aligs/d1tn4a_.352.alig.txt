@@ -1,0 +1,14 @@
+352 d1tn4a_ Probab=28.81   E-value=80  Score=15.70  Aligned_columns=43  Identities=14%
+
+Q ss_pred             CCCCCHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHCCCHHHHHH
+Q ss_conf             988898999999999988-----6898889999999982689889888
+Q fac______         1 KRRLTTDQVKSLEKNFEL-----ENKLEPERKLQLARELGLQPRQVAV   43 (65)
+Q Consensus         1 R~r~t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~ls~~qV~~   43 (65)
+                      |+.+|++|+..|...|..     +-+.+..+-..+...++........
+T Consensus         8 ~~~ls~~~~~~l~~~F~~~D~d~dG~Is~~El~~~l~~~~~~~~~~~~   55 (157)
+T d1tn4a_           8 RSYLSEEMIAEFKAAFDMFDADGGGDISVKELGTVMRMLGQTPTKEEL   55 (157)
+T ss_dssp             HHTSCHHHHHHHHHHHHHHCTTCSSEECHHHHHHHHHHTTCCCCHHHH
+T ss_pred             HHCCCHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHCCCCCCHHHH
+T ss_conf             828999999999999999787968808599999998721689988788
+
+

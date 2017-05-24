@@ -1,0 +1,14 @@
+413 c2zcmB_ Probab=23.99   E-value=46  Score=16.99  Aligned_columns=22  Identities=5%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|...|.|+
+T Consensus        23 i~~Ia~~agvs~~tiY~~F~~K   44 (180)
+T c2zcmB_          23 LDDISKSVNIKKASLYYHYDNK   44 (180)
+T ss_dssp             HHHHHHHTTCCGGGGGGTCSSH
+T ss_pred             HHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999589887965106998
+
+

@@ -1,0 +1,14 @@
+242 c2k7bA_ Probab=37.26   E-value=57  Score=16.49  Aligned_columns=45  Identities=16%
+
+Q ss_pred             CCCCHHHHHHHHHHHHH-----CCCCCHHHHHHHHHHHC--CCHHHHHHHHH
+Q ss_conf             88898999999999988-----68988899999999826--89889888766
+Q fac______         2 RRLTTDQVKSLEKNFEL-----ENKLEPERKLQLARELG--LQPRQVAVWFQ   46 (65)
+Q Consensus         2 ~r~t~~q~~~Le~~F~~-----~~~P~~~er~~LA~~~~--ls~~qV~~WFq   46 (65)
+                      +-+|++++..|..+|..     +-+.+..+...+...+|  ++..+|..+|.
+T Consensus         2 ~~ls~e~~~~l~~~F~~~D~~~~G~I~~~e~~~~l~~~g~~~~~~~~~~l~~   53 (76)
+T c2k7bA_           2 RSLRPEEIEELREAFREFDKDKDGYINCRDLGNCMRTMGYMPTEMELIELSQ   53 (76)
+T ss_dssp             CCCCHHHHHHHHHHHHHHCTTTCSCBCHHHHHHHHHHHHSCSCSSHHHHHHH
+T ss_pred             CCCCHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHHCCCCCHHHHHHHHH
+T ss_conf             8788899999999999988897983849999999998488989899999999
+
+

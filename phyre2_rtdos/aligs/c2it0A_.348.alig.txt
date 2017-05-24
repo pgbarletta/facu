@@ -1,0 +1,14 @@
+348 c2it0A_ Probab=29.07   E-value=64  Score=16.22  Aligned_columns=39  Identities=18%
+
+Q ss_pred             CCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHH
+Q ss_conf             898999999999988689888999999998268988988
+Q fac______         4 LTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVA   42 (65)
+Q Consensus         4 ~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~   42 (65)
+                      +|+.+-..|+.+|.............||..+|++...|.
+T Consensus         2 Lt~~~edyL~aI~~L~~~~~~~~~~~La~~l~vs~~tV~   40 (145)
+T c2it0A_           2 LVDTTEMYLRTIYDLEEEGVTPLRARIAERLDQSGPTVS   40 (145)
+T ss_dssp             CSSHHHHHHHHHHHHHHTTCCCCHHHHHHHTTCCHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHCCCCCCHHHHHHHHCCCHHHHH
+T ss_conf             878899999999999970998689999999589957999
+
+

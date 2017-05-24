@@ -1,0 +1,14 @@
+441 c3eusB_ Probab=21.38   E-value=90  Score=15.41  Aligned_columns=22  Identities=27%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688
+Q fac______        28 LQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ..||..+|++...|..|..+++
+T Consensus        24 ~~lA~~~g~s~~~is~~E~G~~   45 (77)
+T c3eusB_          24 ADLAERLDKPQSFVAKVETRER   45 (77)
+T ss_dssp             HHHHHHHTSCHHHHHHHHTTSS
+T ss_pred             HHHHHHHCCCHHHHHHHHCCCC
+T ss_conf             9999995899999999968888
+
+

@@ -1,0 +1,14 @@
+264 c2guhA_ Probab=34.70   E-value=63  Score=16.26  Aligned_columns=39  Identities=15%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +.+-...|...-|... ....||...|+|...+..+|-|+
+T Consensus        11 l~aa~~l~~~~G~~~~-ti~~Ia~~agvs~~tlY~hF~sK   49 (179)
+T c2guhA_          11 VDAAGRAFATRPYREI-TLKDIAEDAGVSAPLIIKYFGSK   49 (179)
+T ss_dssp             HHHHHHHHHHSCGGGC-CHHHHHHHHTSCHHHHHHHHSSH
+T ss_pred             HHHHHHHHHHHCCCCC-CHHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             9999999997182426-59999999389988963007998
+
+

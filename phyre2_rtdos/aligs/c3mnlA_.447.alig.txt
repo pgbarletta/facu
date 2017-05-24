@@ -1,0 +1,14 @@
+447 c3mnlA_ Probab=20.98   E-value=1.1e+02  Score=15.03  Aligned_columns=22  Identities=9%
+
+Q ss_pred             HHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999998268988988876668
+Q fac______        27 KLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus        27 r~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      ...||+..|+|...|...|.|+
+T Consensus        31 i~~Ia~~agvs~~t~Y~~F~sK   52 (188)
+T c3mnlA_          31 MRAVADRADVAVGTLYRYFPSK   52 (188)
+T ss_dssp             HHHHHHHHTCCHHHHHHHCSSH
+T ss_pred             HHHHHHHHCCCHHHHHCCCCCH
+T ss_conf             9999998579987864437998
+
+

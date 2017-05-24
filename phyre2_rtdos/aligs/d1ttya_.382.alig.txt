@@ -1,0 +1,14 @@
+382 d1ttya_ Probab=26.55   E-value=88  Score=15.47  Aligned_columns=49  Identities=8%
+
+Q ss_pred             CCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHHHHHHH
+Q ss_conf             89899999999998868988899999999826898898887666889999
+Q fac______         4 LTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWK   53 (65)
+Q Consensus         4 ~t~~q~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNrR~r~k   53 (65)
+                      +++.+..+|...|-...+. .....+||..+|+|+..|..=-.-.+.+.+
+T Consensus        19 L~erer~il~~~y~l~~~~-~~s~~EIA~~lgis~~~Vr~~~~ral~kLr   67 (87)
+T d1ttya_          19 LSPREAMVLRMRYGLLDGK-PKTLEEVGQYFNVTRERIRQIEVKALRKLR   67 (87)
+T ss_dssp             SCHHHHHHHHHHHTTTTSS-CCCHHHHHHHHTCCHHHHHHHHHHHHHHHB
+T ss_pred             HHHHHHHHHHHHHHHCCCC-CCCHHHHHHHHCCCHHHHHHHHHHHHHHHH
+T ss_conf             2056499999998641668-998999999948999999999999999999
+
+

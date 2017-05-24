@@ -1,0 +1,14 @@
+250 c2ebyA_ Probab=35.71   E-value=35  Score=17.61  Aligned_columns=22  Identities=27%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHHHHHH
+Q ss_conf             9999982689889888766688
+Q fac______        28 LQLARELGLQPRQVAVWFQNRR   49 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WFqNrR   49 (65)
+                      ..||..+|+|...|..|-...+
+T Consensus        22 ~eLA~~~gis~~~is~~E~g~~   43 (102)
+T c2ebyA_          22 NELAELLHVHRNSVSALINNNR   43 (102)
+T ss_dssp             HHHHHHHTSCHHHHHHHHTTSS
+T ss_pred             HHHHHHHCCCHHHHHHHHHHCC
+T ss_conf             9999996886999999995038
+
+

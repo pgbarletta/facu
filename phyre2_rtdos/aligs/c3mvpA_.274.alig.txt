@@ -1,0 +1,14 @@
+274 c3mvpA_ Probab=33.88   E-value=47  Score=16.92  Aligned_columns=39  Identities=8%
+
+Q ss_pred             HHHHHHHHHHCCCCCHHHHHHHHHHHCCCHHHHHHHHHHH
+Q ss_conf             9999999988689888999999998268988988876668
+Q fac______         9 VKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNR   48 (65)
+Q Consensus         9 ~~~Le~~F~~~~~P~~~er~~LA~~~~ls~~qV~~WFqNr   48 (65)
+                      +.+-...|....|- .-....||+..|+|...|..+|.|+
+T Consensus        19 l~aA~~l~~~~G~~-~~si~~Ia~~agvs~~tiY~yF~sK   57 (204)
+T c3mvpA_          19 LQVAKDLFSDKTYF-NVTTNEIAKKADVSVGTLYAYFASK   57 (204)
+T ss_dssp             HHHHHHHHHHHCGG-GCCHHHHHHHHTSCHHHHHHHCSSH
+T ss_pred             HHHHHHHHHHHCCC-CCCHHHHHHHHCCCHHHHHHHCCCH
+T ss_conf             99999999960836-4879999997056988987107998
+
+

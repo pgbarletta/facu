@@ -1,0 +1,14 @@
+310 d2ao9a1 Probab=31.46   E-value=63  Score=16.24  Aligned_columns=21  Identities=29%
+
+Q ss_pred             HHHHHHHCCCHHHHHHHH-HHH
+Q ss_conf             999998268988988876-668
+Q fac______        28 LQLARELGLQPRQVAVWF-QNR   48 (65)
+Q Consensus        28 ~~LA~~~~ls~~qV~~WF-qNr   48 (65)
+                      ++||..+|++-..+..|= ||+
+T Consensus        37 ~eiAeelGv~r~tL~~Wktqnk   58 (117)
+T d2ao9a1          37 DEMANELGINRTTLWEWRTKNQ   58 (117)
+T ss_dssp             HHHHHHHTCCHHHHHHHHHHCH
+T ss_pred             HHHHHHHCCHHHHHHHHHHCHH
+T ss_conf             9999985602554545310414
+
+
