@@ -1,0 +1,10 @@
+#
+    Mp_C1HDZ	==>	mp
+
+    La secuencia de 2seqa.fas es la seq q usé p/ mutar y estabilizar la struct.
+
+    El template final q voy a utilizar es 1jgg_mut_2a.pdb, "1jgg.pdb" es el
+mismo PDB, luego de renumerar y normalizar y ese es el file q uso de template.
+
+    recorto "uncut_1jgg.pdb" a "1jgg.pdb"
+
