@@ -1,14 +1,15 @@
  1st version with 1JGG.pdb only
 --------------------------
 
-> edited, normalized and renumbered 1jgg_mut_2a.pdb to 1jgg.pdb. DNA labelled
-as HETATM so modeller won't model 'em.
+> edited, normalized and renumbered 1jgg_mut_2a.pdb to 1jgg.pdb. Also did a
+bunch of other things on "1jggr.pdb" at "bu/mod_pdbs/1jgg/".
+DNA labelled as HETATM so modeller won't model 'em.
 
 > mp.pir with all amino acids and 20 '.' in place of nucleotides.
 
-> run align.py and get "mp_1jgg.pir". Repleaced 20 '-' in 1jgg structure with
-20 '.' in place of nucleotides. Also duplicated amino acids (it's a homodimer
-and modeller deleted one monomer) and fixed header fields so the alignment
-matches the PDB.
+> run align.py and get "mp_1jgg.pir". 
+    Replaced 20 '-' in 1jgg structure with 20 '.' in place of nucleotides and
+        placed "/" to separate chains
+    fixed header fields so the alignment matches the PDB.
 
 > run model.py

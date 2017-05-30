@@ -1,12 +1,17 @@
-> 1pufa_.1.pdb 0.998 39 1 59 # Has some missing atoms in relevant residues. Probably not important
+1pufa_.1.pdb 0.998 39 1 59 # Has some missing atoms in relevant residues. Probably not important. Heterodimer. Discarded.
 1nk3p_.2.pdb 0.998 34 1 58 # Only has 1 monomer. Discarded.
-> 3a01A_.3.pdb 0.998 37 1 59 # Has 2 DNA-protein complex. Choosing the one w/ the lowest E.
+3a01A_.3.pdb 0.998 37 1 59 # Has 2 DNA-protein complex. Choosing the one w/ the lowest E. Heterodimer. Discarded.
 2m34A_.4.pdb 0.998 39 1 56 # No DNA. Discarted
 5luxK_.5.pdb 0.998 40 1 58 # Rsolution: 3.23A. Discarded.
 1zq3p1.6.pdb 0.998 32 1 60 # Only has 1 monomer. Discarded.
 2cuea1.7.pdb 0.998 31 1 62 # No DNA. Discarted
+
 > 1jgga_.8.pdb 0.998 40 1 55 # OK. Probably the best model. Resolution 2.0A
-1fjla_.9.pdb 0.998 29 1 58
+
+> 1fjla_.9.pdb 0.998 29 1 58 # Resolution = 2.0A. Missing residues in 1 of the homodimers.
+                             # May solve it by modelling the homodimer using the other one
+                             # as a template. Not too good.
+
 1b72a_.10.pdb 0.998 38 1 58
 1ahdp_.11.pdb 0.998 38 1 55
 2e1oa1.12.pdb 0.998 46 1 54

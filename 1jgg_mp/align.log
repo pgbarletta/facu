@@ -23,7 +23,7 @@
 Kind, OS, HostName, Kernel, Processor: 4, Linux german-xps 4.9.10-040910-generic x86_64
 Date and time of compilation         : 2017/02/17 14:47:45
 MODELLER executable type             : x86_64-intel8
-Job starting time (YY/MM/DD HH:MM:SS): 2017/05/23 22:57:36
+Job starting time (YY/MM/DD HH:MM:SS): 2017/05/30 16:52:33
 
 mkapsa__637W> No residue topology library is in memory.
               Better radii would be used if topology.read() is called first.
@@ -47,6 +47,6 @@ Pairwise dynamic programming alignment (ALIGN2D):
   Gap diagonal penalty     :       0.0000
   Structure gap penalties  :    3.500   3.500   3.500   0.200   4.000   6.500   2.000   0.000
   Break-break bonus        :   10000.0000
-  Length of alignment      :           87
-  Score                    :   34495.5625
-Total CPU time [seconds]                                 :       0.38
+  Length of alignment      :          122
+  Score                    :   75168.9062
+Total CPU time [seconds]                                 :       0.80

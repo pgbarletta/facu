@@ -1,9 +1,9 @@
  _aln.pos         10        20        30        40        50        60
-1jgg      --------------------RYRTAFTRDQLGRLEKEFYKENYVSRPRRCELAAQLNLPESTIKVWFQ 
-mp        ....................--KRRLTTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQ 
- _consrvd                           * **   *** *  **     *   **  * *      ****
+1jgg      ----------------------TRDQLGRLEKEFYKENYVSRPRRCELAAQLNLPESTIKVWFQNRRM 
+mp        ........./.........../TTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRA 
+ _consrvd                       * **   *** *  **     *   **  * *      *******
 
- _aln.p   70        80
-1jgg      NRRMKDKRQ---------- 
-mp        NRRARWKTKQLERDYDVLK 
- _consrvd ***   *
+ _aln.p   70        80        90       100       110       120
+1jgg      KDKRQ/TRDQLGRLEKEFYKENYVSRPRRCELAAQLNLPESTIKVWFQNRRMKDKRQ 
+mp        RWKTK/TTDQVKSLEKNFELENKLEPERKLQLARELGLQPRQVAVWFQNRRARWKTK 
+ _consrvd   *   * **   *** *  **     *   **  * *      *******   *
