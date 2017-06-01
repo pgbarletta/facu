@@ -8,5 +8,5 @@ a = automodel(env, alnfile='mp_1jgg.pir',
               assess_methods=(assess.DOPE,
                               assess.GA341))
 a.starting_model = 1
-a.ending_model = 5
+a.ending_model = 50
 a.make()
