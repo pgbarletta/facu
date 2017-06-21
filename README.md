@@ -7,3 +7,9 @@
 > 1jgg_mp: modelización con 1JGG únicamente.
 
 > mp: modelización con varios templates
+
+> "muts_mp_1jgg" 9 mutaciones de DNA alternativas p/ la estructura de mp
+>    modelada según 1JGG. Ej: "1mut_mp.pdb" es la estructura mutada sin
+>    estabilizar, "11mut_mp.pdb" es la bajada de yasara.
+
+> idem p/ 1JGG
