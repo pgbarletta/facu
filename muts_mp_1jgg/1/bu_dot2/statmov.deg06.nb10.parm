@@ -1,0 +1,51 @@
+
+dot_version  2.0
+
+# grid size (number of points in each dimension: integers)
+# if these are equal, you may use     dot_grid_size INTEGER   as a shortcut
+SizeX 160
+SizeY 160
+SizeZ 160
+
+# grid spacing (in Angstrom)
+dot_grid_step 1.0
+
+# Input files.
+# stationary molecule electrostatic potential grid (UHBD or APBS):  
+stat_pot_file ${DOT_PROJECT}/coords/stat/stat.cen.160.150m.dx
+
+# stationary molecule shape potential:
+stat_vdw_file ${DOT_PROJECT}/coords/stat/stat.cen.noh.xyzcrv
+
+# moving molecule atomic point charges:
+mov_charge_file ${DOT_PROJECT}/coords/mov/mov.cen.polh.xyzq
+
+# moving molecule coordinates
+mov_vdw_file ${DOT_PROJECT}/coords/mov/mov.cen.noh.xyz
+
+# rotation list file:
+# rot_file ${DOT_ROOT}/data/deg06.eul #  54000 orientations
+# rot_file ${DOT_ROOT}/data/deg08.eul #  27000 orientations
+# rot_file ${DOT_ROOT}/data/deg10.eul #  14400 orientations
+# rot_file ${DOT_ROOT}/data/deg12.eul #   9000 orientations
+# rot_file ${DOT_ROOT}/data/deg20.eul #   1800 orientations
+# rot_file ${DOT_ROOT}/data/deg72.eul #     60 orientations
+# rot_file ${DOT_ROOT}/data/deg90.eul #     24 orientations
+# rot_file ${DOT_ROOT}/data/zero-rotation.eul # 1 orientation
+rot_file ${DOT_ROOT}/data/deg06.eul
+
+
+# DOT computation parameters
+
+stat_pot_clamp_high 107.2916
+stat_pot_clamp_low -147.3104
+
+# number of moving mol atoms allowed to penetrate stat mol (bumps), default 0
+mov_atoms_in_stat_interior_limit 10
+
+# DOT output
+out_base statmov # output file base name:
+output_log_detail 5   # how chatty DOT is. Values 0 to 8 are reasonable
+output_how_many_best_values 2000
+stat_pdb_file ${DOT_PROJECT}/coords/stat/stat.cen.noh.pdb
+mov_pdb_file ${DOT_PROJECT}/coords/mov/mov.cen.noh.pdb

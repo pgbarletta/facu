@@ -1,0 +1,111 @@
+Save structure with the lowest energy for every 10 steps
+start - parameters:
+    File name /home/rpdock/web/media/jobs/0f07c4dd-4a65-465c-b4de-abe2a6582289//ref_struc/complex/complex.pdb
+    Steps 1000
+    Temp. start 15000.0
+    Temp. end 295.0
+    True
+    
+msg start - parameters:
+    File name /home/rpdock/web/media/jobs/0f07c4dd-4a65-465c-b4de-abe2a6582289//ref_struc/complex/complex.pdb
+    Steps 1000
+    Temp. start 15000.0
+    Temp. end 295.0
+    True
+    
+
+
+    Step	E	Edist	Eang	Epen
+0 - -708114.41	-540017.60	-168096.81	0.00
+1 T -712932.550802 T= 14794.13 K
+progress 0.1
+2 T -648204.776231 T= 14558.85 K
+progress 0.2
+3 T -610623.616424 T= 14250.045 K
+progress 0.3
+4 T -347125.248748 T= 14058.88 K
+progress 0.4
+5 R -444907.235322 T= 13838.305 K
+progress 0.5
+6 R -694848.707416 T= 13573.615 K
+progress 0.6
+7 T -693295.786905 T= 13353.04 K
+progress 0.7
+8 R -642967.238691 T= 13161.875 K
+progress 0.8
+9 T -635753.618733 T= 12985.415 K
+progress 0.9
+10 R -720346.746266 T= 12779.545 K
+progress 1.0
+11 R -657663.888063 T= 12558.97 K
+progress 1.1
+12 R -513383.918712 T= 12353.1 K
+progress 1.2
+13 R -572305.650658 T= 12147.23 K
+progress 1.3
+14 T -693303.610995 T= 11882.54 K
+progress 1.4
+15 T -605738.742831 T= 11706.08 K
+progress 1.5
+16 T -627825.530867 T= 11514.915 K
+progress 1.6
+17 T -628334.699786 T= 11338.455 K
+progress 1.7
+18 R -644377.435818 T= 11103.175 K
+progress 1.8
+19 R -571579.505879 T= 10882.6 K
+progress 1.9
+20 T -571724.666794 T= 10617.91 K
+progress 2.0
+21 R -535530.253134 T= 10426.745 K
+progress 2.1
+22 R -518733.389032 T= 10220.875 K
+progress 2.2
+23 R -520702.128414 T= 10073.825 K
+progress 2.3
+24 R -345024.807464 T= 9867.955 K
+progress 2.4
+25 R -193065.612061 T= 9617.97 K
+progress 2.5
+26 R -371269.919766 T= 9338.575 K
+progress 2.6
+27 T -486854.700041 T= 8985.655 K
+progress 2.7
+28 R -598922.191513 T= 8720.965 K
+progress 2.8
+29 R -560775.655259 T= 8470.98 K
+progress 2.9
+30 T -563436.7137 T= 8147.47 K
+progress 3.0
+31 R -567680.603797 T= 7765.14 K
+progress 3.1
+32 R -601279.182517 T= 7426.925 K
+progress 3.2
+33 R -605841.98629 T= 7074.005 K
+progress 3.3
+34 T -586358.200289 T= 6794.61 K
+progress 3.4
+35 R -561020.977173 T= 6456.395 K
+progress 3.5
+36 R -610243.02595 T= 5809.375 K
+progress 3.6
+37 T -589911.955605 T= 5441.75 K
+progress 3.7
+38 R -532298.306092 T= 5162.355 K
+progress 3.8
+39 R -489121.171413 T= 4780.025 K
+progress 3.9
+40 R -610751.629351 T= 3912.43 K
+progress 4.0
+41 R -572462.579788 T= 3633.035 K
+progress 4.1
+42 R -569356.493168 T= 3236.0 K
+progress 4.2
+43 T -633406.208517 T= 2927.195 K
+progress 4.3
+44 R -664844.267691 T= 2177.24 K
+progress 4.4
+Save no big
+msg save short traj
+msg save best.pdb
+msg save plot e_step.png

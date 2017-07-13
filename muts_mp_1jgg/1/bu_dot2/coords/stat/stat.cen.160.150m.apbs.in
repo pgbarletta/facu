@@ -1,0 +1,36 @@
+read
+   mol xml stat.cen.polh.xyzqr.xml
+end
+elec
+    mg-manual # multi-grid method
+    dime 161 161 161 # 65, 97, 129, or 161 (k*32+1)
+#   nlev 4 # multi-grid levels deprecated in apbs 1.4 so commented out 2013-04
+    grid 1.0 1.0 1.0  # grid spacing
+    gcent 0.0 0.0 0.0 # center of grid
+    mol 1 # specifies first molecule read
+    lpbe  # linearized Poisson-Boltzman equation
+    bcfl sdh # "Single Debye-Huckel" boundary conditions
+#   bcfl zero # alternate method
+    ion # note: for APBS prior to 1.0.0, use  ion 1.0 0.150 1.4
+      charge 1.0
+      conc 0.150
+      radius 1.4
+    ion # note: for APBS prior to 1.0.0, use  ion -1.0 0.150 1.4
+      charge -1.0
+      conc 0.150
+      radius 1.4
+    pdie 3.0  # protein dielectric constant
+    sdie 80.0 # solvent dielectric constant
+    chgm spl0 #  determines how point charges assigned to grid
+    sdens 10.00 # grid points/ A^2 for surface construction
+    srfm mol # specifies model for dielectric ion-accessibility coefficients
+    srad 1.4 # solvent radius
+    swin 0.30 # rate of change for spline-based surface definitions (see srfm)
+    temp 300.0
+    calcenergy no
+    calcforce no
+#   write pot uhbd stat.cen.160.150m
+    write pot dx stat.cen.160.150m
+end
+ 
+quit

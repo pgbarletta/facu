@@ -1,0 +1,60 @@
+mié jul 12 10:59:27 ART 2017 /home/german/dot2/bin/share/rundot beginning
+single-processor DOT:
+Using command /home/german/dot2/bin/x86_64Linux3/dot2 dot.parm
+Parameter file version '2.0'
+Executing DOT 2.0
+	DOT 2.0 compilation options:  LOGNMERGE HEAP OLDSORT HAVE_CONFIG_H
+	Execution began Wed Jul 12 10:59:27 2017
+	Master processor is german-xps
+	Working directory /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/runs/20170712.1059.statmov.deg06.nb0
+	DOT parameter file                         dot.parm
+	Stationary potential file                  /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.160.150m.dx
+	Stationary vdw file                        /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.noh.xyzcrv
+	Stationary pdb file                        /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.noh.pdb
+	Moving charge file                         /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.polh.xyzq
+	Moving vdw file                            /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.noh.xyz
+	Moving pdb file                            /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.noh.pdb
+	Rotation file                              /home/german/dot2/data/deg06.eul
+	Output file base name                      statmov
+	Dot grid size                              160
+	Dot grid step                              1.00
+	Fussy (non-expert)                         enabled
+	Do stationary potential interior zeroing   enabled
+	Stationary Potential clamp low             -147.31
+	Stationary Potential clamp high            107.29
+	Stationary potential interior scale        0.0000
+	VdW weight                                  -0.10
+	Electrostatic weight                         1.00
+	Mov_atoms_in_stat_interior_limit           0
+	temperature                                300.00000000 K
+	Do Partition sum                           disabled
+	Output log_detail                          5
+	Do Histograms                              disabled
+	Output how many best-per-grid-cell values     0
+	Output how many best values                2000
+	Do Binary grid output                      disabled
+	Output file of best values                 statmov.top2000.e6d
+	Do output all                              disabled
+	Output all Ethreshold                      -100000.00
+	Do Log N merge                             disabled
+	FFTW plan                                  default
+Reading data files
+	Read 54000 rotation angle triples from file /home/german/dot2/data/deg06.eul
+	Read 412 charge values from file "/home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.polh.xyzq",
+	Read 412 atoms for moving molecule from file /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.polh.xyzq
+	Read 412 vdw values from file "/home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.noh.xyz",
+	Read stationary molecule volume from file "/home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.noh.xyzcrv",
+	 found 12265 attractive, 0 summed, 7008 forbidden spheres.
+	Calculated stationary mask from volume file /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.noh.xyzcrv
+	Adjusting X dimension of grid from 161 to 160
+	Adjusting Y dimension of grid from 161 to 160
+	Adjusting Z dimension of grid from 161 to 160
+	Reading ASCII APBS grid of size 160x160x160 spacing 1.00:
+	Read stationary molecule potential grid from file /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.160.150m.dx
+Sum of moving charge list (412 non-zero) is -30.398001
+Stationary vdw grid: 4076727 zero, 19273 non-zero (12265 attractive, 7008 forbidden [=1000.0])
+Scale values in stationary electrostatic potential grid interior: examined 4096000 values; 7008 values scaled by 0.000000, 4088992 unchanged.
+Grid dimensions in Angstroms: 160.00 160.00 160.00
+Computing 54000 rotations on one processor
+Processor   0 computing rotation      1 Wed Jul 12 10:59:45 2017
+Processor   0 computing rotation    101 Wed Jul 12 11:00:13 2017

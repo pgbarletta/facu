@@ -1,0 +1,138 @@
+rm: cannot remove `/home/rpdock/web/media/jobs/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a//ref_struc': No such file or directory
+Save structure with the lowest energy for every 10 steps
+start - parameters:
+    File name /home/rpdock/web/media/jobs/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a//ref_struc/complex/complex.pdb
+    Steps 1000
+    Temp. start 15000.0
+    Temp. end 295.0
+    True
+    
+msg start - parameters:
+    File name /home/rpdock/web/media/jobs/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a//ref_struc/complex/complex.pdb
+    Steps 1000
+    Temp. start 15000.0
+    Temp. end 295.0
+    True
+    
+
+
+    Step	E	Edist	Eang	Epen
+0 - -713463.71	-541112.82	-172350.89	0.00
+1 T -700085.03326 T= 14794.13 K
+progress 0.1
+2 T -639860.545524 T= 14632.375 K
+progress 0.2
+3 R -578744.032943 T= 14397.095 K
+progress 0.3
+4 T -272519.277421 T= 14205.93 K
+progress 0.4
+5 T -413763.975297 T= 13897.125 K
+progress 0.5
+6 T -428357.665683 T= 13691.255 K
+progress 0.6
+7 T -468156.995041 T= 13353.04 K
+progress 0.7
+8 R -523041.212936 T= 13191.285 K
+progress 0.8
+9 T -585234.082073 T= 12970.71 K
+progress 0.9
+10 R -660302.144394 T= 12735.43 K
+progress 1.0
+11 R -672707.83961 T= 12353.1 K
+progress 1.1
+12 R -491575.030583 T= 11956.065 K
+progress 1.2
+13 R -476168.962946 T= 11706.08 K
+progress 1.3
+14 R -434752.628147 T= 11514.915 K
+progress 1.4
+15 T -631846.268602 T= 11147.29 K
+progress 1.5
+16 R -715204.469818 T= 10779.665 K
+progress 1.6
+17 T -686714.818222 T= 10470.86 K
+progress 1.7
+18 T -552157.517232 T= 10264.99 K
+progress 1.8
+19 T -501722.144537 T= 10044.415 K
+progress 1.9
+20 R -479604.964869 T= 9794.43 K
+progress 2.0
+21 T -366692.803082 T= 9588.56 K
+progress 2.1
+22 R -343268.424601 T= 9250.345 K
+progress 2.2
+23 R -368341.584936 T= 9073.885 K
+progress 2.3
+24 T -329789.447624 T= 8720.965 K
+progress 2.4
+25 T -307880.354765 T= 8441.57 K
+progress 2.5
+26 T -313230.261312 T= 7809.255 K
+progress 2.6
+27 T -378430.44449 T= 7559.27 K
+progress 2.7
+28 T -354804.026083 T= 7265.17 K
+progress 2.8
+29 R -332191.000716 T= 6779.905 K
+progress 2.9
+30 R -337995.392155 T= 6338.755 K
+progress 3.0
+31 R -420820.183502 T= 5882.9 K
+progress 3.1
+32 R -332427.54729 T= 5427.045 K
+progress 3.2
+33 R -385303.769789 T= 5059.42 K
+progress 3.3
+34 R -388553.090706 T= 4765.32 K
+progress 3.4
+35 T -485903.789244 T= 4397.695 K
+progress 3.5
+36 T -483591.598289 T= 4030.07 K
+progress 3.6
+37 T -450985.095088 T= 3588.92 K
+progress 3.7
+38 R -364275.707352 T= 3221.295 K
+progress 3.8
+39 T -437752.352381 T= 2530.16 K
+progress 3.9
+40 R -497549.825287 T= 2015.485 K
+progress 4.0
+41 R -593033.019068 T= 1677.27 K
+progress 4.1
+42 R -604243.220581 T= 603.805 K
+progress 4.2
+Save no big
+msg save short traj
+msg save best.pdb
+msg save plot e_step.png
+Thu Jul 13 14:32:06 2017
+npdock
+--------------------------------------------------------------------------------
+ver: v1.2-12-gc60e0f8
+args.mode: None
+GRAMM_RUN: 1
+GRAMM1_RUN: 1
+SCORING_RUN: 1
+CLU_RUN: 1
+MC_RUN: 1
+http://iimcb.genesilico.pl/NPDock/job/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a
+/home/rpdock/web/media/jobs/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a
+msg %% ONLY REFINEMENT %%
+curr dir: /home/rpdock/web/media/jobs/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a/
+msg NPdock start
+msg ver: v1.2-12-gc60e0f8
+msg mode: 11111
+msg is RNA? 0
+msg Interface: prot: '' na: ''
+msg Curr dir:/home/rpdock/web/media/jobs/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a/
+msg MC (refinement) init
+dir: /home/rpdock/web/media/jobs/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a/
+file: complex.pdb
+find `pwd` -iname complex.pdb 
+ copy /mnt/1tb/npdock_jobs/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a/complex.pdb to /home/rpdock/web/media/jobs/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a//ref_struc/complex/complex.pdb
+cmd: python /home/rpdock/mc/MC_DNA.py -s 1000 -a 15000 -t 295 -e 10 -f /home/rpdock/web/media/jobs/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a//ref_struc/complex/complex.pdb
+msg python /home/rpdock/mc/MC_DNA.py -s 1000 -a 15000 -t 295 -e 10 -f /home/rpdock/web/media/jobs/607c7ccc-0fdb-4e7f-a14a-57224d7e2b1a//ref_struc/complex/complex.pdb
+run_mc::OK! = stderr empty 
+msg npdock::MC (refinement) end
+msg npdock::OK

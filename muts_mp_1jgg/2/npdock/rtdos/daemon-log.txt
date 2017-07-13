@@ -1,0 +1,120 @@
+rm: cannot remove `/home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee//ref_struc': No such file or directory
+Save structure with the lowest energy for every 10 steps
+start - parameters:
+    File name /home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee//ref_struc/complex/complex.pdb
+    Steps 1000
+    Temp. start 15000.0
+    Temp. end 295.0
+    True
+    
+msg start - parameters:
+    File name /home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee//ref_struc/complex/complex.pdb
+    Steps 1000
+    Temp. start 15000.0
+    Temp. end 295.0
+    True
+    
+
+
+    Step	E	Edist	Eang	Epen
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Modification CYT1
+Modification ADE2
+Modification ADE3
+Modification THY4
+Unknown modification: THY (' ', 4, ' ')
+Modification CYT5
+Modification ADE6
+Modification THY7
+Unknown modification: THY (' ', 7, ' ')
+Modification THY8
+Unknown modification: THY (' ', 8, ' ')
+Modification GUA9
+Modification ADE10
+Modification THY11
+Unknown modification: THY (' ', 1, ' ')
+Modification CYT12
+Modification ADE13
+Modification ADE14
+Modification THY15
+Unknown modification: THY (' ', 5, ' ')
+Modification GUA16
+Modification ADE17
+Modification THY18
+Unknown modification: THY (' ', 8, ' ')
+Modification THY19
+Unknown modification: THY (' ', 9, ' ')
+Modification GUA20
+0 - 40000.00	0.00	0.00	40000.00
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+1 R 0.0 T= 13514.795 K
+progress 0.1
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+2 T 120000.0 T= 12735.43 K
+progress 0.2
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Save no big
+msg save short traj
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+Warning:  THY  is non-standard residue
+msg save best.pdb
+msg save plot e_step.png
+Thu Jul 13 14:04:05 2017
+npdock
+--------------------------------------------------------------------------------
+ver: v1.2-12-gc60e0f8
+args.mode: None
+GRAMM_RUN: 1
+GRAMM1_RUN: 1
+SCORING_RUN: 1
+CLU_RUN: 1
+MC_RUN: 1
+http://iimcb.genesilico.pl/NPDock/job/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee
+/home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee
+msg %% ONLY REFINEMENT %%
+curr dir: /home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee/
+msg NPdock start
+msg ver: v1.2-12-gc60e0f8
+msg mode: 11111
+msg is RNA? 0
+msg Interface: prot: '' na: ''
+msg Curr dir:/home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee/
+msg MC (refinement) init
+dir: /home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee/
+file: complex.pdb
+find `pwd` -iname complex.pdb 
+ copy /mnt/1tb/npdock_jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee/complex.pdb to /home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee//ref_struc/complex/complex.pdb
+cmd: python /home/rpdock/mc/MC_DNA.py -s 1000 -a 15000 -t 295 -e 10 -f /home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee//ref_struc/complex/complex.pdb
+msg python /home/rpdock/mc/MC_DNA.py -s 1000 -a 15000 -t 295 -e 10 -f /home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee//ref_struc/complex/complex.pdb
+run_mc::OK! = stderr empty 
+msg npdock::MC (refinement) end
+msg npdock::OK

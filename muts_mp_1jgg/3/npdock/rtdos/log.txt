@@ -1,0 +1,9 @@
+2017-07-13 14:05:06 %% ONLY REFINEMENT %%
+2017-07-13 14:05:06 NPdock start
+2017-07-13 14:05:06 ver: v1.2-12-gc60e0f8
+2017-07-13 14:05:06 mode: 11111
+2017-07-13 14:05:06 is RNA? 0
+2017-07-13 14:05:06 Interface: prot: '' na: ''
+2017-07-13 14:05:06 Curr dir:/home/rpdock/web/media/jobs/dd17afae-f22f-4180-81a4-f88b67fc24d8/
+2017-07-13 14:05:06 MC (refinement) init
+2017-07-13 14:05:07 python /home/rpdock/mc/MC_DNA.py -s 1000 -a 15000 -t 295 -e 10 -f /home/rpdock/web/media/jobs/dd17afae-f22f-4180-81a4-f88b67fc24d8//ref_struc/complex/complex.pdb

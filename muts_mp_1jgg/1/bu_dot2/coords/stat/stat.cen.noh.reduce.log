@@ -1,0 +1,141 @@
+reduce: version 3.14 08/21/2008, Copyright 1997-2008, J. Michael Word
+Processing file: "stat.noh.cen.pdb"
+Database of HETATM connections: "/home/german/dot2/data/reduce_wwPDB_het_dict.txt"
+Processing only 'A' conformations.
+VDW dot density = 16/A^2
+Orientation penalty scale = 1 (100%)
+Eliminate contacts within 3 bonds.
+Ignore atoms with |occupancy| <= 0.01 during adjustments.
+Waters ignored if B-Factor >= 40 or |occupancy| < 0.66
+Aromatic rings in amino acids accept hydrogen bonds.
+Building His ring NH Hydrogens.
+Flipping Asn, Gln and His groups.
+For each flip state, bumps where gap is more than 0.4A are indicated with '!'.
+Building or keeping OH & SH Hydrogens.
+Rotating existing OH & SH Hydrogens
+Rotating NH3 Hydrogens.
+Processing Met methyls.
+ Singles(size 34): C   1 THR OG1 : C   2 THR OG1 : C   6 LYS NZ  : C   7 SER OG  
+  : C  10 LYS NZ  : C  11 ASN     : C  16 ASN     : C  17 LYS NZ  : C  23 LYS NZ  
+  : C  25 GLN     : C  33 GLN     : C  36 GLN     : C  42 GLN     : C  43 ASN     
+  : C  49 LYS NZ  : C  50 THR OG1 : C  51 LYS NZ  : D   1 THR OG1 : D   2 THR OG1 
+  : D   6 LYS NZ  : D   7 SER OG  : D  10 LYS NZ  : D  11 ASN     : D  16 ASN     
+  : D  17 LYS NZ  : D  23 LYS NZ  : D  25 GLN     : D  33 GLN     : D  36 GLN     
+  : D  42 GLN     : D  43 ASN     : D  49 LYS NZ  : D  50 THR OG1 : D  51 LYS NZ  
+ Set 1 (size 2): D   1 THR N   : D   4 GLN     
+ Set 2 (size 2): C   1 THR N   : C   4 GLN     
+ orientation 1: C   1 THR OG1 :   rot  180: bump=-0.265, HB=0.003, total=-0.262
+ orientation 1: C   2 THR OG1 :   rot  180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C   6 LYS NZ  :NH3+    180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: C   7 SER OG  :   rot   86: bump=0.000, HB=1.254, total=1.254
+ orientation 3: C  10 LYS NZ  :NH3+    172: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C  11 ASN     :      amide: bump=-0.037, HB=0.000, total=-0.037
+ orientation 1: C  16 ASN     :      amide: bump=-0.002, HB=0.591, total=0.589
+ orientation 1: C  17 LYS NZ  :NH3+    180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C  23 LYS NZ  :NH3+    180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C  25 GLN     :      amide: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C  33 GLN     :      amide: bump=-0.057, HB=0.000, total=-0.057
+ orientation 1: C  36 GLN     :      amide: bump=0.000, HB=0.652, total=0.652
+ orientation 1: C  42 GLN     :      amide: bump=-0.039, HB=0.000, total=-0.039
+ orientation 1: C  43 ASN     :      amide: bump=0.000, HB=0.000, total=0.000
+ orientation 1: C  49 LYS NZ  :NH3+    180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: C  50 THR OG1 :   rot   73: bump=-0.019, HB=1.211, total=1.191
+ orientation 3: C  51 LYS NZ  :NH3+    153: bump=0.000, HB=0.622, total=0.622
+ orientation 1: D   1 THR OG1 :   rot  180: bump=-0.224, HB=0.001, total=-0.223
+ orientation 1: D   2 THR OG1 :   rot  180: bump=0.000, HB=0.005, total=0.005
+ orientation 1: D   6 LYS NZ  :NH3+    180: bump=0.000, HB=0.000, total=0.000
+ orientation 3: D   7 SER OG  :   rot  -87: bump=-0.148, HB=1.252, total=1.104
+ orientation 1: D  10 LYS NZ  :NH3+    180: bump=0.000, HB=0.000, total=0.000
+ orientation 1: D  11 ASN     :      amide: bump=-0.042, HB=0.000, total=-0.042
+ orientation 1: D  16 ASN     :      amide: bump=0.000, HB=0.000, total=0.000
+ orientation 1: D  17 LYS NZ  :NH3+    180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: D  23 LYS NZ  :NH3+   -164: bump=0.000, HB=0.000, total=0.000
+ orientation 1: D  25 GLN     :      amide: bump=0.000, HB=0.000, total=0.000
+ orientation 1: D  33 GLN     :      amide: bump=-0.008, HB=0.000, total=-0.008
+ orientation 1: D  36 GLN     :      amide: bump=0.000, HB=0.646, total=0.646
+ orientation 1: D  42 GLN     :      amide: bump=0.000, HB=0.000, total=0.000
+ orientation 1: D  43 ASN     :      amide: bump=0.000, HB=0.000, total=0.000
+ orientation 1: D  49 LYS NZ  :NH3+    180: bump=0.000, HB=0.000, total=0.000
+ orientation 2: D  50 THR OG1 :   rot   77: bump=-0.036, HB=0.650, total=0.615
+ orientation 2: D  51 LYS NZ  :NH3+   -176: bump=0.000, HB=0.000, total=0.000
+
+ Processing set: D   1 THR N   [4]: D   4 GLN     [2]
+ permutations: 8
+ Computing dot scores
+ Num optimizations problems to be solved for this clique: 3
+ Beginning Optimization
+ Dynamic programming succeeded to fully optimize hypergraph
+ Beginning Optimization
+ Dynamic programming succeeded to fully optimize hypergraph
+ Optimal score following low resolution optimization: 1.640
+ Beginning Optimization
+ Dynamic programming succeeded to fully optimize hypergraph
+
+ Optimal score following high resolution, local optimization: 1.646
+
+ Processing set: C   1 THR N   [4]: C   4 GLN     [2]
+ permutations: 8
+ Computing dot scores
+ Num optimizations problems to be solved for this clique: 3
+ Beginning Optimization
+ Dynamic programming succeeded to fully optimize hypergraph
+ Beginning Optimization
+ Dynamic programming succeeded to fully optimize hypergraph
+ Optimal score following low resolution optimization: 2.139
+ Beginning Optimization
+ Dynamic programming succeeded to fully optimize hypergraph
+
+ Optimal score following high resolution, local optimization: 2.141
+Found 0 hydrogens (0 hets)
+Standardized 0 hydrogens (0 hets)
+Added 912 hydrogens (0 hets)
+Removed 0 hydrogens (0 hets)
+Adjusted 14 group(s)
+If you publish work which uses reduce, please cite:
+Word, et. al. (1999) J. Mol. Biol. 285, 1735-1747.
+For more information see http://kinemage.biochem.duke.edu
+USER  MOD reduce.3.14.080821 H: found=0, std=0, add=912, rem=0, adj=14
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Set 1.1: D   1 THR N   :NH3+   -149:sc=   0.609   (180deg=-0.277)
+USER  MOD Set 1.2: D   4 GLN     :      amide:sc=    1.04  K(o=1.6,f=-6.1)
+USER  MOD Set 2.1: C   1 THR N   :NH3+   -149:sc=   0.631   (180deg=-0.257)
+USER  MOD Set 2.2: C   4 GLN     :      amide:sc=    1.51  K(o=2.1,f=-6!)
+USER  MOD Single : C   1 THR OG1 :   rot  180:sc=  -0.262
+USER  MOD Single : C   2 THR OG1 :   rot  180:sc=       0
+USER  MOD Single : C   6 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single : C   7 SER OG  :   rot   86:sc=    1.25
+USER  MOD Single : C  10 LYS NZ  :NH3+    172:sc=       0   (180deg=-0.0471)
+USER  MOD Single : C  11 ASN     :      amide:sc= -0.0366  K(o=-0.037,f=-1.2)
+USER  MOD Single : C  16 ASN     :      amide:sc=   0.589  K(o=0.59,f=-0.78)
+USER  MOD Single : C  17 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single : C  23 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single : C  25 GLN     :      amide:sc=       0  K(o=0,f=-0.96)
+USER  MOD Single : C  33 GLN     :      amide:sc= -0.0567  X(o=-0.057,f=-0.068)
+USER  MOD Single : C  36 GLN     :      amide:sc=   0.652  K(o=0.65,f=-4.2!)
+USER  MOD Single : C  42 GLN     :      amide:sc= -0.0386  K(o=-0.039,f=-3!)
+USER  MOD Single : C  43 ASN     :      amide:sc=       0  K(o=0,f=-1.3!)
+USER  MOD Single : C  49 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single : C  50 THR OG1 :   rot   73:sc=    1.19
+USER  MOD Single : C  51 LYS NZ  :NH3+    153:sc=   0.622   (180deg=0.361)
+USER  MOD Single : D   1 THR OG1 :   rot  180:sc=  -0.223
+USER  MOD Single : D   2 THR OG1 :   rot  180:sc= 0.00501
+USER  MOD Single : D   6 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single : D   7 SER OG  :   rot  -87:sc=     1.1
+USER  MOD Single : D  10 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single : D  11 ASN     :      amide:sc= -0.0421  X(o=-0.042,f=-0.52)
+USER  MOD Single : D  16 ASN     :      amide:sc=       0  X(o=0,f=-0.25)
+USER  MOD Single : D  17 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single : D  23 LYS NZ  :NH3+   -164:sc=       0   (180deg=-0.0466)
+USER  MOD Single : D  25 GLN     :      amide:sc=       0  K(o=0,f=-0.87)
+USER  MOD Single : D  33 GLN     :      amide:sc=-0.00837  K(o=-0.0084,f=-0.67)
+USER  MOD Single : D  36 GLN     :      amide:sc=   0.646  K(o=0.65,f=-4.9!)
+USER  MOD Single : D  42 GLN     :      amide:sc=       0  K(o=0,f=-0.79)
+USER  MOD Single : D  43 ASN     :      amide:sc=       0  K(o=0,f=-0.7)
+USER  MOD Single : D  49 LYS NZ  :NH3+    180:sc=       0   (180deg=0)
+USER  MOD Single : D  50 THR OG1 :   rot   77:sc=   0.615
+USER  MOD Single : D  51 LYS NZ  :NH3+   -176:sc=       0   (180deg=-0.0292)
+USER  MOD -----------------------------------------------------------------

@@ -1,0 +1,22 @@
+pdb_to_xyzq: Warning:  Charge of residue dt3 A  10 is not an integer: -1.0360
+pdb_to_xyzq: Warning:  Charge of residue dt A   1 is not an integer: -1.3700
+pdb_to_xyzq: Warning:  Charge of residue da A   2 is not an integer: -1.6740
+pdb_to_xyzq: Warning:  Charge of residue da A   3 is not an integer: -1.6740
+pdb_to_xyzq: Warning:  Charge of residue dt A   4 is not an integer: -1.3700
+pdb_to_xyzq: Warning:  Charge of residue dt A   5 is not an integer: -1.3700
+pdb_to_xyzq: Warning:  Charge of residue dg A   6 is not an integer: -1.9970
+pdb_to_xyzq: Warning:  Charge of residue da A   7 is not an integer: -1.6740
+pdb_to_xyzq: Warning:  Charge of residue da A   8 is not an integer: -1.6740
+pdb_to_xyzq: Warning:  Charge of residue dt A   9 is not an integer: -1.3700
+pdb_to_xyzq: Warning:  Charge of residue da3 B  10 is not an integer: -1.3400
+pdb_to_xyzq: Warning:  Charge of residue da B   1 is not an integer: -1.6740
+pdb_to_xyzq: Warning:  Charge of residue da B   2 is not an integer: -1.6740
+pdb_to_xyzq: Warning:  Charge of residue dt B   3 is not an integer: -1.3700
+pdb_to_xyzq: Warning:  Charge of residue dt B   4 is not an integer: -1.3700
+pdb_to_xyzq: Warning:  Charge of residue dc B   5 is not an integer: -1.6730
+pdb_to_xyzq: Warning:  Charge of residue da B   6 is not an integer: -1.6740
+pdb_to_xyzq: Warning:  Charge of residue da B   7 is not an integer: -1.6740
+pdb_to_xyzq: Warning:  Charge of residue dt B   8 is not an integer: -1.3700
+pdb_to_xyzq: Warning:  Charge of residue dt B   9 is not an integer: -1.3700
+Total molecular charge: -30.398
+pdb_to_xyzq: Warning:  Total charge is not an integer: -30.3980

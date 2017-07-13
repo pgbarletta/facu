@@ -1,0 +1,268 @@
+#! /bin/bash
+# This prepscript script will run the DOT pre-processing utilities 
+# on PDB files stat.pdb and mov.pdb.
+# Execute it by typing: 
+#     ./prepscript
+#   or 
+#      bash prepscript
+# in your DOT project 'coords' subdirectory
+#
+
+# To make prepscript use UHBD instead of APBS, run it as
+#   prepscript --uhbd
+
+# To make prepscript verbose, uncomment the following line
+#set -o  xtrace
+
+# prepscript was created mar jun 27 08:23:32 ART 2017 by gen_dot_prepscript version 1.23
+
+archosv=$($DOT_ROOT/bin/share/archosv)
+
+# include DOT utility directories in bash command search path
+#  put late to allow users to override if necessary
+#PATH=$PATH:"$DOT_ROOT/bin/$archosv:$DOT_ROOT/bin/share"
+
+# include DOT utility directories in bash command search path
+#  put first to guard agains possible obsolete version in users path
+PATH="$DOT_ROOT/bin/$archosv:$DOT_ROOT/bin/share:$PATH"
+
+
+
+# include functions used inside prepscript
+source $DOT_ROOT/data/dot-util-functions.bash
+
+# check for prepscript run-time options
+# Only one so far is --uhbd
+
+use_uhbd=0
+pot_grd_suffix="dx"  # for APBS, which is the default electrostatics calculator
+if [ $# -ge 1 ]; then
+	if [ test$1 = test--uhbd ]; then
+		use_uhbd=1
+		pot_grd_suffix="uhbd"
+	else
+		echo "unrecognized prepscript option $1, quitting"
+		exit -1
+	fi
+fi
+
+# set prepscript default residue library - always passed to UHBD
+# and passed to "pdb_to_xyzq" and "striph" if not default (empty string)
+reslib="/home/german/dot2/data/uhbd.amber84.prot.dna.rlb"  # get value from gen_dot_prepscript
+if [ test"$reslib" = test ]; then
+	# empty string - use default in UHBD, do not pass to other utilities
+	reslib="$DOT_ROOT/data/uhbd.amber84.prot.rlb"
+	optreslib=""
+else
+	# value given - pass to other utilities
+	# TODO allow both relative and absolute file names here 
+	#    if begins with / is absolute - just pass it
+	#    else prepend PWD I suppose - MP
+	#
+	optreslib="--library $reslib"
+	echo $prepscript will use residue library $reslib
+fi
+
+# set location of Reduce program hetatom dictionary if not already set by user
+# the default is the 2007 "remediated" dictionary
+# If you need to process pre-2007 PDB files, use reduce_het_dict.txt instead
+export REDUCE_HET_DICT=${REDUCE_HET_DICT:-${DOT_ROOT}/data/reduce_wwPDB_het_dict.txt}
+
+# set prepscript min and max allowable total charge on the moving molecule.
+# If your moving molecule charge is outside this range, just change the value here.
+# If your moving molecule is missing some atoms and you want to allow a non-integer
+#   total charge, set both of these to 0
+qtotminmov=0
+qtotmaxmov=0
+
+# prepare moving molecule files
+test -d mov ||  mkdir mov
+cp -p mov.pdb mov
+pushd mov
+# put options for moving molecule setup into next line,
+#  such as the  '-r Nterm3' needed for ugi
+dot2-prep-mol-common -p mov.pdb -l $reslib -q $qtotminmov -Q $qtotmaxmov -w moving
+exit_if_error $? dot2-prep-mol_common reported an error, prepscript quitting
+popd
+echo Moving molecule files are complete
+
+# set prepscript min and max allowable total charge on the stationary molecule.
+# If your stationary molecule charge is outside this range, just change the value here.
+# If your stationary molecule is missing some atoms and you want to allow a non-integer
+#   total charge, set both of these to 0
+qtotminstat=-20
+qtotmaxstat=20
+
+
+test -d stat ||  mkdir stat
+cp -p stat.pdb stat
+pushd stat
+# put options for stationary molecule setup into next line,
+#  such as the  '-r Nterm82' needed for udg
+dot2-prep-mol-common -p stat.pdb -l $reslib -q $qtotminstat -Q $qtotmaxstat -w stationary
+exit_if_error $? dot2-prep-mol_common reported an error, prepscript quitting
+popd
+
+# create files for moving molecule in coord system of centered stationary;
+#
+# these are NOT used in any default prepscript-based operations but
+# are useful for comparing DOT placements with the original moving molecule
+# in cases where its position (relative to stationary) is known,
+# and to compare DOT's evaluation of the original position with other placements
+#
+if [ -f stat/stat.noh.center.xyz ]; then
+   echo Creating moving-in-statcenter files
+   # capture center of the stationary molecule, used to make moving_instatcenter
+   statcenter=$(cat stat/stat.noh.center.xyz)  # x,y,z
+   pushd  mov
+   # the -i translates the original moving molecule by negative of statcenter
+   pdb_trans -i $statcenter mov.noh.pdb > mov.instatcenter.noh.pdb
+   # create instatcenter versions of the charge and vdw files - 
+   # this is most easily done by translating the centered moving molecule
+   # charge and vdw files by the vector  [ movcenter - statcenter ]
+   # rather than rerunning Reduce and pdb_to_xyzq...
+   movcenter=$(cat mov.noh.center.xyz)  # x,y,z
+   instatcenter=$(echo $movcenter | xyz_trans -i $statcenter)
+   xyz_trans  $instatcenter mov.cen.polh.xyzq > mov.instatcenter.polh.xyzq
+   xyz_trans  $instatcenter mov.cen.noh.xyz    > mov.instatcenter.noh.xyz
+   echo Moving-in-statcenter files are complete.
+   popd 
+fi
+
+
+# set dim: at least (stationary molecule plus twice the moving molecule) diams
+xyzstep=1.0  # default, change here
+declare xyzdim  # integer dimension of grid or "auto" to have it computed here
+xyzdim=auto # receive value from gen_dot_prepscript
+if [ $xyzdim = auto ];  then
+	xyzdim=$(dot2-prep-gridsize -m mov/mov.noh.pdb -s stat/stat.noh.pdb -g $xyzstep)
+	exit_if_error $? dot2-prep-gridsize reported an error, prepscript quitting
+	fi
+
+# if you need a non cubic grid, modify the next 3 lines; 
+# these are integer values - the number of grid points in each dimension
+# The grid spacing in each dimension must be the same, a DOT2 limitation.
+xdim=${xyzdim}
+ydim=${xyzdim}
+zdim=${xyzdim}
+
+# set dimstring, used as part of the electrostatic potential grid file name
+if [ $xdim -eq $ydim ] && [ $ydim -eq $zdim ]; then
+  echo "Grid dimensions will be $xdim cubed;  $xyzstep Angstrom spacing."
+  dimstring=$xdim
+else
+  echo "Grid dimensions will be $xdim by $ydim by $zdim (x,y,z);  $xyzstep Angstrom spacing."
+  dimstring=${xdim}x${ydim}x${zdim}
+fi
+# set stepstring if grid spacing is not 1. (include leading ".s" )
+case $xyzstep in
+	1|1.0|1.) stepstring="";;
+	*) stepstring=".s"$xyzstep;;
+	esac
+
+pushd stat
+# You can edit these UHBD/APBS calculation parameters here
+pot_ionstr=150 # millimolar - will be automatically converted to M for APBS
+pot_maxits=500 # max iterations allowed to achieve convergence (APBS ignores)
+pot_grd=stat.cen.${dimstring}${stepstring}.${pot_ionstr}m.${pot_grd_suffix}
+
+
+if [ $use_uhbd = 0 ]; then
+	echo Prepare stationary molecule potential file '(apbs dx)'
+	dot2-prep-potgrid-apbs \
+	 -p stat.cen.polh.pdb -x $xdim -y $ydim -z $zdim -s $xyzstep -l $reslib \
+	 -q $qtotminstat -Q $qtotmaxstat -i $pot_ionstr -o $pot_grd
+	exit_if_error $? dot2-prep-potgrid-apbs reported an error, prepscript quitting
+else
+
+	echo Prepare alternate stationary molecule potential file '(uhbdgrd)'
+	dot2-prep-potgrid-uhbd \
+	 -p stat.cen.polh.pdb   -x $xdim -y $ydim -z $zdim -s $xyzstep -l $reslib \
+	-q $qtotminstat -Q $qtotmaxstat -i $pot_ionstr -m $pot_maxits -o $pot_grd
+	exit_if_error $? dot2-prep-potgrid-uhbd reported an error, prepscript quitting
+fi
+exit_if_file_missing_or_empty $pot_grd
+
+echo Prepare stationary molecule shape potential volume '(xyzcrv)' files
+echo step 1: locate msms program "(not supplied in DOT distribution)"
+exit_if_not_runnable msms Cannot find msms program, prepscript quitting
+
+echo step 2: run gen_xyzcrvs to create two stationary volume files
+echo "(gen_xyzcrvs log file will be created in gen_xyzcrvs.log)"
+gen_xyzcrvs stat.cen.noh.pdb $xdim $ydim $zdim $xyzstep --clamp \
+ -v stat.cen.noh.xyzcrv -c stat.cen.noh.r+1.4_p=1.4.clamp.xyzcrv \
+2>&1 | tee gen_xyzcrvs.log
+exit_if_error $? gen_xyzcrvs reported an error processing stat.cen.noh.pdb, prepscript quitting
+exit_if_file_missing_or_empty stat.cen.noh.xyzcrv
+exit_if_file_missing_or_empty stat.cen.noh.r+1.4_p=1.4.clamp.xyzcrv
+
+
+echo Determining electrostatic clamping values to be used in DOT parameter file
+if [ $use_uhbd = 0 ]; then
+	apbsgrd_lookup_xyz --invert --minmax $pot_grd stat.cen.noh.r+1.4_p=1.4.clamp.xyzcrv > stat.cen.noh.clamp.minmax 
+	exit_if_error $? apbsgrd_lookup_xyz reported an error, prepscript quitting.
+else
+	uhbdgrd_lookup_xyz --invert --minmax $pot_grd stat.cen.noh.r+1.4_p=1.4.clamp.xyzcrv > stat.cen.noh.clamp.minmax 
+	exit_if_error $? uhbdgrd_lookup_xyz reported an error, prepscript quitting.
+fi
+exit_if_file_missing_or_empty stat.cen.noh.clamp.minmax
+
+clamp_low=$(awk '$2=="min"{print $1}' stat.cen.noh.clamp.minmax)
+clamp_high=$(awk '$2=="max"{print $1}' stat.cen.noh.clamp.minmax)
+echo "Stationary potential clamp high will be" $clamp_high
+echo "Stationary potential clamp low will be" $clamp_low
+
+echo Stationary molecule files are complete
+popd
+
+
+# generate sample parm files
+
+# include ".uhbd" in sample parm file names if appropriate
+case $use_uhbd in
+	0) suffix="parm";;
+	1) suffix="uhbd.parm";;
+	esac
+
+for i in 1 2 3 4
+do
+
+case $i in
+	1) nb=0; rot=zero-rotation;;
+	2) nb=0; rot=deg72;;
+	3) nb=0; rot=deg06;;
+	4) nb=10;rot=deg06;;
+	esac
+
+# next two lines do an m4 string concatenation - may be a better way MP
+parmfile=stat\
+mov${stepstring}.$rot.nb$nb.$suffix
+
+# note the dollar signs with backslashes represent environment
+# variables that the "rundot" script sets and then interprets
+
+echo Generating sample DOT parm file $parmfile
+gen_dot_parm \
+	--template ${DOT_ROOT}/data/dot_parm_template \
+	SizeX 			$xdim \
+	SizeY 			$ydim \
+	SizeZ 			$zdim \
+	dot_grid_step		$xyzstep \
+	stat_pot_file		\${DOT_PROJECT}/coords/stat/$pot_grd \
+	stat_vdw_file 		\${DOT_PROJECT}/coords/stat/stat.cen.noh.xyzcrv \
+	stat_pdb_file 		\${DOT_PROJECT}/coords/stat/stat.cen.noh.pdb \
+	mov_charge_file 	\${DOT_PROJECT}/coords/mov/mov.cen.polh.xyzq \
+	mov_vdw_file 		\${DOT_PROJECT}/coords/mov/mov.cen.noh.xyz \
+	mov_pdb_file 		\${DOT_PROJECT}/coords/mov/mov.cen.noh.pdb \
+	rot_file		\${DOT_ROOT}/data/$rot.eul \
+	mov_atoms_in_stat_interior_limit $nb \
+	out_base 		stat\
+mov \
+	stat_pot_clamp_high	$clamp_high \
+	stat_pot_clamp_low	$clamp_low  \
+	> ../$parmfile
+done
+
+echo "To remove all files normally created by prepscript, type"
+echo "rm *.parm *.cen.* *.center.*  *.minmax *.log *.com"
+

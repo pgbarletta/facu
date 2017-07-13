@@ -1,0 +1,301 @@
+0parm
+#! /bin/bash
+# rundot: user-level DOT startup
+
+# Notes: 
+#   
+# Calls:	mpirun (as provided by mpi-ch)
+#
+#
+# $Id: rundot,v 1.23 2013/04/23 18:04:22 mp Exp $
+# Copyright (C) 2007 The Regents of the University of California. All rights reserved.
+# See file LICENSE-DOT2 or www.sdsc.edu/CCMS for license terms.
+
+
+pgm=rundot
+version="$(echo '$Id: rundot,v 1.23 2013/04/23 18:04:22 mp Exp $' | awk '{print $3}')"
+function usage
+{
+#echo "Usage: $pgm parmfile [-h hostfile|onehost ] [optional comments for log]">&2;
+echo "Usage: $pgm parmfile [-h hostfile|onehost ]|[-np #processors ] [optional comments for log]">&2;
+}
+
+# defaults:
+parmfile=""  # no default, is required as first argument
+mpich=n      # parallel run using MPICH, default is single CPU non-MPI
+ompi=n      # parallel run using OPENMPI, default is single CPU non-MPI
+hostfile=hosts  # change with -h
+runname=""   # default is to set from parmfile name
+dotruns=dotruns  # runs summary log
+dryrun=n   # if --dryrun will not actually run DOT (NOT IMPLEMENTED)
+maxNP=8   # max number of CPU/hosts to use 0  (not fully implemented)
+
+# first, look for options that do not require a parm file be present:
+# arg parsing adapted from "Learning the BASH Shell" p. 139 - M Pique
+while [ -n "$(echo $1 | grep '^-')" ]; do
+	case $1 in
+	--help|-help|--usage|-usage) 
+	  usage;
+	  exit 0;;
+	--version|-version)
+	  echo $pgm $version
+	  exit 0;;
+	-*) break;;
+	esac
+	shift
+done
+
+if [ $# = 0 ]; then
+	usage
+	exit 0
+	fi
+
+if [ ! -r $1 ]; then
+	echo $pgm error, parameter file $1 is not readable
+	exit -1
+else
+	parmfile=$1
+	shift
+fi
+
+
+if [ ! ${DOT_ROOT-} ]; then
+	echo set DOT_ROOT and retry
+	echo csh example: setenv DOT_ROOT /usr/local/dot
+	echo bash example: export DOT_ROOT=/usr/local/dot
+	exit -1
+	fi
+
+if [ ! -d "$DOT_ROOT" ]; then 
+	echo "$0: DOT_ROOT is not properly set">&2
+	exit -1
+	fi
+
+# second, look for options that require a parm file be present:
+# arg parsing adapted from "Learning the BASH Shell" p. 139 - M Pique
+while [ -n "$(echo $1 | grep '^-')" ]; do
+	case $1 in
+	--dryrun)
+	  dryrun=y;;
+	--np|-np)
+	  ompi=y
+	  NP=$2;shift;;
+	--hostfile|-h)
+	  mpich=y
+	  hostfile=$2;shift;;
+	--onehost|-onehost)
+	  mpich=y
+	  echo $pgm setting onehost option
+	  hostfile=onehost;;
+	--dot)
+	  debugdot=$2;shift;;  # run special dot executable, for debugging
+	-*) usage; exit 1;;
+	esac
+	shift
+done
+
+DATE=$(date +%Y%m%d.%H%M)
+ARCHOSV=$(${DOT_ROOT}/bin/share/archosv)
+# TODO : check that archosv knows this machine type
+export PATH=${DOT_ROOT}/bin/$ARCHOSV:${DOT_ROOT}/bin/share:$PATH # for DOT utilities
+
+# export DOT_ROOT in case it was previously only a shell variable
+export DOT_ROOT=${DOT_ROOT}
+
+# import DOT bash function library
+source $DOT_ROOT/data/dot-util-functions.bash
+
+# set enviroment variable for use in parameter file
+export DOT_PROJECT=$PWD
+
+# make sure necessary utilities are locatable
+if [ $mpich = y ]; then
+  export PATH=${DOT_ROOT}/mpich/share/bin:$PATH    # for mpirun
+  exit_if_not_runnable mpirun $pgm cannot find MPICH mpirun program, check your \$PATH
+elif [ $ompi = y ]; then
+  exit_if_not_runnable mpirun $pgm cannot find OPENMPI mpirun program, check your \$PATH
+fi
+
+# make sure we can evaluate the environment variables in the parameter file 
+exit_if_not_runnable expand_environment_variables $pgm cannot find expand_environment_variables program, check your \$DOT_ROOT and \$PATH
+expand_environment_variables $parmfile > /dev/null
+status=$?
+exit_if_error $status Error expanding environment variables in $parmfile, $pqm quitting
+
+# create parent directory for DOT output
+DESTDIRROOT=runs
+if [ ! -e $DESTDIRROOT ]; then
+	mkdir $DESTDIRROOT
+	chmod a+w $DESTDIRROOT
+	fi
+
+# directory for DOT output is based on parmfile name
+parmfilename=${parmfile%.*}  # strip .parm,  TODO *** strip leading chars to /   
+if [ test$runname = test ]; then
+	DESTDIR=$DESTDIRROOT/$DATE.$parmfilename
+else
+   	DESTDIR=$runname
+fi
+
+
+
+if [ $mpich = y ] ; then
+# if '-h onehost' specified, create one-line 'onehost' file if non-existing
+  if [ test$hostfile = testonehost ]; then
+     maxNP=1
+     if [ ! -e onehost ]; then
+        echo "localhost" > onehost
+     fi
+   else
+	# otherwise create one-line 'hosts' file if it does not already exist
+     if [ ! -e hosts ]; then
+        echo "localhost" > hosts
+     fi
+   fi
+
+   # warn if using default hostfile name
+   if [ hosts = $hostfile ]; then
+      echo $pgm is using default host file $hostfile
+    fi
+   exit_if_file_missing_or_empty $hostfile
+
+   # get the location of the master (first host) 'dot' executable
+   DOT=$DOT_ROOT/bin/$ARCHOSV/dot2.mpich
+
+   # location of this system's 'mpirun' executable
+   exit_if_not_runnable mpirun "Cannot find mpirun program, $pgm exiting"
+   MPIRUN=$(builtin type -p mpirun)
+elif [ $ompi = y ]; then
+	if [[ -z "$NP" ]];then
+		usage
+		echo "Please set the number of processors to use"		
+		exit 1
+	elif [[ "$NP" -gt "$maxNP" ]]; then
+	        echo You requested more than maxNP processors
+		NP=$maxNP
+		echo Setting NP=maxNP=$NP
+		echo Edit maxNP in $DOT_ROOT/bin/share/rundot to increase maxNP
+	fi
+	# get the location of the master 'dot' executable
+	DOT=$DOT_ROOT/bin/$ARCHOSV/dot2.ompi
+# location of this system's 'mpirun' executable
+	exit_if_not_runnable mpirun "Cannot find mpirun program, $pgm exiting"
+	MPIRUN=$(builtin type -p mpirun)
+	echo found OPENMPI $MPIRUN and using $NP processors
+else
+   # not MPI
+   DOT=$DOT_ROOT/bin/$ARCHOSV/dot2
+fi
+
+# check for override on command line (for debugging)
+DOT=${debugdot:-"$DOT"}
+
+if [ $dryrun = y ];then
+  if [ $mpich = y ]; then
+     echo "$MPIRUN -p4pg mpichhosts $DOT dot.parm 2>&1 | tee -a log"
+  elif [ $ompi = y ];then
+     echo "$MPIRUN -np $NP $DOT dot.parm 2>&1 | tee -a log"
+  else
+     echo "$DOT dot.parm 2>&1 | tee -a log"
+  fi
+exit 0
+fi
+
+exit_if_file_missing_or_empty $DOT $pgm could not find DOT pgm in $DOT
+
+
+mkdir $DESTDIR
+echo `date` $0 beginning | tee $DESTDIR/log
+
+# move symbolic link "latest" to point to DESTDIR
+rm -f latest
+ln -s $DESTDIR latest
+
+# prepend optional comments to "rundot" script and save it
+#
+(echo "" ; echo `date` $DESTDIR "($USER)"  ; echo "$*" ) >> $dotruns
+
+# copy comments and entire script to run directory 
+echo "$*" > $DESTDIR/$DATE.run
+cat $0 >> $DESTDIR/$DATE.run
+
+# copy raw parameter file for documentation purposes, retaining name
+cp -p $parmfile $DESTDIR
+# evaluate environment variables in parameter file and place in run dir
+expand_environment_variables $parmfile > $DESTDIR/dot.parm
+status=$?
+# check (again) that it worked
+exit_if_error $status Error expanding environment variables from $parmfile into $DESTDIR/dot.parm, $pqm quitting
+
+if [ $mpich = y ]; then
+   # prepare list of hosts & their binaries (see MPICH user guide, section 3.4.1)
+   # as file mpichhosts (uses "create_host_file" script that 
+   # inquires architecture of each host using "create_p4pg_entry")
+   #create_host_file $(awk 'NF>0&&substr($1,1,1)!="#"{print $1}' $hostfile) > $DESTDIR/mpichhosts.debug.nomaxNP
+   create_host_file $(awk 'NF>0&&substr($1,1,1)!="#"{print $1}' $hostfile|head -$maxNP) > $DESTDIR/mpichhosts
+
+   NP=$(wc -l < $DESTDIR/mpichhosts)
+
+   exit_if_file_missing_or_empty $DESTDIR/mpichhosts $pgm could not create mpichosts file
+fi
+
+pushd ${DESTDIR}
+if [ $mpich = y ]; then
+  echo `date` starting DOT $NP "host(s)" 2>&1 | tee -a log
+  echo  Using command "$MPIRUN -p4pg mpichhosts $DOT dot.parm" 2>&1 | tee -a log
+
+  $MPIRUN -p4pg mpichhosts $DOT dot.parm 2>&1 | tee -a log
+  statusv=(${PIPESTATUS[@]})
+  dotrunstatus=${statusv[0]}
+elif [ $ompi = y ]; then
+  echo `date` starting DOT $NP "host(s)" 2>&1 | tee -a log
+  echo  Using command "$MPIRUN -np $NP $DOT dot.parm" 2>&1 | tee -a log
+
+  $MPIRUN -np $NP $DOT dot.parm 2>&1 | tee -a log
+  statusv=(${PIPESTATUS[@]})
+  dotrunstatus=${statusv[0]}
+else
+  echo single-processor DOT:  | tee -a log
+  echo Using command "$DOT dot.parm" | tee -a log
+  $DOT dot.parm 2>&1 | tee -a log
+  statusv=(${PIPESTATUS[@]})
+  dotrunstatus=${statusv[0]}
+fi
+exit_if_error $dotrunstatus $pgm exiting with DOT error code $dotrunstatus 
+
+# copy moving and stationary PDB files into rundir for documentation purposes
+if [ -r dot_parms_used ]; then
+	movpdb=$(key_value mov_pdb_file  dot_parms_used)
+	test -n "$movpdb" && test -r $movpdb && cp -p $movpdb .
+	statpdb=$(key_value stat_pdb_file  dot_parms_used)
+	test -n "$statpdb" && test -r $statpdb && cp -p $statpdb .
+	# if moving "instatcenter" exists, copy it also (see evaluate_dot_run)
+	movinstatcenter=${movpdb%.cen.noh.pdb}.instatcenter.noh.pdb
+	if [ -e $movinstatcenter ]; then
+		cp -p $movinstatcenter .
+	fi
+
+fi
+popd
+
+echo `date` DOT done | tee -a $DESTDIR/log | tee -a $dotruns
+
+# evaluate run  - use evaluate_dot_run in current directory if present
+# regardless of $path. If not found there, use whatever is in $path
+if [ -x ./evaluate_dot_run ]; then
+	ev=./evaluate_dot_run
+else
+	ev=evaluate_dot_run
+fi
+if [ $dotrunstatus = 0 ]; then
+	echo running $ev | tee -a $DESTDIR/log
+	$ev -d $DESTDIR 2>&1 |  tee -a $DESTDIR/log
+	echo `date` $ev done | tee -a $DESTDIR/log
+fi
+
+# add user comments to logfile
+# TODO *** skip if running in background (how to test this in bash?)
+echo -n "Notes for dotruns file (Type notes, then type ENTER/RETURN then control-D to end) >"
+
+cat | tee -a $DESTDIR/log >> $dotruns
+exit 0

@@ -1,0 +1,5 @@
+
+#First_match   Last_match   separate/joint  +init_lig
+# ----------------------------------------------------------------------------
+prot-na.res 4 5 separ no
+        

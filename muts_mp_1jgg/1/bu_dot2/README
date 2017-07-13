@@ -1,0 +1,16 @@
+#
+> Renombre los oxígenos de las lysinas en la proteína (la stat). 
+    De OT1 y OT2 a O y OXT, respectivamente
+    :%s/OT1/O  /g 
+    :%s/OT2/OXT/g 
+
+> Agregue Pausa en dot2-prep-mol-common
+
+> Durante la pausa de mov:
+        Renombrar los residuos de DNA:
+            dna_rename mov.cen.polh.pdb short # este p/ continuar con el prep
+            dna_rename mov.cen.noh.pdb short # este p/ el rundot 
+
+        Actualizar los nombres de los átoms de PDBv2 a PDBv3:
+            dna_update mov.cen.polh.pdb # este p/ continuar con el prep
+            dna_rename mov.cen.noh.pdb # este p/ el rundot 

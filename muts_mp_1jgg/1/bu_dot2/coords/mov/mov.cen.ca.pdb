@@ -1,0 +1,32 @@
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 DT  O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 DA  O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' DT  A   1      13.991  -1.379  -7.897  1.00  8.42
+ATOM     44  C3' DA  A   2      11.019  -6.987  -6.378  1.00 82.23
+ATOM     76  C3' DA  A   3       7.570  -8.826  -1.866  1.00 83.46
+ATOM    108  C3' DT  A   4       4.805  -7.296   3.328  1.00  0.76
+ATOM    140  C3' DT  A   5       2.572  -3.509   7.333  1.00 76.17
+ATOM    172  C3' DG  A   6      -1.337   0.699   8.045  1.00 83.68
+ATOM    205  C3' DA  A   7      -5.038   5.708   6.670  1.00 85.87
+ATOM    237  C3' DA  A   8      -8.087   7.110   1.696  1.00 70.41
+ATOM    269  C3' DT  A   9     -11.124   6.655  -3.584  1.00 79.84
+ATOM    301  C3' DT  A  10     -14.685   2.845  -6.550  1.00 20.05
+TER
+ATOM     12  C3' DA  B   1     -14.512  -8.974   1.401  1.00 23.55
+ATOM     44  C3' DA  B   2     -11.605  -8.429  -3.705  1.00 70.88
+ATOM     76  C3' DT  B   3      -8.219  -4.449  -6.670  1.00 76.06
+ATOM    108  C3' DT  B   4      -5.460   0.837  -7.037  1.00 80.04
+ATOM    140  C3' DC  B   5      -1.339   5.128  -5.887  1.00 76.13
+ATOM    170  C3' DA  B   6       1.936   8.631  -1.272  1.00 85.15
+ATOM    202  C3' DA  B   7       5.426   7.174   3.586  1.00 86.64
+ATOM    234  C3' DT  B   8       8.396   2.967   6.874  1.00 91.11
+ATOM    266  C3' DT  B   9      12.060  -1.784   7.751  1.00  3.49
+ATOM    298  C3' DA  B  10      15.410  -5.933   5.464  1.00 38.73
+TER
+END

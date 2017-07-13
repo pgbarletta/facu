@@ -1,0 +1,5 @@
+> Renombre los oxígenos de las lysinas en la proteína de OT1 y OT2 a O y OXT,
+ respectivamente
+    :%s/OT1/O  /g
+    :%s/OT2/OXT/g
+

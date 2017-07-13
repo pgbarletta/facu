@@ -1,0 +1,249 @@
+basename = stat.cen.noh
+xyzrname = stat.cen.noh.xyzr
+triname = stat.cen.noh.tri
+Three xyzr files are called: stat.cen.noh.xyzr  stat.cen.noh.1.4.xyzr  stat.cen.noh.3.0.xyzr
+MSMS 2.6.1 started on german-xps
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+INPUT  stat.cen.noh.xyzr 878 spheres 0 collision only, radii  1.400 to  2.000
+PARAM  Probe_radius  1.400 density  3.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 140 139 155
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0         690     1035          0        309      19
+    Time Reduced Surface real: 0.02 user: 0.02 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.01 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     2116   4266     46    2152       82   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400     788.124  1281.335  1330.736  3400.194  4156.114
+TRIANGULATION...
+    Component 0
+    component#, vertices,  edges,  faces, genus, density
+        0           8891   26667   17778    0     2.615
+        Time Triangulation real: 0.04 user: 0.04 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40     7008.344   3346.103
+    Total ses_volume:  7008.344
+MSMS terminated normally
+Total Time real: 0.11 user: 0.10 sys: 0.00
+Running program to create triangles
+Finished creating triangles for analysis
+Now analyzing triangles
+analyze-triangles: reading file stat.cen.noh.tri
+square min_dist= 1e-06  square max_dist= 2.65348
+min_dist= 0.001  max_dist= 1.62895
+The number of flat line triangles is= 0
+The number of single point triangles= 0
+The number of edges > max edge = 761
+The mean distance is= 0.730167
+min normal angle= -0.964695  max normal angle= 0.925156
+min interior angle= -0.996909  max interior angle= 1
+17778 triangles in file
+fill-hull:
+  Grid dimensions are 160 160 160 cells
+  Grid step (spacing) is 1 Angstroms
+  Grid size is 160 by 160 by 160 Angstroms
+  Minimum accepted triangle area is 0.001 Ang**2
+  Debug verbose level is 0
+ fill-hull grid starting corner:  x_origin=-80 y_origin=-80 z_origin=-80
+
+fill-hull: 17778 triangles in file stat.cen.noh.tri
+
+fill-hull: 17778 triangles read, 17750 triangles accepted, 28 degenerate triangles ignored.
+-80  -79  -78  -77  -76  -75  -74  -73  -72  -71  -70  -69  -68  -67  -66  -65  -64  -63  -62  -61  -60  -59  -58  -57  -56  -55  -54  -53  -52  -51  -50  -49  -48  -47  -46  -45  -44  -43  -42  -41  -40  -39  -38  -37  -36  -35  -34  -33  -32  -31  -30  -29  -28  -27  -26  -25  -24  -23  -22  -21  -20  -19  -18  -17  fill-hull grid x,y= -17 0 __S3=0 triangle with gridpoint at triangle 11852
+
+fill-hull grid x,y= -17 0 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+fill-hull (-16.99,0)__S3=0 rechecked x with gridpoint at triangle 11852
+
+fill-hull gridpoint is on a line and comb_sign=2  ...  rearranging ygrid by gridstep*.01
+-16  -15  -14  -13  -12  -11  -10  -9  -8  -7  -6  -5  -4  -3  -2  -1  0  fill-hull grid x,y= 0 4 __S2=0 triangle with gridpoint at triangle 14943
+
+fill-hull grid x,y= 0 4 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  
+Total number of Inside_tris are 1722
+The maximum number of triangles for one gridpoint is 8
+The number of gridpoints inside is 7008
+Number of xgrid shifts= 2  Number of ygrid shifts= 1
+Total number of even triangles sets at gridpoints are 693
+Total number of odd triangles sets at gridpoints are 0
+
+Created the Forbidden (F) file called: stat.cen.noh.r+0.0_p=1.4.xyz
+MSMS 2.6.1 started on german-xps
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+INPUT  stat.cen.noh.3.0.xyzr 878 spheres 0 collision only, radii  4.400 to  5.000
+PARAM  Probe_radius  1.400 density  3.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 140 155 156
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0         298      447          0        148      1.5
+    Time Reduced Surface real: 0.02 user: 0.02 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0      896   1788      0     894        0   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400     140.329  1101.474  3018.520  4260.323  5029.430
+TRIANGULATION...
+    Component 0
+    component#, vertices,  edges,  faces, genus, density
+        0          12033   36093   24062    0     2.824
+        Time Triangulation real: 0.10 user: 0.10 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    19258.732   4243.391
+    Total ses_volume: 19258.732
+MSMS terminated normally
+Total Time real: 0.23 user: 0.22 sys: 0.00
+Running program to create triangles
+Finished creating triangles for analysis
+Now analyzing triangles
+analyze-triangles: reading file stat.cen.noh.tri
+square min_dist= 0  square max_dist= 2.11593
+min_dist= 0  max_dist= 1.45462
+The number of flat line triangles is= 6
+The number of single point triangles= 0
+The number of edges > max edge = 178
+The mean distance is= 0.678986
+min normal angle= -0.377938  max normal angle= 0.422459
+min interior angle= -0.952479  max interior angle= 1
+24062 triangles in file
+analyze-triangles: warning, 6 flat triangle(s)
+fill-hull:
+  Grid dimensions are 160 160 160 cells
+  Grid step (spacing) is 1 Angstroms
+  Grid size is 160 by 160 by 160 Angstroms
+  Minimum accepted triangle area is 0.001 Ang**2
+  Debug verbose level is 0
+ fill-hull grid starting corner:  x_origin=-80 y_origin=-80 z_origin=-80
+
+fill-hull: 24062 triangles in file stat.cen.noh.tri
+
+fill-hull: 24062 triangles read, 24049 triangles accepted, 13 degenerate triangles ignored.
+-80  -79  -78  -77  -76  -75  -74  -73  -72  -71  -70  -69  -68  -67  -66  -65  -64  -63  -62  -61  -60  -59  -58  -57  -56  -55  -54  -53  -52  -51  -50  -49  -48  -47  -46  -45  -44  -43  -42  -41  -40  -39  -38  -37  -36  -35  -34  -33  -32  -31  -30  -29  -28  -27  -26  fill-hull grid x,y= -26 -6 __S2=0 triangle with gridpoint at triangle 7019
+
+fill-hull grid x,y= -26 -6 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+fill-hull grid x,y= -26 -5 __S2=0 triangle with gridpoint at triangle 7010
+
+fill-hull grid x,y= -26 -5 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+fill-hull grid x,y= -26 -4 __S2=0 triangle with gridpoint at triangle 7006
+
+fill-hull grid x,y= -26 -4 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+fill-hull grid x,y= -26 -3 __S2=0 triangle with gridpoint at triangle 7002
+
+fill-hull grid x,y= -26 -3 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+fill-hull grid x,y= -26 -2 __S2=0 triangle with gridpoint at triangle 7000
+
+fill-hull grid x,y= -26 -2 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+fill-hull grid x,y= -26 -1 __S2=0 triangle with gridpoint at triangle 6995
+
+fill-hull grid x,y= -26 -1 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+-25  -24  -23  -22  -21  -20  -19  -18  -17  -16  -15  -14  -13  -12  -11  -10  -9  -8  -7  fill-hull grid x,y= -7 15 __S1=0 triangle with gridpoint at triangle 18852
+
+fill-hull grid x,y= -7 15 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+fill-hull grid x,y= -7 16 __S2=0 triangle with gridpoint at triangle 18840
+
+fill-hull grid x,y= -7 16 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+-6  -5  -4  -3  -2  -1  0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  
+Total number of Inside_tris are 2244
+The maximum number of triangles for one gridpoint is 4
+The number of gridpoints inside is 19273
+Number of xgrid shifts= 8  Number of ygrid shifts= 0
+Total number of even triangles sets at gridpoints are 1091
+Total number of odd triangles sets at gridpoints are 0
+
+Created the Attractive (A) file called: stat.cen.noh.r+3.0_p=1.4.xyz
+Concatenating the files stat.cen.noh.r+0.0_p=1.4.xyz and stat.cen.noh.r+3.0_p=1.4.xyz and converting to shape potential file for DOT2
+Creating clamping file
+MSMS 2.6.1 started on german-xps
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+INPUT  stat.cen.noh.1.4.xyzr 878 spheres 0 collision only, radii  2.800 to  3.400
+PARAM  Probe_radius  1.400 density  3.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 140 155 157
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0         422      633          0        202      5.5
+    Time Reduced Surface real: 0.02 user: 0.02 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     1270   2538      2    1270        4   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400     289.808  1211.143  2137.892  3638.842  4405.216
+TRIANGULATION...
+    Component 0
+    component#, vertices,  edges,  faces, genus, density
+        0           9880   29634   19756    0     2.715
+        Time Triangulation real: 0.07 user: 0.06 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    12606.504   3614.174
+    Total ses_volume: 12606.504
+MSMS terminated normally
+Total Time real: 0.14 user: 0.12 sys: 0.00
+Running program to create triangles
+Finished creating triangles for analysis
+Now analyzing triangles
+analyze-triangles: reading file stat.cen.noh.tri
+square min_dist= 0.000394  square max_dist= 2.13996
+min_dist= 0.0198494  max_dist= 1.46286
+The number of flat line triangles is= 0
+The number of single point triangles= 0
+The number of edges > max edge = 146
+The mean distance is= 0.697899
+min normal angle= -0.648991  max normal angle= 0.452712
+min interior angle= -0.928347  max interior angle= 0.999506
+19756 triangles in file
+fill-hull:
+  Grid dimensions are 160 160 160 cells
+  Grid step (spacing) is 1 Angstroms
+  Grid size is 160 by 160 by 160 Angstroms
+  Minimum accepted triangle area is 0.001 Ang**2
+  Debug verbose level is 0
+ fill-hull grid starting corner:  x_origin=-80 y_origin=-80 z_origin=-80
+
+fill-hull: 19756 triangles in file stat.cen.noh.tri
+
+fill-hull: 19756 triangles read, 19755 triangles accepted, 1 degenerate triangles ignored.
+-80  -79  -78  -77  -76  -75  -74  -73  -72  -71  -70  -69  -68  -67  -66  -65  -64  -63  -62  -61  -60  -59  -58  -57  -56  -55  -54  -53  -52  -51  -50  -49  -48  -47  -46  -45  -44  -43  -42  -41  -40  -39  -38  -37  -36  -35  -34  -33  -32  -31  -30  -29  -28  -27  -26  -25  -24  -23  -22  -21  -20  -19  -18  -17  -16  fill-hull grid x,y= -16 -4 __S2=0 triangle with gridpoint at triangle 10328
+
+fill-hull grid x,y= -16 -4 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+fill-hull grid x,y= -16 -3 __S2=0 triangle with gridpoint at triangle 10323
+
+fill-hull grid x,y= -16 -3 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+fill-hull grid x,y= -16 -2 __S2=0 triangle with gridpoint at triangle 10318
+
+fill-hull grid x,y= -16 -2 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+-15  -14  -13  -12  fill-hull grid x,y= -12 20 __S1=0 triangle with gridpoint at triangle 15640
+
+fill-hull grid x,y= -12 20 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+-11  -10  -9  -8  -7  -6  -5  -4  -3  -2  -1  0  fill-hull grid x,y= 0 4 __S2=0 triangle with gridpoint at triangle 16123
+
+fill-hull grid x,y= 0 4 is on a line and comb_sign=2  ...  rearranging xgrid by gridstep*.01
+1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  
+Total number of Inside_tris are 1916
+The maximum number of triangles for one gridpoint is 6
+The number of gridpoints inside is 12612
+Number of xgrid shifts= 5  Number of ygrid shifts= 0
+Total number of even triangles sets at gridpoints are 885
+Total number of odd triangles sets at gridpoints are 0
+
+Created the electrostatic clamping file called: stat.cen.noh.r+1.4_p=1.4.clamp.xyzcrv
+For electrostatic clamping use file:   stat.cen.noh.r+1.4_p=1.4.clamp.xyzcrv
+For the DOT volume use file:  stat.cen.noh.xyzcrv

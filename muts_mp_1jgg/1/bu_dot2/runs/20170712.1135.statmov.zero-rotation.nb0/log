@@ -1,0 +1,171 @@
+mié jul 12 11:35:30 ART 2017 /home/german/dot2/bin/share/rundot beginning
+single-processor DOT:
+Using command /home/german/dot2/bin/x86_64Linux3/dot2 dot.parm
+Parameter file version '2.0'
+Executing DOT 2.0
+	DOT 2.0 compilation options:  LOGNMERGE HEAP OLDSORT HAVE_CONFIG_H
+	Execution began Wed Jul 12 11:35:30 2017
+	Master processor is german-xps
+	Working directory /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/runs/20170712.1135.statmov.zero-rotation.nb0
+	DOT parameter file                         dot.parm
+	Stationary potential file                  /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.160.150m.dx
+	Stationary vdw file                        /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.noh.xyzcrv
+	Stationary pdb file                        /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.noh.pdb
+	Moving charge file                         /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.polh.xyzq
+	Moving vdw file                            /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.noh.xyz
+	Moving pdb file                            /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.noh.pdb
+	Rotation file                              /home/german/dot2/data/zero-rotation.eul
+	Output file base name                      statmov
+	Dot grid size                              160
+	Dot grid step                              1.00
+	Fussy (non-expert)                         enabled
+	Do stationary potential interior zeroing   enabled
+	Stationary Potential clamp low             -147.31
+	Stationary Potential clamp high            107.29
+	Stationary potential interior scale        0.0000
+	VdW weight                                  -0.10
+	Electrostatic weight                         1.00
+	Mov_atoms_in_stat_interior_limit           0
+	temperature                                300.00000000 K
+	Do Partition sum                           disabled
+	Output log_detail                          5
+	Do Histograms                              disabled
+	Output how many best-per-grid-cell values     0
+	Output how many best values                2000
+	Do Binary grid output                      disabled
+	Output file of best values                 statmov.top2000.e6d
+	Do output all                              disabled
+	Output all Ethreshold                      -100000.00
+	Do Log N merge                             disabled
+	FFTW plan                                  default
+Reading data files
+	Read 1 rotation angle triples from file /home/german/dot2/data/zero-rotation.eul
+	Read 412 charge values from file "/home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.polh.xyzq",
+	Read 412 atoms for moving molecule from file /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.polh.xyzq
+	Read 412 vdw values from file "/home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.noh.xyz",
+	Read stationary molecule volume from file "/home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.noh.xyzcrv",
+	 found 12265 attractive, 0 summed, 7008 forbidden spheres.
+	Calculated stationary mask from volume file /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.noh.xyzcrv
+	Adjusting X dimension of grid from 161 to 160
+	Adjusting Y dimension of grid from 161 to 160
+	Adjusting Z dimension of grid from 161 to 160
+	Reading ASCII APBS grid of size 160x160x160 spacing 1.00:
+	Read stationary molecule potential grid from file /home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.160.150m.dx
+Sum of moving charge list (412 non-zero) is -30.398001
+Stationary vdw grid: 4076727 zero, 19273 non-zero (12265 attractive, 7008 forbidden [=1000.0])
+Scale values in stationary electrostatic potential grid interior: examined 4096000 values; 7008 values scaled by 0.000000, 4088992 unchanged.
+Grid dimensions in Angstroms: 160.00 160.00 160.00
+Computing 1 rotation on one processor
+Processor   0 computing rotation      1 Wed Jul 12 11:35:45 2017
+Writing results to disk
+	Top 2000 values file: statmov.top2000.e6d
+Execution on PE 0, host 'german-xps', ended Wed Jul 12 11:35:45 2017
+mié jul 12 11:35:45 ART 2017 DOT done
+running evaluate_dot_run
+~/labo/17/facu/muts_mp_1jgg/1/dot2/runs/20170712.1135.statmov.zero-rotation.nb0 ~/labo/17/facu/muts_mp_1jgg/1/dot2
+Running RMSD evaluation on statmov.top2000.e6d to create statmov.top2000.rmsd.e6d
+Making DOT top 30 pdb files
+Making ACE6-reranked e6d file and 30 ACE-reranked PDB files
+ace-desolvation-oo 1.34
+Grid step is = 2 Angs.
+Offset is set to = 10
+Sphere_mx  is set to = 10.4641
+Sphere_mx2 is set to = 109.497
+Distance for contacts = 6, smoothed over 1 Ang radius (5 to 7)
+You have chosen pairwise ACE evaluation.
+The e6d lines will be read from standard input.
+A maximum of 9999999 e6d entries will be evaluated.
+
+Using ace library /home/german/dot2/data/ACE-energies.txt
+stationary atoms file "/home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/stat/stat.cen.noh.pdb",
+ read:  878 ( 878 used, 0 atoms of null type ignored, 0 atoms of unknown type ignored.)
+ACE type "UNKNOWN" used for   DA  C1' which appeared   9 times
+ACE type "UNKNOWN" used for   DA   C2 which appeared   9 times
+ACE type "UNKNOWN" used for   DA  C2' which appeared   9 times
+ACE type "UNKNOWN" used for   DA  C3' which appeared   9 times
+ACE type "UNKNOWN" used for   DA   C4 which appeared   9 times
+ACE type "UNKNOWN" used for   DA  C4' which appeared   9 times
+ACE type "UNKNOWN" used for   DA   C5 which appeared   9 times
+ACE type "UNKNOWN" used for   DA  C5' which appeared   9 times
+ACE type "UNKNOWN" used for   DA   C6 which appeared   9 times
+ACE type "UNKNOWN" used for   DA   C8 which appeared   9 times
+ACE type "UNKNOWN" used for   DA 'HO3 which appeared   1 time
+ACE type "UNKNOWN" used for   DA   N1 which appeared   9 times
+ACE type "UNKNOWN" used for   DA   N3 which appeared   9 times
+ACE type "UNKNOWN" used for   DA   N6 which appeared   9 times
+ACE type "UNKNOWN" used for   DA   N7 which appeared   9 times
+ACE type "UNKNOWN" used for   DA   N9 which appeared   9 times
+ACE type "UNKNOWN" used for   DA  O3' which appeared   9 times
+ACE type "UNKNOWN" used for   DA  O4' which appeared   9 times
+ACE type "UNKNOWN" used for   DA  O5' which appeared   9 times
+ACE type "UNKNOWN" used for   DA  OP1 which appeared   9 times
+ACE type "UNKNOWN" used for   DA  OP2 which appeared   9 times
+ACE type "UNKNOWN" used for   DA    P which appeared   9 times
+ACE type "UNKNOWN" used for   DC  C1' which appeared   1 time
+ACE type "UNKNOWN" used for   DC   C2 which appeared   1 time
+ACE type "UNKNOWN" used for   DC  C2' which appeared   1 time
+ACE type "UNKNOWN" used for   DC  C3' which appeared   1 time
+ACE type "UNKNOWN" used for   DC   C4 which appeared   1 time
+ACE type "UNKNOWN" used for   DC  C4' which appeared   1 time
+ACE type "UNKNOWN" used for   DC   C5 which appeared   1 time
+ACE type "UNKNOWN" used for   DC  C5' which appeared   1 time
+ACE type "UNKNOWN" used for   DC   C6 which appeared   1 time
+ACE type "UNKNOWN" used for   DC   N1 which appeared   1 time
+ACE type "UNKNOWN" used for   DC   N3 which appeared   1 time
+ACE type "UNKNOWN" used for   DC   N4 which appeared   1 time
+ACE type "UNKNOWN" used for   DC   O2 which appeared   1 time
+ACE type "UNKNOWN" used for   DC  O3' which appeared   1 time
+ACE type "UNKNOWN" used for   DC  O4' which appeared   1 time
+ACE type "UNKNOWN" used for   DC  O5' which appeared   1 time
+ACE type "UNKNOWN" used for   DC  OP1 which appeared   1 time
+ACE type "UNKNOWN" used for   DC  OP2 which appeared   1 time
+ACE type "UNKNOWN" used for   DC    P which appeared   1 time
+ACE type "UNKNOWN" used for   DG  C1' which appeared   1 time
+ACE type "UNKNOWN" used for   DG   C2 which appeared   1 time
+ACE type "UNKNOWN" used for   DG  C2' which appeared   1 time
+ACE type "UNKNOWN" used for   DG  C3' which appeared   1 time
+ACE type "UNKNOWN" used for   DG   C4 which appeared   1 time
+ACE type "UNKNOWN" used for   DG  C4' which appeared   1 time
+ACE type "UNKNOWN" used for   DG   C5 which appeared   1 time
+ACE type "UNKNOWN" used for   DG  C5' which appeared   1 time
+ACE type "UNKNOWN" used for   DG   C6 which appeared   1 time
+ACE type "UNKNOWN" used for   DG   C8 which appeared   1 time
+ACE type "UNKNOWN" used for   DG   N1 which appeared   1 time
+ACE type "UNKNOWN" used for   DG   N2 which appeared   1 time
+ACE type "UNKNOWN" used for   DG   N3 which appeared   1 time
+ACE type "UNKNOWN" used for   DG   N7 which appeared   1 time
+ACE type "UNKNOWN" used for   DG   N9 which appeared   1 time
+ACE type "UNKNOWN" used for   DG  O3' which appeared   1 time
+ACE type "UNKNOWN" used for   DG  O4' which appeared   1 time
+ACE type "UNKNOWN" used for   DG  O5' which appeared   1 time
+ACE type "UNKNOWN" used for   DG   O6 which appeared   1 time
+ACE type "UNKNOWN" used for   DG  OP1 which appeared   1 time
+ACE type "UNKNOWN" used for   DG  OP2 which appeared   1 time
+ACE type "UNKNOWN" used for   DG    P which appeared   1 time
+ACE type "UNKNOWN" used for   DT  C1' which appeared   9 times
+ACE type "UNKNOWN" used for   DT   C2 which appeared   9 times
+ACE type "UNKNOWN" used for   DT  C2' which appeared   9 times
+ACE type "UNKNOWN" used for   DT  C3' which appeared   9 times
+ACE type "UNKNOWN" used for   DT   C4 which appeared   9 times
+ACE type "UNKNOWN" used for   DT  C4' which appeared   9 times
+ACE type "UNKNOWN" used for   DT   C5 which appeared   9 times
+ACE type "UNKNOWN" used for   DT  C5' which appeared   9 times
+ACE type "UNKNOWN" used for   DT   C6 which appeared   9 times
+ACE type "UNKNOWN" used for   DT   C7 which appeared   9 times
+ACE type "UNKNOWN" used for   DT 'HO3 which appeared   1 time
+ACE type "UNKNOWN" used for   DT   N1 which appeared   9 times
+ACE type "UNKNOWN" used for   DT   N3 which appeared   9 times
+ACE type "UNKNOWN" used for   DT   O2 which appeared   9 times
+ACE type "UNKNOWN" used for   DT  O3' which appeared   9 times
+ACE type "UNKNOWN" used for   DT   O4 which appeared   9 times
+ACE type "UNKNOWN" used for   DT  O4' which appeared   9 times
+ACE type "UNKNOWN" used for   DT  O5' which appeared   9 times
+ACE type "UNKNOWN" used for   DT  OP1 which appeared   9 times
+ACE type "UNKNOWN" used for   DT  OP2 which appeared   9 times
+ACE type "UNKNOWN" used for   DT    P which appeared   9 times
+moving atoms file "/home/german/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov/mov.cen.noh.pdb",
+ read:  412 ( 0 used, 0 atoms of null type ignored, 412 atoms of unknown type ignored.)
+no moving atoms, quitting.
+e6d_sort_by: error, no ## fields line, quitting
+Problem running ACE6, stopping
+mié jul 12 11:35:46 ART 2017 evaluate_dot_run done

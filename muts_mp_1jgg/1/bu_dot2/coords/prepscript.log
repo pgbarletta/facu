@@ -1,0 +1,459 @@
+~/labo/17/facu/muts_mp_1jgg/1/dot2/coords/mov ~/labo/17/facu/muts_mp_1jgg/1/dot2/coords
+Removing any waters, hydrogens, or alternate locations from mov.pdb creating mov.noh.pdb
+Prepare centered moving molecule pdb file mov.noh.cen.pdb
+created mov.noh.center.xyz and mov.noh.cen.pdb
+locate reduce program
+Add all hydrogens (note: reduce may misbehave if first residue is not numbered 1)
+(log file will be created in mov.cen.noh.reduce.log)
+reduce: version 3.14 08/21/2008, Copyright 1997-2008, J. Michael Word
+Processing file: "mov.noh.cen.pdb"
+Database of HETATM connections: "/home/german/dot2/data/reduce_wwPDB_het_dict.txt"
+Processing only 'A' conformations.
+VDW dot density = 16/A^2
+Orientation penalty scale = 1 (100%)
+Eliminate contacts within 3 bonds.
+Ignore atoms with |occupancy| <= 0.01 during adjustments.
+Waters ignored if B-Factor >= 40 or |occupancy| < 0.66
+Aromatic rings in amino acids accept hydrogen bonds.
+Building His ring NH Hydrogens.
+Flipping Asn, Gln and His groups.
+For each flip state, bumps where gap is more than 0.4A are indicated with '!'.
+Building or keeping OH & SH Hydrogens.
+Rotating existing OH & SH Hydrogens
+Rotating NH3 Hydrogens.
+Processing Met methyls.
+ Singles(size 2): A  10 THY O3* : B  10 ADE O3* 
+ orientation 2: A  10 THY O3* :   rot  -70: bump=0.000, HB=0.000, total=0.000
+ orientation 1: B  10 ADE O3* :   rot  180: bump=0.000, HB=0.000, total=0.000
+Found 2 hydrogens (2 hets)
+Standardized 0 hydrogens (0 hets)
+Added 230 hydrogens (230 hets)
+Removed 0 hydrogens (0 hets)
+Adjusted 2 group(s)
+If you publish work which uses reduce, please cite:
+Word, et. al. (1999) J. Mol. Biol. 285, 1735-1747.
+For more information see http://kinemage.biochem.duke.edu
+Remove non-polar hydrogens, creating mov.cen.polh.pdb
+striph read 175 rules
+Prepare moving molecule charge (xyzq) file mov.cen.polh.xyzq
+(log file will be created in mov.cen.polh.pdb_to_xyzq.log)
+Reemplazar ADE/CYT/GUA/THY por DA/DC/DG/DT y 5(prima) 3(prima) pdb_to_xyzq: Warning: Charge unknown for  dt5  o1p  at line      1, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5  o2p  at line      2, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5  c5*  at line      3, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5  o5*  at line      4, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5  c4*  at line      5, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5  o4*  at line      6, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5  c3*  at line      7, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5  o3*  at line      8, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5  c2*  at line      9, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5  c1*  at line     10, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5   n1  at line     11, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5   c2  at line     12, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5   o2  at line     13, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5   n3  at line     14, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5   c4  at line     15, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5   o4  at line     16, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5   c5  at line     17, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5  c5m  at line     18, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt5   c6  at line     19, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da    p  at line     20, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o1p  at line     21, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o2p  at line     22, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c5*  at line     23, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o5*  at line     24, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c4*  at line     25, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o4*  at line     26, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c3*  at line     27, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o3*  at line     28, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c2*  at line     29, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c1*  at line     30, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n1  at line     31, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c2  at line     32, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n3  at line     33, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c4  at line     34, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c5  at line     35, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c6  at line     36, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n6  at line     37, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n7  at line     38, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c8  at line     39, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n9  at line     40, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da    p  at line     41, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o1p  at line     42, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o2p  at line     43, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c5*  at line     44, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o5*  at line     45, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c4*  at line     46, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o4*  at line     47, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c3*  at line     48, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o3*  at line     49, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c2*  at line     50, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c1*  at line     51, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n1  at line     52, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c2  at line     53, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n3  at line     54, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c4  at line     55, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c5  at line     56, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c6  at line     57, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n6  at line     58, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n7  at line     59, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c8  at line     60, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n9  at line     61, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt    p  at line     62, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o1p  at line     63, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o2p  at line     64, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5*  at line     65, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o5*  at line     66, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c4*  at line     67, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o4*  at line     68, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c3*  at line     69, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o3*  at line     70, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c2*  at line     71, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c1*  at line     72, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n1  at line     73, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c2  at line     74, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o2  at line     75, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n3  at line     76, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c4  at line     77, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o4  at line     78, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c5  at line     79, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5m  at line     80, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c6  at line     81, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt    p  at line     82, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o1p  at line     83, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o2p  at line     84, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5*  at line     85, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o5*  at line     86, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c4*  at line     87, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o4*  at line     88, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c3*  at line     89, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o3*  at line     90, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c2*  at line     91, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c1*  at line     92, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n1  at line     93, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c2  at line     94, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o2  at line     95, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n3  at line     96, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c4  at line     97, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o4  at line     98, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c5  at line     99, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5m  at line    100, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c6  at line    101, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg    p  at line    102, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg  o1p  at line    103, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg  o2p  at line    104, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg  c5*  at line    105, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg  o5*  at line    106, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg  c4*  at line    107, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg  o4*  at line    108, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg  c3*  at line    109, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg  o3*  at line    110, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg  c2*  at line    111, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg  c1*  at line    112, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg   n1  at line    113, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg   c2  at line    114, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg   n2  at line    115, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg   n3  at line    116, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg   c4  at line    117, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg   c5  at line    118, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg   c6  at line    119, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg   o6  at line    120, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg   n7  at line    121, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg   c8  at line    122, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dg   n9  at line    123, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da    p  at line    124, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o1p  at line    125, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o2p  at line    126, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c5*  at line    127, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o5*  at line    128, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c4*  at line    129, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o4*  at line    130, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c3*  at line    131, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o3*  at line    132, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c2*  at line    133, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c1*  at line    134, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n1  at line    135, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c2  at line    136, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n3  at line    137, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c4  at line    138, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c5  at line    139, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c6  at line    140, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n6  at line    141, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n7  at line    142, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c8  at line    143, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n9  at line    144, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da    p  at line    145, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o1p  at line    146, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o2p  at line    147, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c5*  at line    148, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o5*  at line    149, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c4*  at line    150, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o4*  at line    151, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c3*  at line    152, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o3*  at line    153, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c2*  at line    154, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c1*  at line    155, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n1  at line    156, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c2  at line    157, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n3  at line    158, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c4  at line    159, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c5  at line    160, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c6  at line    161, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n6  at line    162, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n7  at line    163, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c8  at line    164, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n9  at line    165, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt    p  at line    166, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o1p  at line    167, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o2p  at line    168, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5*  at line    169, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o5*  at line    170, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c4*  at line    171, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o4*  at line    172, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c3*  at line    173, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o3*  at line    174, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c2*  at line    175, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c1*  at line    176, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n1  at line    177, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c2  at line    178, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o2  at line    179, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n3  at line    180, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c4  at line    181, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o4  at line    182, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c5  at line    183, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5m  at line    184, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c6  at line    185, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3    p  at line    186, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3  o1p  at line    187, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3  o2p  at line    188, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3  c5*  at line    189, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3  o5*  at line    190, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3  c4*  at line    191, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3  o4*  at line    192, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3  c3*  at line    193, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3  o3*  at line    194, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3  c2*  at line    195, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3  c1*  at line    196, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3   n1  at line    197, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3   c2  at line    198, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3   o2  at line    199, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3   n3  at line    200, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3   c4  at line    201, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3   o4  at line    202, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3   c5  at line    203, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3  c5m  at line    204, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3   c6  at line    205, deleted
+pdb_to_xyzq: Warning: Charge unknown for  dt3 *ho3  at line    206, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3    p  at line    207, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3  o1p  at line    208, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3  o2p  at line    209, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3  c5*  at line    210, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3  o5*  at line    211, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3  c4*  at line    212, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3  o4*  at line    213, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3  c3*  at line    214, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3  o3*  at line    215, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3  c2*  at line    216, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3  c1*  at line    217, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3   n1  at line    218, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3   c2  at line    219, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3   n3  at line    220, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3   c4  at line    221, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3   c5  at line    222, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3   c6  at line    223, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3   n6  at line    224, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3   n7  at line    225, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3   c8  at line    226, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da3   n9  at line    227, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da    p  at line    228, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o1p  at line    229, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o2p  at line    230, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c5*  at line    231, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o5*  at line    232, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c4*  at line    233, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o4*  at line    234, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c3*  at line    235, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o3*  at line    236, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c2*  at line    237, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c1*  at line    238, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n1  at line    239, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c2  at line    240, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n3  at line    241, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c4  at line    242, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c5  at line    243, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c6  at line    244, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n6  at line    245, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n7  at line    246, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c8  at line    247, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n9  at line    248, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt    p  at line    249, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o1p  at line    250, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o2p  at line    251, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5*  at line    252, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o5*  at line    253, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c4*  at line    254, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o4*  at line    255, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c3*  at line    256, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o3*  at line    257, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c2*  at line    258, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c1*  at line    259, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n1  at line    260, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c2  at line    261, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o2  at line    262, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n3  at line    263, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c4  at line    264, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o4  at line    265, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c5  at line    266, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5m  at line    267, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c6  at line    268, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt    p  at line    269, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o1p  at line    270, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o2p  at line    271, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5*  at line    272, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o5*  at line    273, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c4*  at line    274, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o4*  at line    275, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c3*  at line    276, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o3*  at line    277, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c2*  at line    278, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c1*  at line    279, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n1  at line    280, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c2  at line    281, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o2  at line    282, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n3  at line    283, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c4  at line    284, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o4  at line    285, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c5  at line    286, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5m  at line    287, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c6  at line    288, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc    p  at line    289, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc  o1p  at line    290, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc  o2p  at line    291, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc  c5*  at line    292, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc  o5*  at line    293, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc  c4*  at line    294, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc  o4*  at line    295, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc  c3*  at line    296, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc  o3*  at line    297, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc  c2*  at line    298, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc  c1*  at line    299, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc   n1  at line    300, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc   c2  at line    301, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc   o2  at line    302, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc   n3  at line    303, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc   c4  at line    304, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc   n4  at line    305, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc   c5  at line    306, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dc   c6  at line    307, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da    p  at line    308, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o1p  at line    309, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o2p  at line    310, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c5*  at line    311, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o5*  at line    312, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c4*  at line    313, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o4*  at line    314, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c3*  at line    315, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o3*  at line    316, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c2*  at line    317, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c1*  at line    318, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n1  at line    319, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c2  at line    320, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n3  at line    321, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c4  at line    322, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c5  at line    323, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c6  at line    324, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n6  at line    325, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n7  at line    326, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c8  at line    327, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n9  at line    328, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da    p  at line    329, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o1p  at line    330, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o2p  at line    331, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c5*  at line    332, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o5*  at line    333, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c4*  at line    334, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o4*  at line    335, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c3*  at line    336, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  o3*  at line    337, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c2*  at line    338, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da  c1*  at line    339, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n1  at line    340, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c2  at line    341, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n3  at line    342, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c4  at line    343, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c5  at line    344, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c6  at line    345, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n6  at line    346, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n7  at line    347, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   c8  at line    348, deleted
+pdb_to_xyzq: Warning: Charge unknown for   da   n9  at line    349, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt    p  at line    350, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o1p  at line    351, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o2p  at line    352, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5*  at line    353, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o5*  at line    354, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c4*  at line    355, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o4*  at line    356, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c3*  at line    357, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o3*  at line    358, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c2*  at line    359, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c1*  at line    360, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n1  at line    361, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c2  at line    362, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o2  at line    363, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n3  at line    364, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c4  at line    365, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o4  at line    366, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c5  at line    367, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5m  at line    368, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c6  at line    369, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt    p  at line    370, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o1p  at line    371, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o2p  at line    372, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5*  at line    373, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o5*  at line    374, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c4*  at line    375, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o4*  at line    376, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c3*  at line    377, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  o3*  at line    378, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c2*  at line    379, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c1*  at line    380, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n1  at line    381, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c2  at line    382, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o2  at line    383, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   n3  at line    384, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c4  at line    385, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   o4  at line    386, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c5  at line    387, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt  c5m  at line    388, deleted
+pdb_to_xyzq: Warning: Charge unknown for   dt   c6  at line    389, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5  o1p  at line    390, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5  o2p  at line    391, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5  c5*  at line    392, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5  o5*  at line    393, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5  c4*  at line    394, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5  o4*  at line    395, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5  c3*  at line    396, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5  o3*  at line    397, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5  c2*  at line    398, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5  c1*  at line    399, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5   n1  at line    400, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5   c2  at line    401, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5   n3  at line    402, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5   c4  at line    403, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5   c5  at line    404, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5   c6  at line    405, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5   n6  at line    406, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5   n7  at line    407, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5   c8  at line    408, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5   n9  at line    409, deleted
+pdb_to_xyzq: Warning: Charge unknown for  da5 *ho3  at line    410, deleted
+Total molecular charge: +0.000
+Total charge undefined - no charges found in file
+Error: total charge of mov.cen.polh.pdb is non-integer or out of range -20 to 20
+The most likely causes are: missing side-chain atoms,
+incorrect protonation of N-terminus,
+or gap in peptide chain.
+See warning messages above.
+If your molecule is indeed highly charged,
+see DOT User Guide Prepscript chapter
+dot2-prep-mol_common reported an error, prepscript quitting

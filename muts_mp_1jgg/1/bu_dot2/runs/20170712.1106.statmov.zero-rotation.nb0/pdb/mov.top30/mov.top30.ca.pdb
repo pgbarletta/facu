@@ -1,0 +1,960 @@
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0001.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -334.0063   4  -3 -10  0.000  0.000  0.000      1 -334.0063   0.0000  0 10.7
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      17.991  -4.379 -17.897  1.00  8.42
+ATOM     44  C3' ADE A   2      15.019  -9.987 -16.378  1.00 82.23
+ATOM     76  C3' ADE A   3      11.570 -11.826 -11.866  1.00 83.46
+ATOM    108  C3' THY A   4       8.805 -10.296  -6.672  1.00  0.76
+ATOM    140  C3' THY A   5       6.572  -6.509  -2.667  1.00 76.17
+ATOM    172  C3' GUA A   6       2.663  -2.301  -1.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -1.038   2.708  -3.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -4.087   4.110  -8.304  1.00 70.41
+ATOM    269  C3' THY A   9      -7.124   3.655 -13.584  1.00 79.84
+ATOM    301  C3' THY A  10     -10.685  -0.155 -16.550  1.00 20.05
+ATOM     12  C3' ADE B   1     -10.512 -11.974  -8.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -7.605 -11.429 -13.705  1.00 70.88
+ATOM     76  C3' THY B   3      -4.219  -7.449 -16.670  1.00 76.06
+ATOM    108  C3' THY B   4      -1.460  -2.163 -17.037  1.00 80.04
+ATOM    140  C3' CYT B   5       2.661   2.128 -15.887  1.00 76.13
+ATOM    170  C3' ADE B   6       5.936   5.631 -11.272  1.00 85.15
+ATOM    202  C3' ADE B   7       9.426   4.174  -6.414  1.00 86.64
+ATOM    234  C3' THY B   8      12.396  -0.033  -3.126  1.00 91.11
+ATOM    266  C3' THY B   9      16.060  -4.784  -2.249  1.00  3.49
+ATOM    298  C3' ADE B  10      19.410  -8.933  -4.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0002.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -293.4520  11  -5 -16  0.000  0.000  0.000      2 -293.4520   0.0000  0 19.3
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      24.991  -6.379 -23.897  1.00  8.42
+ATOM     44  C3' ADE A   2      22.019 -11.987 -22.378  1.00 82.23
+ATOM     76  C3' ADE A   3      18.570 -13.826 -17.866  1.00 83.46
+ATOM    108  C3' THY A   4      15.805 -12.296 -12.672  1.00  0.76
+ATOM    140  C3' THY A   5      13.572  -8.509  -8.667  1.00 76.17
+ATOM    172  C3' GUA A   6       9.663  -4.301  -7.955  1.00 83.68
+ATOM    205  C3' ADE A   7       5.962   0.708  -9.330  1.00 85.87
+ATOM    237  C3' ADE A   8       2.913   2.110 -14.304  1.00 70.41
+ATOM    269  C3' THY A   9      -0.124   1.655 -19.584  1.00 79.84
+ATOM    301  C3' THY A  10      -3.685  -2.155 -22.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -3.512 -13.974 -14.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -0.605 -13.429 -19.705  1.00 70.88
+ATOM     76  C3' THY B   3       2.781  -9.449 -22.670  1.00 76.06
+ATOM    108  C3' THY B   4       5.540  -4.163 -23.037  1.00 80.04
+ATOM    140  C3' CYT B   5       9.661   0.128 -21.887  1.00 76.13
+ATOM    170  C3' ADE B   6      12.936   3.631 -17.272  1.00 85.15
+ATOM    202  C3' ADE B   7      16.426   2.174 -12.414  1.00 86.64
+ATOM    234  C3' THY B   8      19.396  -2.033  -9.126  1.00 91.11
+ATOM    266  C3' THY B   9      23.060  -6.784  -8.249  1.00  3.49
+ATOM    298  C3' ADE B  10      26.410 -10.933 -10.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0003.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -283.3421   7  -3 -18  0.000  0.000  0.000      3 -283.3421   0.0000  0 18.9
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      20.991  -4.379 -25.897  1.00  8.42
+ATOM     44  C3' ADE A   2      18.019  -9.987 -24.378  1.00 82.23
+ATOM     76  C3' ADE A   3      14.570 -11.826 -19.866  1.00 83.46
+ATOM    108  C3' THY A   4      11.805 -10.296 -14.672  1.00  0.76
+ATOM    140  C3' THY A   5       9.572  -6.509 -10.667  1.00 76.17
+ATOM    172  C3' GUA A   6       5.663  -2.301  -9.955  1.00 83.68
+ATOM    205  C3' ADE A   7       1.962   2.708 -11.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -1.087   4.110 -16.304  1.00 70.41
+ATOM    269  C3' THY A   9      -4.124   3.655 -21.584  1.00 79.84
+ATOM    301  C3' THY A  10      -7.685  -0.155 -24.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -7.512 -11.974 -16.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -4.605 -11.429 -21.705  1.00 70.88
+ATOM     76  C3' THY B   3      -1.219  -7.449 -24.670  1.00 76.06
+ATOM    108  C3' THY B   4       1.540  -2.163 -25.037  1.00 80.04
+ATOM    140  C3' CYT B   5       5.661   2.128 -23.887  1.00 76.13
+ATOM    170  C3' ADE B   6       8.936   5.631 -19.272  1.00 85.15
+ATOM    202  C3' ADE B   7      12.426   4.174 -14.414  1.00 86.64
+ATOM    234  C3' THY B   8      15.396  -0.033 -11.126  1.00 91.11
+ATOM    266  C3' THY B   9      19.060  -4.784 -10.249  1.00  3.49
+ATOM    298  C3' ADE B  10      22.410  -8.933 -12.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0004.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -282.9691   6  -2  -9  0.000  0.000  0.000      4 -282.9691   0.0000  0 10.2
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      19.991  -3.379 -16.897  1.00  8.42
+ATOM     44  C3' ADE A   2      17.019  -8.987 -15.378  1.00 82.23
+ATOM     76  C3' ADE A   3      13.570 -10.826 -10.866  1.00 83.46
+ATOM    108  C3' THY A   4      10.805  -9.296  -5.672  1.00  0.76
+ATOM    140  C3' THY A   5       8.572  -5.509  -1.667  1.00 76.17
+ATOM    172  C3' GUA A   6       4.663  -1.301  -0.955  1.00 83.68
+ATOM    205  C3' ADE A   7       0.962   3.708  -2.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -2.087   5.110  -7.304  1.00 70.41
+ATOM    269  C3' THY A   9      -5.124   4.655 -12.584  1.00 79.84
+ATOM    301  C3' THY A  10      -8.685   0.845 -15.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -8.512 -10.974  -7.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -5.605 -10.429 -12.705  1.00 70.88
+ATOM     76  C3' THY B   3      -2.219  -6.449 -15.670  1.00 76.06
+ATOM    108  C3' THY B   4       0.540  -1.163 -16.037  1.00 80.04
+ATOM    140  C3' CYT B   5       4.661   3.128 -14.887  1.00 76.13
+ATOM    170  C3' ADE B   6       7.936   6.631 -10.272  1.00 85.15
+ATOM    202  C3' ADE B   7      11.426   5.174  -5.414  1.00 86.64
+ATOM    234  C3' THY B   8      14.396   0.967  -2.126  1.00 91.11
+ATOM    266  C3' THY B   9      18.060  -3.784  -1.249  1.00  3.49
+ATOM    298  C3' ADE B  10      21.410  -7.933  -3.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0005.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -277.3447  20  -6 -11  0.000  0.000  0.000      5 -277.3447   0.0000  0 22.5
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      33.991  -7.379 -18.897  1.00  8.42
+ATOM     44  C3' ADE A   2      31.019 -12.987 -17.378  1.00 82.23
+ATOM     76  C3' ADE A   3      27.570 -14.826 -12.866  1.00 83.46
+ATOM    108  C3' THY A   4      24.805 -13.296  -7.672  1.00  0.76
+ATOM    140  C3' THY A   5      22.572  -9.509  -3.667  1.00 76.17
+ATOM    172  C3' GUA A   6      18.663  -5.301  -2.955  1.00 83.68
+ATOM    205  C3' ADE A   7      14.962  -0.292  -4.330  1.00 85.87
+ATOM    237  C3' ADE A   8      11.913   1.110  -9.304  1.00 70.41
+ATOM    269  C3' THY A   9       8.876   0.655 -14.584  1.00 79.84
+ATOM    301  C3' THY A  10       5.315  -3.155 -17.550  1.00 20.05
+ATOM     12  C3' ADE B   1       5.488 -14.974  -9.599  1.00 23.55
+ATOM     44  C3' ADE B   2       8.395 -14.429 -14.705  1.00 70.88
+ATOM     76  C3' THY B   3      11.781 -10.449 -17.670  1.00 76.06
+ATOM    108  C3' THY B   4      14.540  -5.163 -18.037  1.00 80.04
+ATOM    140  C3' CYT B   5      18.661  -0.872 -16.887  1.00 76.13
+ATOM    170  C3' ADE B   6      21.936   2.631 -12.272  1.00 85.15
+ATOM    202  C3' ADE B   7      25.426   1.174  -7.414  1.00 86.64
+ATOM    234  C3' THY B   8      28.396  -3.033  -4.126  1.00 91.11
+ATOM    266  C3' THY B   9      32.060  -7.784  -3.249  1.00  3.49
+ATOM    298  C3' ADE B  10      35.410 -11.933  -5.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0006.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -263.7133   2  11 -19  0.000  0.000  0.000      6 -263.7133   0.0000  0 21.5
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      15.991   9.621 -26.897  1.00  8.42
+ATOM     44  C3' ADE A   2      13.019   4.013 -25.378  1.00 82.23
+ATOM     76  C3' ADE A   3       9.570   2.174 -20.866  1.00 83.46
+ATOM    108  C3' THY A   4       6.805   3.704 -15.672  1.00  0.76
+ATOM    140  C3' THY A   5       4.572   7.491 -11.667  1.00 76.17
+ATOM    172  C3' GUA A   6       0.663  11.699 -10.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -3.038  16.708 -12.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -6.087  18.110 -17.304  1.00 70.41
+ATOM    269  C3' THY A   9      -9.124  17.655 -22.584  1.00 79.84
+ATOM    301  C3' THY A  10     -12.685  13.845 -25.550  1.00 20.05
+ATOM     12  C3' ADE B   1     -12.512   2.026 -17.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -9.605   2.571 -22.705  1.00 70.88
+ATOM     76  C3' THY B   3      -6.219   6.551 -25.670  1.00 76.06
+ATOM    108  C3' THY B   4      -3.460  11.837 -26.037  1.00 80.04
+ATOM    140  C3' CYT B   5       0.661  16.128 -24.887  1.00 76.13
+ATOM    170  C3' ADE B   6       3.936  19.631 -20.272  1.00 85.15
+ATOM    202  C3' ADE B   7       7.426  18.174 -15.414  1.00 86.64
+ATOM    234  C3' THY B   8      10.396  13.967 -12.126  1.00 91.11
+ATOM    266  C3' THY B   9      14.060   9.216 -11.249  1.00  3.49
+ATOM    298  C3' ADE B  10      17.410   5.067 -13.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0007.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -247.2646   4  -9 -15  0.000  0.000  0.000      7 -247.2646   0.0000  0 17.7
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      17.991 -10.379 -22.897  1.00  8.42
+ATOM     44  C3' ADE A   2      15.019 -15.987 -21.378  1.00 82.23
+ATOM     76  C3' ADE A   3      11.570 -17.826 -16.866  1.00 83.46
+ATOM    108  C3' THY A   4       8.805 -16.296 -11.672  1.00  0.76
+ATOM    140  C3' THY A   5       6.572 -12.509  -7.667  1.00 76.17
+ATOM    172  C3' GUA A   6       2.663  -8.301  -6.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -1.038  -3.292  -8.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -4.087  -1.890 -13.304  1.00 70.41
+ATOM    269  C3' THY A   9      -7.124  -2.345 -18.584  1.00 79.84
+ATOM    301  C3' THY A  10     -10.685  -6.155 -21.550  1.00 20.05
+ATOM     12  C3' ADE B   1     -10.512 -17.974 -13.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -7.605 -17.429 -18.705  1.00 70.88
+ATOM     76  C3' THY B   3      -4.219 -13.449 -21.670  1.00 76.06
+ATOM    108  C3' THY B   4      -1.460  -8.163 -22.037  1.00 80.04
+ATOM    140  C3' CYT B   5       2.661  -3.872 -20.887  1.00 76.13
+ATOM    170  C3' ADE B   6       5.936  -0.369 -16.272  1.00 85.15
+ATOM    202  C3' ADE B   7       9.426  -1.826 -11.414  1.00 86.64
+ATOM    234  C3' THY B   8      12.396  -6.033  -8.126  1.00 91.11
+ATOM    266  C3' THY B   9      16.060 -10.784  -7.249  1.00  3.49
+ATOM    298  C3' ADE B  10      19.410 -14.933  -9.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0008.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -245.5794   8  -6 -20  0.000  0.000  0.000      8 -245.5794   0.0000  0 21.8
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      21.991  -7.379 -27.897  1.00  8.42
+ATOM     44  C3' ADE A   2      19.019 -12.987 -26.378  1.00 82.23
+ATOM     76  C3' ADE A   3      15.570 -14.826 -21.866  1.00 83.46
+ATOM    108  C3' THY A   4      12.805 -13.296 -16.672  1.00  0.76
+ATOM    140  C3' THY A   5      10.572  -9.509 -12.667  1.00 76.17
+ATOM    172  C3' GUA A   6       6.663  -5.301 -11.955  1.00 83.68
+ATOM    205  C3' ADE A   7       2.962  -0.292 -13.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -0.087   1.110 -18.304  1.00 70.41
+ATOM    269  C3' THY A   9      -3.124   0.655 -23.584  1.00 79.84
+ATOM    301  C3' THY A  10      -6.685  -3.155 -26.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -6.512 -14.974 -18.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -3.605 -14.429 -23.705  1.00 70.88
+ATOM     76  C3' THY B   3      -0.219 -10.449 -26.670  1.00 76.06
+ATOM    108  C3' THY B   4       2.540  -5.163 -27.037  1.00 80.04
+ATOM    140  C3' CYT B   5       6.661  -0.872 -25.887  1.00 76.13
+ATOM    170  C3' ADE B   6       9.936   2.631 -21.272  1.00 85.15
+ATOM    202  C3' ADE B   7      13.426   1.174 -16.414  1.00 86.64
+ATOM    234  C3' THY B   8      16.396  -3.033 -13.126  1.00 91.11
+ATOM    266  C3' THY B   9      20.060  -7.784 -12.249  1.00  3.49
+ATOM    298  C3' ADE B  10      23.410 -11.933 -14.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0009.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -238.7025  20 -10  -9  0.000  0.000  0.000      9 -238.7025   0.0000  0 23.1
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      33.991 -11.379 -16.897  1.00  8.42
+ATOM     44  C3' ADE A   2      31.019 -16.987 -15.378  1.00 82.23
+ATOM     76  C3' ADE A   3      27.570 -18.826 -10.866  1.00 83.46
+ATOM    108  C3' THY A   4      24.805 -17.296  -5.672  1.00  0.76
+ATOM    140  C3' THY A   5      22.572 -13.509  -1.667  1.00 76.17
+ATOM    172  C3' GUA A   6      18.663  -9.301  -0.955  1.00 83.68
+ATOM    205  C3' ADE A   7      14.962  -4.292  -2.330  1.00 85.87
+ATOM    237  C3' ADE A   8      11.913  -2.890  -7.304  1.00 70.41
+ATOM    269  C3' THY A   9       8.876  -3.345 -12.584  1.00 79.84
+ATOM    301  C3' THY A  10       5.315  -7.155 -15.550  1.00 20.05
+ATOM     12  C3' ADE B   1       5.488 -18.974  -7.599  1.00 23.55
+ATOM     44  C3' ADE B   2       8.395 -18.429 -12.705  1.00 70.88
+ATOM     76  C3' THY B   3      11.781 -14.449 -15.670  1.00 76.06
+ATOM    108  C3' THY B   4      14.540  -9.163 -16.037  1.00 80.04
+ATOM    140  C3' CYT B   5      18.661  -4.872 -14.887  1.00 76.13
+ATOM    170  C3' ADE B   6      21.936  -1.369 -10.272  1.00 85.15
+ATOM    202  C3' ADE B   7      25.426  -2.826  -5.414  1.00 86.64
+ATOM    234  C3' THY B   8      28.396  -7.033  -2.126  1.00 91.11
+ATOM    266  C3' THY B   9      32.060 -11.784  -1.249  1.00  3.49
+ATOM    298  C3' ADE B  10      35.410 -15.933  -3.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0010.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -235.6384   5  -6 -26  0.000  0.000  0.000     10 -235.6384   0.0000  0 26.8
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      18.991  -7.379 -33.897  1.00  8.42
+ATOM     44  C3' ADE A   2      16.019 -12.987 -32.378  1.00 82.23
+ATOM     76  C3' ADE A   3      12.570 -14.826 -27.866  1.00 83.46
+ATOM    108  C3' THY A   4       9.805 -13.296 -22.672  1.00  0.76
+ATOM    140  C3' THY A   5       7.572  -9.509 -18.667  1.00 76.17
+ATOM    172  C3' GUA A   6       3.663  -5.301 -17.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -0.038  -0.292 -19.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -3.087   1.110 -24.304  1.00 70.41
+ATOM    269  C3' THY A   9      -6.124   0.655 -29.584  1.00 79.84
+ATOM    301  C3' THY A  10      -9.685  -3.155 -32.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -9.512 -14.974 -24.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -6.605 -14.429 -29.705  1.00 70.88
+ATOM     76  C3' THY B   3      -3.219 -10.449 -32.670  1.00 76.06
+ATOM    108  C3' THY B   4      -0.460  -5.163 -33.037  1.00 80.04
+ATOM    140  C3' CYT B   5       3.661  -0.872 -31.887  1.00 76.13
+ATOM    170  C3' ADE B   6       6.936   2.631 -27.272  1.00 85.15
+ATOM    202  C3' ADE B   7      10.426   1.174 -22.414  1.00 86.64
+ATOM    234  C3' THY B   8      13.396  -3.033 -19.126  1.00 91.11
+ATOM    266  C3' THY B   9      17.060  -7.784 -18.249  1.00  3.49
+ATOM    298  C3' ADE B  10      20.410 -11.933 -20.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0011.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -235.2465   3  -1 -16  0.000  0.000  0.000     11 -235.2465   0.0000  0 15.9
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      16.991  -2.379 -23.897  1.00  8.42
+ATOM     44  C3' ADE A   2      14.019  -7.987 -22.378  1.00 82.23
+ATOM     76  C3' ADE A   3      10.570  -9.826 -17.866  1.00 83.46
+ATOM    108  C3' THY A   4       7.805  -8.296 -12.672  1.00  0.76
+ATOM    140  C3' THY A   5       5.572  -4.509  -8.667  1.00 76.17
+ATOM    172  C3' GUA A   6       1.663  -0.301  -7.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -2.038   4.708  -9.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -5.087   6.110 -14.304  1.00 70.41
+ATOM    269  C3' THY A   9      -8.124   5.655 -19.584  1.00 79.84
+ATOM    301  C3' THY A  10     -11.685   1.845 -22.550  1.00 20.05
+ATOM     12  C3' ADE B   1     -11.512  -9.974 -14.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -8.605  -9.429 -19.705  1.00 70.88
+ATOM     76  C3' THY B   3      -5.219  -5.449 -22.670  1.00 76.06
+ATOM    108  C3' THY B   4      -2.460  -0.163 -23.037  1.00 80.04
+ATOM    140  C3' CYT B   5       1.661   4.128 -21.887  1.00 76.13
+ATOM    170  C3' ADE B   6       4.936   7.631 -17.272  1.00 85.15
+ATOM    202  C3' ADE B   7       8.426   6.174 -12.414  1.00 86.64
+ATOM    234  C3' THY B   8      11.396   1.967  -9.126  1.00 91.11
+ATOM    266  C3' THY B   9      15.060  -2.784  -8.249  1.00  3.49
+ATOM    298  C3' ADE B  10      18.410  -6.933 -10.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0012.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -225.9640   8 -11 -17  0.000  0.000  0.000     12 -225.9640   0.0000  0 21.3
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      21.991 -12.379 -24.897  1.00  8.42
+ATOM     44  C3' ADE A   2      19.019 -17.987 -23.378  1.00 82.23
+ATOM     76  C3' ADE A   3      15.570 -19.826 -18.866  1.00 83.46
+ATOM    108  C3' THY A   4      12.805 -18.296 -13.672  1.00  0.76
+ATOM    140  C3' THY A   5      10.572 -14.509  -9.667  1.00 76.17
+ATOM    172  C3' GUA A   6       6.663 -10.301  -8.955  1.00 83.68
+ATOM    205  C3' ADE A   7       2.962  -5.292 -10.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -0.087  -3.890 -15.304  1.00 70.41
+ATOM    269  C3' THY A   9      -3.124  -4.345 -20.584  1.00 79.84
+ATOM    301  C3' THY A  10      -6.685  -8.155 -23.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -6.512 -19.974 -15.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -3.605 -19.429 -20.705  1.00 70.88
+ATOM     76  C3' THY B   3      -0.219 -15.449 -23.670  1.00 76.06
+ATOM    108  C3' THY B   4       2.540 -10.163 -24.037  1.00 80.04
+ATOM    140  C3' CYT B   5       6.661  -5.872 -22.887  1.00 76.13
+ATOM    170  C3' ADE B   6       9.936  -2.369 -18.272  1.00 85.15
+ATOM    202  C3' ADE B   7      13.426  -3.826 -13.414  1.00 86.64
+ATOM    234  C3' THY B   8      16.396  -8.033 -10.126  1.00 91.11
+ATOM    266  C3' THY B   9      20.060 -12.784  -9.249  1.00  3.49
+ATOM    298  C3' ADE B  10      23.410 -16.933 -11.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0013.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -225.6239   5  -9 -15  0.000  0.000  0.000     13 -225.6239   0.0000  0 17.9
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      18.991 -10.379 -22.897  1.00  8.42
+ATOM     44  C3' ADE A   2      16.019 -15.987 -21.378  1.00 82.23
+ATOM     76  C3' ADE A   3      12.570 -17.826 -16.866  1.00 83.46
+ATOM    108  C3' THY A   4       9.805 -16.296 -11.672  1.00  0.76
+ATOM    140  C3' THY A   5       7.572 -12.509  -7.667  1.00 76.17
+ATOM    172  C3' GUA A   6       3.663  -8.301  -6.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -0.038  -3.292  -8.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -3.087  -1.890 -13.304  1.00 70.41
+ATOM    269  C3' THY A   9      -6.124  -2.345 -18.584  1.00 79.84
+ATOM    301  C3' THY A  10      -9.685  -6.155 -21.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -9.512 -17.974 -13.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -6.605 -17.429 -18.705  1.00 70.88
+ATOM     76  C3' THY B   3      -3.219 -13.449 -21.670  1.00 76.06
+ATOM    108  C3' THY B   4      -0.460  -8.163 -22.037  1.00 80.04
+ATOM    140  C3' CYT B   5       3.661  -3.872 -20.887  1.00 76.13
+ATOM    170  C3' ADE B   6       6.936  -0.369 -16.272  1.00 85.15
+ATOM    202  C3' ADE B   7      10.426  -1.826 -11.414  1.00 86.64
+ATOM    234  C3' THY B   8      13.396  -6.033  -8.126  1.00 91.11
+ATOM    266  C3' THY B   9      17.060 -10.784  -7.249  1.00  3.49
+ATOM    298  C3' ADE B  10      20.410 -14.933  -9.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0014.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -225.5250   4  -3 -11  0.000  0.000  0.000     14 -225.5250   0.0000  0 11.6
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      17.991  -4.379 -18.897  1.00  8.42
+ATOM     44  C3' ADE A   2      15.019  -9.987 -17.378  1.00 82.23
+ATOM     76  C3' ADE A   3      11.570 -11.826 -12.866  1.00 83.46
+ATOM    108  C3' THY A   4       8.805 -10.296  -7.672  1.00  0.76
+ATOM    140  C3' THY A   5       6.572  -6.509  -3.667  1.00 76.17
+ATOM    172  C3' GUA A   6       2.663  -2.301  -2.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -1.038   2.708  -4.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -4.087   4.110  -9.304  1.00 70.41
+ATOM    269  C3' THY A   9      -7.124   3.655 -14.584  1.00 79.84
+ATOM    301  C3' THY A  10     -10.685  -0.155 -17.550  1.00 20.05
+ATOM     12  C3' ADE B   1     -10.512 -11.974  -9.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -7.605 -11.429 -14.705  1.00 70.88
+ATOM     76  C3' THY B   3      -4.219  -7.449 -17.670  1.00 76.06
+ATOM    108  C3' THY B   4      -1.460  -2.163 -18.037  1.00 80.04
+ATOM    140  C3' CYT B   5       2.661   2.128 -16.887  1.00 76.13
+ATOM    170  C3' ADE B   6       5.936   5.631 -12.272  1.00 85.15
+ATOM    202  C3' ADE B   7       9.426   4.174  -7.414  1.00 86.64
+ATOM    234  C3' THY B   8      12.396  -0.033  -4.126  1.00 91.11
+ATOM    266  C3' THY B   9      16.060  -4.784  -3.249  1.00  3.49
+ATOM    298  C3' ADE B  10      19.410  -8.933  -5.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0015.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -224.3000   5  -3 -11  0.000  0.000  0.000     15 -224.3000   0.0000  0 11.9
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      18.991  -4.379 -18.897  1.00  8.42
+ATOM     44  C3' ADE A   2      16.019  -9.987 -17.378  1.00 82.23
+ATOM     76  C3' ADE A   3      12.570 -11.826 -12.866  1.00 83.46
+ATOM    108  C3' THY A   4       9.805 -10.296  -7.672  1.00  0.76
+ATOM    140  C3' THY A   5       7.572  -6.509  -3.667  1.00 76.17
+ATOM    172  C3' GUA A   6       3.663  -2.301  -2.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -0.038   2.708  -4.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -3.087   4.110  -9.304  1.00 70.41
+ATOM    269  C3' THY A   9      -6.124   3.655 -14.584  1.00 79.84
+ATOM    301  C3' THY A  10      -9.685  -0.155 -17.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -9.512 -11.974  -9.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -6.605 -11.429 -14.705  1.00 70.88
+ATOM     76  C3' THY B   3      -3.219  -7.449 -17.670  1.00 76.06
+ATOM    108  C3' THY B   4      -0.460  -2.163 -18.037  1.00 80.04
+ATOM    140  C3' CYT B   5       3.661   2.128 -16.887  1.00 76.13
+ATOM    170  C3' ADE B   6       6.936   5.631 -12.272  1.00 85.15
+ATOM    202  C3' ADE B   7      10.426   4.174  -7.414  1.00 86.64
+ATOM    234  C3' THY B   8      13.396  -0.033  -4.126  1.00 91.11
+ATOM    266  C3' THY B   9      17.060  -4.784  -3.249  1.00  3.49
+ATOM    298  C3' ADE B  10      20.410  -8.933  -5.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0016.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -223.9616  13  -7 -19  0.000  0.000  0.000     16 -223.9616   0.0000  0 23.3
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      26.991  -8.379 -26.897  1.00  8.42
+ATOM     44  C3' ADE A   2      24.019 -13.987 -25.378  1.00 82.23
+ATOM     76  C3' ADE A   3      20.570 -15.826 -20.866  1.00 83.46
+ATOM    108  C3' THY A   4      17.805 -14.296 -15.672  1.00  0.76
+ATOM    140  C3' THY A   5      15.572 -10.509 -11.667  1.00 76.17
+ATOM    172  C3' GUA A   6      11.663  -6.301 -10.955  1.00 83.68
+ATOM    205  C3' ADE A   7       7.962  -1.292 -12.330  1.00 85.87
+ATOM    237  C3' ADE A   8       4.913   0.110 -17.304  1.00 70.41
+ATOM    269  C3' THY A   9       1.876  -0.345 -22.584  1.00 79.84
+ATOM    301  C3' THY A  10      -1.685  -4.155 -25.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -1.512 -15.974 -17.599  1.00 23.55
+ATOM     44  C3' ADE B   2       1.395 -15.429 -22.705  1.00 70.88
+ATOM     76  C3' THY B   3       4.781 -11.449 -25.670  1.00 76.06
+ATOM    108  C3' THY B   4       7.540  -6.163 -26.037  1.00 80.04
+ATOM    140  C3' CYT B   5      11.661  -1.872 -24.887  1.00 76.13
+ATOM    170  C3' ADE B   6      14.936   1.631 -20.272  1.00 85.15
+ATOM    202  C3' ADE B   7      18.426   0.174 -15.414  1.00 86.64
+ATOM    234  C3' THY B   8      21.396  -4.033 -12.126  1.00 91.11
+ATOM    266  C3' THY B   9      25.060  -8.784 -11.249  1.00  3.49
+ATOM    298  C3' ADE B  10      28.410 -12.933 -13.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0017.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -221.9205   8  -8 -18  0.000  0.000  0.000     17 -221.9205   0.0000  0 20.8
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      21.991  -9.379 -25.897  1.00  8.42
+ATOM     44  C3' ADE A   2      19.019 -14.987 -24.378  1.00 82.23
+ATOM     76  C3' ADE A   3      15.570 -16.826 -19.866  1.00 83.46
+ATOM    108  C3' THY A   4      12.805 -15.296 -14.672  1.00  0.76
+ATOM    140  C3' THY A   5      10.572 -11.509 -10.667  1.00 76.17
+ATOM    172  C3' GUA A   6       6.663  -7.301  -9.955  1.00 83.68
+ATOM    205  C3' ADE A   7       2.962  -2.292 -11.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -0.087  -0.890 -16.304  1.00 70.41
+ATOM    269  C3' THY A   9      -3.124  -1.345 -21.584  1.00 79.84
+ATOM    301  C3' THY A  10      -6.685  -5.155 -24.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -6.512 -16.974 -16.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -3.605 -16.429 -21.705  1.00 70.88
+ATOM     76  C3' THY B   3      -0.219 -12.449 -24.670  1.00 76.06
+ATOM    108  C3' THY B   4       2.540  -7.163 -25.037  1.00 80.04
+ATOM    140  C3' CYT B   5       6.661  -2.872 -23.887  1.00 76.13
+ATOM    170  C3' ADE B   6       9.936   0.631 -19.272  1.00 85.15
+ATOM    202  C3' ADE B   7      13.426  -0.826 -14.414  1.00 86.64
+ATOM    234  C3' THY B   8      16.396  -5.033 -11.126  1.00 91.11
+ATOM    266  C3' THY B   9      20.060  -9.784 -10.249  1.00  3.49
+ATOM    298  C3' ADE B  10      23.410 -13.933 -12.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0018.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -220.0929  10   0 -14  0.000  0.000  0.000     18 -220.0929   0.0000  0 16.3
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      23.991  -1.379 -21.897  1.00  8.42
+ATOM     44  C3' ADE A   2      21.019  -6.987 -20.378  1.00 82.23
+ATOM     76  C3' ADE A   3      17.570  -8.826 -15.866  1.00 83.46
+ATOM    108  C3' THY A   4      14.805  -7.296 -10.672  1.00  0.76
+ATOM    140  C3' THY A   5      12.572  -3.509  -6.667  1.00 76.17
+ATOM    172  C3' GUA A   6       8.663   0.699  -5.955  1.00 83.68
+ATOM    205  C3' ADE A   7       4.962   5.708  -7.330  1.00 85.87
+ATOM    237  C3' ADE A   8       1.913   7.110 -12.304  1.00 70.41
+ATOM    269  C3' THY A   9      -1.124   6.655 -17.584  1.00 79.84
+ATOM    301  C3' THY A  10      -4.685   2.845 -20.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -4.512  -8.974 -12.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -1.605  -8.429 -17.705  1.00 70.88
+ATOM     76  C3' THY B   3       1.781  -4.449 -20.670  1.00 76.06
+ATOM    108  C3' THY B   4       4.540   0.837 -21.037  1.00 80.04
+ATOM    140  C3' CYT B   5       8.661   5.128 -19.887  1.00 76.13
+ATOM    170  C3' ADE B   6      11.936   8.631 -15.272  1.00 85.15
+ATOM    202  C3' ADE B   7      15.426   7.174 -10.414  1.00 86.64
+ATOM    234  C3' THY B   8      18.396   2.967  -7.126  1.00 91.11
+ATOM    266  C3' THY B   9      22.060  -1.784  -6.249  1.00  3.49
+ATOM    298  C3' ADE B  10      25.410  -5.933  -8.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0019.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -218.0032   5  -3 -10  0.000  0.000  0.000     19 -218.0032   0.0000  0 11.0
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      18.991  -4.379 -17.897  1.00  8.42
+ATOM     44  C3' ADE A   2      16.019  -9.987 -16.378  1.00 82.23
+ATOM     76  C3' ADE A   3      12.570 -11.826 -11.866  1.00 83.46
+ATOM    108  C3' THY A   4       9.805 -10.296  -6.672  1.00  0.76
+ATOM    140  C3' THY A   5       7.572  -6.509  -2.667  1.00 76.17
+ATOM    172  C3' GUA A   6       3.663  -2.301  -1.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -0.038   2.708  -3.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -3.087   4.110  -8.304  1.00 70.41
+ATOM    269  C3' THY A   9      -6.124   3.655 -13.584  1.00 79.84
+ATOM    301  C3' THY A  10      -9.685  -0.155 -16.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -9.512 -11.974  -8.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -6.605 -11.429 -13.705  1.00 70.88
+ATOM     76  C3' THY B   3      -3.219  -7.449 -16.670  1.00 76.06
+ATOM    108  C3' THY B   4      -0.460  -2.163 -17.037  1.00 80.04
+ATOM    140  C3' CYT B   5       3.661   2.128 -15.887  1.00 76.13
+ATOM    170  C3' ADE B   6       6.936   5.631 -11.272  1.00 85.15
+ATOM    202  C3' ADE B   7      10.426   4.174  -6.414  1.00 86.64
+ATOM    234  C3' THY B   8      13.396  -0.033  -3.126  1.00 91.11
+ATOM    266  C3' THY B   9      17.060  -4.784  -2.249  1.00  3.49
+ATOM    298  C3' ADE B  10      20.410  -8.933  -4.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0020.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -217.6768   8  -4 -15  0.000  0.000  0.000     20 -217.6768   0.0000  0 16.8
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      21.991  -5.379 -22.897  1.00  8.42
+ATOM     44  C3' ADE A   2      19.019 -10.987 -21.378  1.00 82.23
+ATOM     76  C3' ADE A   3      15.570 -12.826 -16.866  1.00 83.46
+ATOM    108  C3' THY A   4      12.805 -11.296 -11.672  1.00  0.76
+ATOM    140  C3' THY A   5      10.572  -7.509  -7.667  1.00 76.17
+ATOM    172  C3' GUA A   6       6.663  -3.301  -6.955  1.00 83.68
+ATOM    205  C3' ADE A   7       2.962   1.708  -8.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -0.087   3.110 -13.304  1.00 70.41
+ATOM    269  C3' THY A   9      -3.124   2.655 -18.584  1.00 79.84
+ATOM    301  C3' THY A  10      -6.685  -1.155 -21.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -6.512 -12.974 -13.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -3.605 -12.429 -18.705  1.00 70.88
+ATOM     76  C3' THY B   3      -0.219  -8.449 -21.670  1.00 76.06
+ATOM    108  C3' THY B   4       2.540  -3.163 -22.037  1.00 80.04
+ATOM    140  C3' CYT B   5       6.661   1.128 -20.887  1.00 76.13
+ATOM    170  C3' ADE B   6       9.936   4.631 -16.272  1.00 85.15
+ATOM    202  C3' ADE B   7      13.426   3.174 -11.414  1.00 86.64
+ATOM    234  C3' THY B   8      16.396  -1.033  -8.126  1.00 91.11
+ATOM    266  C3' THY B   9      20.060  -5.784  -7.249  1.00  3.49
+ATOM    298  C3' ADE B  10      23.410  -9.933  -9.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0021.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -216.2914   6   5 -13  0.000  0.000  0.000     21 -216.2914   0.0000  0 14.3
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      19.991   3.621 -20.897  1.00  8.42
+ATOM     44  C3' ADE A   2      17.019  -1.987 -19.378  1.00 82.23
+ATOM     76  C3' ADE A   3      13.570  -3.826 -14.866  1.00 83.46
+ATOM    108  C3' THY A   4      10.805  -2.296  -9.672  1.00  0.76
+ATOM    140  C3' THY A   5       8.572   1.491  -5.667  1.00 76.17
+ATOM    172  C3' GUA A   6       4.663   5.699  -4.955  1.00 83.68
+ATOM    205  C3' ADE A   7       0.962  10.708  -6.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -2.087  12.110 -11.304  1.00 70.41
+ATOM    269  C3' THY A   9      -5.124  11.655 -16.584  1.00 79.84
+ATOM    301  C3' THY A  10      -8.685   7.845 -19.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -8.512  -3.974 -11.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -5.605  -3.429 -16.705  1.00 70.88
+ATOM     76  C3' THY B   3      -2.219   0.551 -19.670  1.00 76.06
+ATOM    108  C3' THY B   4       0.540   5.837 -20.037  1.00 80.04
+ATOM    140  C3' CYT B   5       4.661  10.128 -18.887  1.00 76.13
+ATOM    170  C3' ADE B   6       7.936  13.631 -14.272  1.00 85.15
+ATOM    202  C3' ADE B   7      11.426  12.174  -9.414  1.00 86.64
+ATOM    234  C3' THY B   8      14.396   7.967  -6.126  1.00 91.11
+ATOM    266  C3' THY B   9      18.060   3.216  -5.249  1.00  3.49
+ATOM    298  C3' ADE B  10      21.410  -0.933  -7.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0022.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -213.9848   4   8 -13  0.000  0.000  0.000     22 -213.9848   0.0000  0 15.1
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      17.991   6.621 -20.897  1.00  8.42
+ATOM     44  C3' ADE A   2      15.019   1.013 -19.378  1.00 82.23
+ATOM     76  C3' ADE A   3      11.570  -0.826 -14.866  1.00 83.46
+ATOM    108  C3' THY A   4       8.805   0.704  -9.672  1.00  0.76
+ATOM    140  C3' THY A   5       6.572   4.491  -5.667  1.00 76.17
+ATOM    172  C3' GUA A   6       2.663   8.699  -4.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -1.038  13.708  -6.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -4.087  15.110 -11.304  1.00 70.41
+ATOM    269  C3' THY A   9      -7.124  14.655 -16.584  1.00 79.84
+ATOM    301  C3' THY A  10     -10.685  10.845 -19.550  1.00 20.05
+ATOM     12  C3' ADE B   1     -10.512  -0.974 -11.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -7.605  -0.429 -16.705  1.00 70.88
+ATOM     76  C3' THY B   3      -4.219   3.551 -19.670  1.00 76.06
+ATOM    108  C3' THY B   4      -1.460   8.837 -20.037  1.00 80.04
+ATOM    140  C3' CYT B   5       2.661  13.128 -18.887  1.00 76.13
+ATOM    170  C3' ADE B   6       5.936  16.631 -14.272  1.00 85.15
+ATOM    202  C3' ADE B   7       9.426  15.174  -9.414  1.00 86.64
+ATOM    234  C3' THY B   8      12.396  10.967  -6.126  1.00 91.11
+ATOM    266  C3' THY B   9      16.060   6.216  -5.249  1.00  3.49
+ATOM    298  C3' ADE B  10      19.410   2.067  -7.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0023.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -213.8753  14   8 -11  0.000  0.000  0.000     23 -213.8753   0.0000  0 18.3
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      27.991   6.621 -18.897  1.00  8.42
+ATOM     44  C3' ADE A   2      25.019   1.013 -17.378  1.00 82.23
+ATOM     76  C3' ADE A   3      21.570  -0.826 -12.866  1.00 83.46
+ATOM    108  C3' THY A   4      18.805   0.704  -7.672  1.00  0.76
+ATOM    140  C3' THY A   5      16.572   4.491  -3.667  1.00 76.17
+ATOM    172  C3' GUA A   6      12.663   8.699  -2.955  1.00 83.68
+ATOM    205  C3' ADE A   7       8.962  13.708  -4.330  1.00 85.87
+ATOM    237  C3' ADE A   8       5.913  15.110  -9.304  1.00 70.41
+ATOM    269  C3' THY A   9       2.876  14.655 -14.584  1.00 79.84
+ATOM    301  C3' THY A  10      -0.685  10.845 -17.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -0.512  -0.974  -9.599  1.00 23.55
+ATOM     44  C3' ADE B   2       2.395  -0.429 -14.705  1.00 70.88
+ATOM     76  C3' THY B   3       5.781   3.551 -17.670  1.00 76.06
+ATOM    108  C3' THY B   4       8.540   8.837 -18.037  1.00 80.04
+ATOM    140  C3' CYT B   5      12.661  13.128 -16.887  1.00 76.13
+ATOM    170  C3' ADE B   6      15.936  16.631 -12.272  1.00 85.15
+ATOM    202  C3' ADE B   7      19.426  15.174  -7.414  1.00 86.64
+ATOM    234  C3' THY B   8      22.396  10.967  -4.126  1.00 91.11
+ATOM    266  C3' THY B   9      26.060   6.216  -3.249  1.00  3.49
+ATOM    298  C3' ADE B  10      29.410   2.067  -5.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0024.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -213.7072  10   0 -23  0.000  0.000  0.000     24 -213.7072   0.0000  0 24.4
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      23.991  -1.379 -30.897  1.00  8.42
+ATOM     44  C3' ADE A   2      21.019  -6.987 -29.378  1.00 82.23
+ATOM     76  C3' ADE A   3      17.570  -8.826 -24.866  1.00 83.46
+ATOM    108  C3' THY A   4      14.805  -7.296 -19.672  1.00  0.76
+ATOM    140  C3' THY A   5      12.572  -3.509 -15.667  1.00 76.17
+ATOM    172  C3' GUA A   6       8.663   0.699 -14.955  1.00 83.68
+ATOM    205  C3' ADE A   7       4.962   5.708 -16.330  1.00 85.87
+ATOM    237  C3' ADE A   8       1.913   7.110 -21.304  1.00 70.41
+ATOM    269  C3' THY A   9      -1.124   6.655 -26.584  1.00 79.84
+ATOM    301  C3' THY A  10      -4.685   2.845 -29.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -4.512  -8.974 -21.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -1.605  -8.429 -26.705  1.00 70.88
+ATOM     76  C3' THY B   3       1.781  -4.449 -29.670  1.00 76.06
+ATOM    108  C3' THY B   4       4.540   0.837 -30.037  1.00 80.04
+ATOM    140  C3' CYT B   5       8.661   5.128 -28.887  1.00 76.13
+ATOM    170  C3' ADE B   6      11.936   8.631 -24.272  1.00 85.15
+ATOM    202  C3' ADE B   7      15.426   7.174 -19.414  1.00 86.64
+ATOM    234  C3' THY B   8      18.396   2.967 -16.126  1.00 91.11
+ATOM    266  C3' THY B   9      22.060  -1.784 -15.249  1.00  3.49
+ATOM    298  C3' ADE B  10      25.410  -5.933 -17.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0025.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -212.9403  14  -7 -18  0.000  0.000  0.000     25 -212.9403   0.0000  0 23.1
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      27.991  -8.379 -25.897  1.00  8.42
+ATOM     44  C3' ADE A   2      25.019 -13.987 -24.378  1.00 82.23
+ATOM     76  C3' ADE A   3      21.570 -15.826 -19.866  1.00 83.46
+ATOM    108  C3' THY A   4      18.805 -14.296 -14.672  1.00  0.76
+ATOM    140  C3' THY A   5      16.572 -10.509 -10.667  1.00 76.17
+ATOM    172  C3' GUA A   6      12.663  -6.301  -9.955  1.00 83.68
+ATOM    205  C3' ADE A   7       8.962  -1.292 -11.330  1.00 85.87
+ATOM    237  C3' ADE A   8       5.913   0.110 -16.304  1.00 70.41
+ATOM    269  C3' THY A   9       2.876  -0.345 -21.584  1.00 79.84
+ATOM    301  C3' THY A  10      -0.685  -4.155 -24.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -0.512 -15.974 -16.599  1.00 23.55
+ATOM     44  C3' ADE B   2       2.395 -15.429 -21.705  1.00 70.88
+ATOM     76  C3' THY B   3       5.781 -11.449 -24.670  1.00 76.06
+ATOM    108  C3' THY B   4       8.540  -6.163 -25.037  1.00 80.04
+ATOM    140  C3' CYT B   5      12.661  -1.872 -23.887  1.00 76.13
+ATOM    170  C3' ADE B   6      15.936   1.631 -19.272  1.00 85.15
+ATOM    202  C3' ADE B   7      19.426   0.174 -14.414  1.00 86.64
+ATOM    234  C3' THY B   8      22.396  -4.033 -11.126  1.00 91.11
+ATOM    266  C3' THY B   9      26.060  -8.784 -10.249  1.00  3.49
+ATOM    298  C3' ADE B  10      29.410 -12.933 -12.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0026.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -212.1118   9  -4 -18  0.000  0.000  0.000     26 -212.1118   0.0000  0 19.8
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      22.991  -5.379 -25.897  1.00  8.42
+ATOM     44  C3' ADE A   2      20.019 -10.987 -24.378  1.00 82.23
+ATOM     76  C3' ADE A   3      16.570 -12.826 -19.866  1.00 83.46
+ATOM    108  C3' THY A   4      13.805 -11.296 -14.672  1.00  0.76
+ATOM    140  C3' THY A   5      11.572  -7.509 -10.667  1.00 76.17
+ATOM    172  C3' GUA A   6       7.663  -3.301  -9.955  1.00 83.68
+ATOM    205  C3' ADE A   7       3.962   1.708 -11.330  1.00 85.87
+ATOM    237  C3' ADE A   8       0.913   3.110 -16.304  1.00 70.41
+ATOM    269  C3' THY A   9      -2.124   2.655 -21.584  1.00 79.84
+ATOM    301  C3' THY A  10      -5.685  -1.155 -24.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -5.512 -12.974 -16.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -2.605 -12.429 -21.705  1.00 70.88
+ATOM     76  C3' THY B   3       0.781  -8.449 -24.670  1.00 76.06
+ATOM    108  C3' THY B   4       3.540  -3.163 -25.037  1.00 80.04
+ATOM    140  C3' CYT B   5       7.661   1.128 -23.887  1.00 76.13
+ATOM    170  C3' ADE B   6      10.936   4.631 -19.272  1.00 85.15
+ATOM    202  C3' ADE B   7      14.426   3.174 -14.414  1.00 86.64
+ATOM    234  C3' THY B   8      17.396  -1.033 -11.126  1.00 91.11
+ATOM    266  C3' THY B   9      21.060  -5.784 -10.249  1.00  3.49
+ATOM    298  C3' ADE B  10      24.410  -9.933 -12.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0027.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -211.5645  14  -7 -16  0.000  0.000  0.000     27 -211.5645   0.0000  0 21.6
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      27.991  -8.379 -23.897  1.00  8.42
+ATOM     44  C3' ADE A   2      25.019 -13.987 -22.378  1.00 82.23
+ATOM     76  C3' ADE A   3      21.570 -15.826 -17.866  1.00 83.46
+ATOM    108  C3' THY A   4      18.805 -14.296 -12.672  1.00  0.76
+ATOM    140  C3' THY A   5      16.572 -10.509  -8.667  1.00 76.17
+ATOM    172  C3' GUA A   6      12.663  -6.301  -7.955  1.00 83.68
+ATOM    205  C3' ADE A   7       8.962  -1.292  -9.330  1.00 85.87
+ATOM    237  C3' ADE A   8       5.913   0.110 -14.304  1.00 70.41
+ATOM    269  C3' THY A   9       2.876  -0.345 -19.584  1.00 79.84
+ATOM    301  C3' THY A  10      -0.685  -4.155 -22.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -0.512 -15.974 -14.599  1.00 23.55
+ATOM     44  C3' ADE B   2       2.395 -15.429 -19.705  1.00 70.88
+ATOM     76  C3' THY B   3       5.781 -11.449 -22.670  1.00 76.06
+ATOM    108  C3' THY B   4       8.540  -6.163 -23.037  1.00 80.04
+ATOM    140  C3' CYT B   5      12.661  -1.872 -21.887  1.00 76.13
+ATOM    170  C3' ADE B   6      15.936   1.631 -17.272  1.00 85.15
+ATOM    202  C3' ADE B   7      19.426   0.174 -12.414  1.00 86.64
+ATOM    234  C3' THY B   8      22.396  -4.033  -9.126  1.00 91.11
+ATOM    266  C3' THY B   9      26.060  -8.784  -8.249  1.00  3.49
+ATOM    298  C3' ADE B  10      29.410 -12.933 -10.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0028.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -211.0709   1  -5 -19  0.000  0.000  0.000     28 -211.0709   0.0000  0 19.5
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      14.991  -6.379 -26.897  1.00  8.42
+ATOM     44  C3' ADE A   2      12.019 -11.987 -25.378  1.00 82.23
+ATOM     76  C3' ADE A   3       8.570 -13.826 -20.866  1.00 83.46
+ATOM    108  C3' THY A   4       5.805 -12.296 -15.672  1.00  0.76
+ATOM    140  C3' THY A   5       3.572  -8.509 -11.667  1.00 76.17
+ATOM    172  C3' GUA A   6      -0.337  -4.301 -10.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -4.038   0.708 -12.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -7.087   2.110 -17.304  1.00 70.41
+ATOM    269  C3' THY A   9     -10.124   1.655 -22.584  1.00 79.84
+ATOM    301  C3' THY A  10     -13.685  -2.155 -25.550  1.00 20.05
+ATOM     12  C3' ADE B   1     -13.512 -13.974 -17.599  1.00 23.55
+ATOM     44  C3' ADE B   2     -10.605 -13.429 -22.705  1.00 70.88
+ATOM     76  C3' THY B   3      -7.219  -9.449 -25.670  1.00 76.06
+ATOM    108  C3' THY B   4      -4.460  -4.163 -26.037  1.00 80.04
+ATOM    140  C3' CYT B   5      -0.339   0.128 -24.887  1.00 76.13
+ATOM    170  C3' ADE B   6       2.936   3.631 -20.272  1.00 85.15
+ATOM    202  C3' ADE B   7       6.426   2.174 -15.414  1.00 86.64
+ATOM    234  C3' THY B   8       9.396  -2.033 -12.126  1.00 91.11
+ATOM    266  C3' THY B   9      13.060  -6.784 -11.249  1.00  3.49
+ATOM    298  C3' ADE B  10      16.410 -10.933 -13.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0029.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -210.3877   2 -10 -14  0.000  0.000  0.000     29 -210.3877   0.0000  0 17.3
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      15.991 -11.379 -21.897  1.00  8.42
+ATOM     44  C3' ADE A   2      13.019 -16.987 -20.378  1.00 82.23
+ATOM     76  C3' ADE A   3       9.570 -18.826 -15.866  1.00 83.46
+ATOM    108  C3' THY A   4       6.805 -17.296 -10.672  1.00  0.76
+ATOM    140  C3' THY A   5       4.572 -13.509  -6.667  1.00 76.17
+ATOM    172  C3' GUA A   6       0.663  -9.301  -5.955  1.00 83.68
+ATOM    205  C3' ADE A   7      -3.038  -4.292  -7.330  1.00 85.87
+ATOM    237  C3' ADE A   8      -6.087  -2.890 -12.304  1.00 70.41
+ATOM    269  C3' THY A   9      -9.124  -3.345 -17.584  1.00 79.84
+ATOM    301  C3' THY A  10     -12.685  -7.155 -20.550  1.00 20.05
+ATOM     12  C3' ADE B   1     -12.512 -18.974 -12.599  1.00 23.55
+ATOM     44  C3' ADE B   2      -9.605 -18.429 -17.705  1.00 70.88
+ATOM     76  C3' THY B   3      -6.219 -14.449 -20.670  1.00 76.06
+ATOM    108  C3' THY B   4      -3.460  -9.163 -21.037  1.00 80.04
+ATOM    140  C3' CYT B   5       0.661  -4.872 -19.887  1.00 76.13
+ATOM    170  C3' ADE B   6       3.936  -1.369 -15.272  1.00 85.15
+ATOM    202  C3' ADE B   7       7.426  -2.826 -10.414  1.00 86.64
+ATOM    234  C3' THY B   8      10.396  -7.033  -7.126  1.00 91.11
+ATOM    266  C3' THY B   9      14.060 -11.784  -6.249  1.00  3.49
+ATOM    298  C3' ADE B  10      17.410 -15.933  -8.536  1.00 38.73
+TER
+USER  EDU.SDSC.CCMS.DOT    source file  pdb/mov.top30/mov.0030.pdb
+USER  EDU.SDSC.CCMS.DOT.E6D -209.6061  13   4 -13  0.000  0.000  0.000     30 -209.6061   0.0000  0 17.7
+USER  MOD reduce.3.14.080821 H: found=2, std=0, add=203, rem=0, adj=2
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A  10 THY O3' :   rot  -70:sc=       0
+USER  MOD Single : B  10 ADE O3' :   rot  180:sc=       0
+USER  MOD -----------------------------------------------------------------
+ATOM     12  C3' THY A   1      26.991   2.621 -20.897  1.00  8.42
+ATOM     44  C3' ADE A   2      24.019  -2.987 -19.378  1.00 82.23
+ATOM     76  C3' ADE A   3      20.570  -4.826 -14.866  1.00 83.46
+ATOM    108  C3' THY A   4      17.805  -3.296  -9.672  1.00  0.76
+ATOM    140  C3' THY A   5      15.572   0.491  -5.667  1.00 76.17
+ATOM    172  C3' GUA A   6      11.663   4.699  -4.955  1.00 83.68
+ATOM    205  C3' ADE A   7       7.962   9.708  -6.330  1.00 85.87
+ATOM    237  C3' ADE A   8       4.913  11.110 -11.304  1.00 70.41
+ATOM    269  C3' THY A   9       1.876  10.655 -16.584  1.00 79.84
+ATOM    301  C3' THY A  10      -1.685   6.845 -19.550  1.00 20.05
+ATOM     12  C3' ADE B   1      -1.512  -4.974 -11.599  1.00 23.55
+ATOM     44  C3' ADE B   2       1.395  -4.429 -16.705  1.00 70.88
+ATOM     76  C3' THY B   3       4.781  -0.449 -19.670  1.00 76.06
+ATOM    108  C3' THY B   4       7.540   4.837 -20.037  1.00 80.04
+ATOM    140  C3' CYT B   5      11.661   9.128 -18.887  1.00 76.13
+ATOM    170  C3' ADE B   6      14.936  12.631 -14.272  1.00 85.15
+ATOM    202  C3' ADE B   7      18.426  11.174  -9.414  1.00 86.64
+ATOM    234  C3' THY B   8      21.396   6.967  -6.126  1.00 91.11
+ATOM    266  C3' THY B   9      25.060   2.216  -5.249  1.00  3.49
+ATOM    298  C3' ADE B  10      28.410  -1.933  -7.536  1.00 38.73
+TER

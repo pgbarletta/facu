@@ -1,0 +1,128 @@
+rm: cannot remove `/home/rpdock/web/media/jobs/1bf2e1eb-9ef2-4e0b-90d2-93cfac78c3a9//ref_struc': No such file or directory
+Save structure with the lowest energy for every 10 steps
+start - parameters:
+    File name /home/rpdock/web/media/jobs/1bf2e1eb-9ef2-4e0b-90d2-93cfac78c3a9//ref_struc/complex/complex.pdb
+    Steps 1000
+    Temp. start 15000.0
+    Temp. end 295.0
+    True
+    
+msg start - parameters:
+    File name /home/rpdock/web/media/jobs/1bf2e1eb-9ef2-4e0b-90d2-93cfac78c3a9//ref_struc/complex/complex.pdb
+    Steps 1000
+    Temp. start 15000.0
+    Temp. end 295.0
+    True
+    
+
+
+    Step	E	Edist	Eang	Epen
+0 - -627946.60	-573401.58	-134545.02	80000.00
+1 R -705097.164744 T= 14779.425 K
+progress 0.1
+2 T -666309.748919 T= 14529.44 K
+progress 0.2
+3 R -718638.817741 T= 14308.865 K
+progress 0.3
+4 R -484815.322967 T= 14147.11 K
+progress 0.4
+5 R -546096.056362 T= 13853.01 K
+progress 0.5
+6 R -544430.568919 T= 13647.14 K
+progress 0.6
+7 R -484489.181567 T= 13485.385 K
+progress 0.7
+8 R -589670.158978 T= 13308.925 K
+progress 0.8
+9 T -575111.6134 T= 13132.465 K
+progress 0.9
+10 R -654421.788767 T= 12867.775 K
+progress 1.0
+11 R -675838.489139 T= 12720.725 K
+progress 1.1
+12 R -646836.154409 T= 12573.675 K
+progress 1.2
+13 R -579547.936111 T= 12367.805 K
+progress 1.3
+14 T -634440.946054 T= 12132.525 K
+progress 1.4
+15 R -707575.191601 T= 11926.655 K
+progress 1.5
+16 R -733233.693617 T= 11588.44 K
+progress 1.6
+17 T -665820.195728 T= 11382.57 K
+progress 1.7
+18 T -672555.87486 T= 11176.7 K
+progress 1.8
+19 T -707303.418325 T= 10867.895 K
+progress 1.9
+20 R -609355.774699 T= 10617.91 K
+progress 2.0
+21 T -619203.474069 T= 10397.335 K
+progress 2.1
+22 R -634508.335901 T= 10235.58 K
+progress 2.2
+23 T -551958.073536 T= 10059.12 K
+progress 2.3
+24 R -614661.219391 T= 9867.955 K
+progress 2.4
+25 T -619198.026961 T= 9676.79 K
+progress 2.5
+26 T -409520.883032 T= 9470.92 K
+progress 2.6
+27 T -623783.613916 T= 9162.115 K
+progress 2.7
+28 R -663009.920716 T= 8926.835 K
+progress 2.8
+29 R -647740.621006 T= 8647.44 K
+progress 2.9
+30 R -677218.324141 T= 8279.815 K
+progress 3.0
+31 R -649290.651553 T= 7868.075 K
+progress 3.1
+32 T -634434.31661 T= 7632.795 K
+progress 3.2
+33 R -679758.993666 T= 7397.515 K
+progress 3.3
+34 R -665273.911398 T= 6779.905 K
+progress 3.4
+35 T -632906.214141 T= 6441.69 K
+progress 3.5
+36 T -671354.11198 T= 6088.77 K
+progress 3.6
+37 R -607593.022109 T= 5824.08 K
+progress 3.7
+38 T -615435.874427 T= 5618.21 K
+progress 3.8
+39 T -603094.301524 T= 5265.29 K
+progress 3.9
+40 T -558566.423213 T= 5044.715 K
+progress 4.0
+41 T -633406.822621 T= 4824.14 K
+progress 4.1
+42 T -591142.792493 T= 4603.565 K
+progress 4.2
+43 T -537437.670511 T= 4353.58 K
+progress 4.3
+44 T -560909.84103 T= 4133.005 K
+progress 4.4
+45 R -632560.806992 T= 3941.84 K
+progress 4.5
+46 R -665883.459914 T= 3721.265 K
+progress 4.6
+47 R -670075.778672 T= 3427.165 K
+progress 4.7
+48 R -673455.25879 T= 3177.18 K
+progress 4.8
+49 R -690229.137913 T= 2794.85 K
+progress 4.9
+50 R -752581.297273 T= 1868.435 K
+progress 5.0
+51 R -755299.709263 T= 1118.48 K
+progress 5.1
+52 R -762452.919574 T= 633.215 K
+progress 5.2
+Save no big
+msg save short traj
+msg save best.pdb
+msg save plot e_step.png

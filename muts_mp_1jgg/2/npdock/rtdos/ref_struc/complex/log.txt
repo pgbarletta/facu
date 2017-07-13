@@ -1,0 +1,26 @@
+2017-07-13 14:04:06,331 INFO - start - parameters:
+    File name /home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee//ref_struc/complex/complex.pdb
+    Steps 1000
+    Temp. start 15000.0
+    Temp. end 295.0
+    True
+    
+2017-07-13 14:04:18,113 INFO - step #1 R 0.00 T= 13514.80 K
+2017-07-13 14:04:24,665 INFO - step #2 T 120000.00 T= 12735.43 K
+2017-07-13 14:06:00,070 INFO - save short traj
+2017-07-13 14:06:00,237 INFO - save best.pdb
+2017-07-13 14:06:00,285 INFO - save plot e_step.png
+2017-07-13 14:06:01,140 INFO - done
+2017-07-13 14:06:01,625 INFO - start - parameters:
+    File name /home/rpdock/web/media/jobs/f072a48e-78b6-4b1d-a7e3-92b65ec5aaee//ref_struc/complex/complex.pdb
+    Steps 1000
+    Temp. start 15000.0
+    Temp. end 295.0
+    True
+    
+2017-07-13 14:06:33,557 INFO - step #1 R 0.00 T= 10779.67 K
+2017-07-13 14:06:44,717 INFO - step #2 R 80000.00 T= 9191.53 K
+2017-07-13 14:07:41,604 INFO - save short traj
+2017-07-13 14:07:41,733 INFO - save best.pdb
+2017-07-13 14:07:41,777 INFO - save plot e_step.png
+2017-07-13 14:07:42,702 INFO - done
